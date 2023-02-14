@@ -12,12 +12,16 @@ Uno, dos, tres, cuatro.
 El rápido zorro café salta sobre el perro perezoso.
 
 4
-00:00:32,000 --> 00:00:35,000
+00:00:32,450 --> 00:00:35,771
 Este es el podcast de React.
 Soy Chantastic.
 
 5
-00:00:36,000 --> 00:00:41,000
+00:00:36,292 --> 00:00:42,315
 Hoy vamos a volver atrás. Muy, muy atrás.
 De regreso a los inicios de React.
 
+6
+00:00:42,377 --> 00:00:47,915
+10 años mirando hacia atrás,
+pareciería que React siempre estuvo destinado a triunfar.
