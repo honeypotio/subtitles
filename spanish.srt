@@ -3,10 +3,21 @@
 [Música]
 
 2
-00:00:24,000 --> 00:00:28,000
-Probando, uno dos, uno dos
-uno, dos, tres, cuatro
+00:00:24,000 --> 00:00:27,000
+Probando. Uno, dos, uno, dos.
+Uno, dos, tres, cuatro.
 
 3
-00:00:29,000 --> 00:00:31,000
-El rápido zorro café salta sobre el perro perezoso
+00:00:28,000 --> 00:00:31,000
+El rápido zorro café salta sobre el perro perezoso.
+
+4
+00:00:32,000 --> 00:00:35,000
+Este es el podcast de React.
+Soy Chantastic.
+
+5
+00:00:36,000 --> 00:00:41,000
+Hoy vamos a volver atrás. Muy, muy atrás.
+De regreso a los inicios de React.
+
