@@ -1,0 +1,70 @@
+413
+00:38:50,630 --> 00:38:56,849
+Estamos como boom, aquí hay algo de XML con
+JavaScript y la gente dice hey, ¿qué esta pasando?
+
+414
+00:38:56,849 --> 00:39:03,000
+Pobre de Jordan. Lo que no sabiamos era
+cuanta tanta diferencia habia
+
+415
+00:39:03,000 --> 00:39:07,560
+entre el resto del mundo de la comunidad
+de Javascript y donde
+
+416
+00:39:07,560 --> 00:39:13,060
+Facebook se encontraba. No los culpo. I don't
+think anybody who tweeted Facebook is crazy
+
+417
+00:39:13,060 --> 00:39:20,069
+estaba loco en si. Creo que tenian la razon, 
+estabamos un poco locos. Creo.
+
+418
+00:39:20,069 --> 00:39:25,589
+Hubo un momento donde personalmente senti
+que mi meta con el mundo de open
+
+419
+00:39:25,589 --> 00:39:30,740
+source era cerrar la brecha con la comunidad,
+pero puede que nos haya hecho retroceder un paso.
+
+420
+00:39:30,740 --> 00:39:35,430
+Puede que haya demostrado que en realidad tenemos
+ni idea de lo que estamos haciendo porque
+
+421
+00:39:35,430 --> 00:39:39,300
+en realidad lo que estabamos haciendo es diferente
+a lo que el resto de la comunindad estaba haciendo.
+E internamente
+
+422
+00:39:39,300 --> 00:39:47,230
+habia un sentimiendo de 'metimos la pata.' Tomamos
+la decision equivocada. Creo que la metrica
+
+423
+00:39:47,230 --> 00:39:51,950
+de exito hubiera sido 'wow el equipo de ingeneria
+de Facebook esta haciendo cosas cool' en vez de
+
+424
+00:39:51,950 --> 00:39:57,940
+de 'el equipo de ingenieria de Facebook tiene ni idea
+de lo que hacen.' Creo que en esa sede de JSConf
+
+425
+00:39:57,940 --> 00:40:02,480
+fue la ultima aparicion de Jordan dentro de mucho años.
+Tambien creo que para Tom Occhino fue
+
+426
+00:40:02,480 --> 00:40:06,650
+de la ultima veces que fue por mucho tiempo. Con
+el tiempo se volvio un festival de burla por ninguna razon.
