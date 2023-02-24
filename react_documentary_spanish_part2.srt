@@ -68,3 +68,105 @@ Tambien creo que para Tom Occhino fue
 00:40:02,480 --> 00:40:06,650
 de la ultima veces que fue por mucho tiempo. Con
 el tiempo se volvio un festival de burla por ninguna razon.
+
+
+427
+00:40:06,650 --> 00:40:12,589
+Y particularmente por algo que era tan
+innovador y útil, simplemente fantástico
+
+428
+00:40:12,589 --> 00:40:16,319
+para la productividad de los desarrolladores, y
+literalmente un regalo para todos. Era un 'miren
+
+429
+00:40:16,319 --> 00:40:21,160
+puede trabajar rapido de forma gratuita.' Pero el que
+la gente malinterprete y diga todas estas cosas malas
+al respecto,
+
+430
+00:40:21,160 --> 00:40:24,960
+esas fueron simples reacciones impulsivas
+dichas sin pensar.
+
+431
+00:40:24,960 --> 00:40:30,130
+Para Tom y Jordan estos debieron a ver sido momentos
+terribles, 
+
+432
+00:40:30,130 --> 00:40:33,600
+ambos ya habian pasado por momentos similares en Facebook
+en los ultimos dos años. Pero adento de Facebook
+
+433
+00:40:33,600 --> 00:40:36,930
+era un escala mucho mas pequeña donde puedes reunirte
+con todo el equipo en un cuarto y charlar pero no puedes
+
+434
+00:40:36,930 --> 00:40:41,690
+hacer esto con el resto del mundo. Hubo algunas decisiones
+tecnicas que fueron
+
+435
+00:40:41,690 --> 00:40:49,230
+hechas dentro de React que eran evidentes dentro de Facebook,
+pero parecian una locura cuando estan se presentan
+
+436
+00:40:49,230 --> 00:40:53,550
+enfrente de otra audiencia. En la comunidad hay esta nocion
+de separacion de intereses.
+
+437
+00:40:53,550 --> 00:41:01,700
+En aquel entonces, no podias poner tus archivos de HTML,
+CSS, y Javascript dentro de un solo archivo.
+
+438
+00:41:01,700 --> 00:41:06,550
+Lo correcto era extraerlos y separarlos,
+eso se consideraba como un tipo de
+
+439
+00:41:06,550 --> 00:41:12,620
+buena practica en su momento. Lo que es interesante
+acera de esta metodologia de separarcion de
+
+440
+00:41:12,620 --> 00:41:16,810
+intereses en React es que tu separacion de intereses
+se traducia a componentes.
+
+441
+00:41:16,810 --> 00:41:22,060
+En vez de decir, 'aqui estan mis vistas y aca tengo
+mis modelos,' ahora esto cambiaba a
+
+442
+00:41:22,060 --> 00:41:26,910
+decir, 'aqui tengo mi newsfeed, por aca hay
+que poner el componente de fotos, y
+
+443
+00:41:26,910 --> 00:41:31,040
+aca colocamos el panel de admin,' Era una forma
+diferente de separar intereses y esto
+
+444
+00:41:31,040 --> 00:41:35,750
+recibio mucha critica con comentarios diciendo,
+'esos de Facebook son unos payasos, no
+
+445
+00:41:35,750 --> 00:41:40,330
+saben escribir software.' Nosotros pensamos
+que React probablemente no tenia futuo afuera
+
+446
+00:41:40,330 --> 00:41:48,960
+de Facebook. [Music]
+
