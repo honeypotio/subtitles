@@ -56,209 +56,214 @@ Knockout entraron en escena. En el mundo exterior
 
 12
 00:01:30,070 --> 00:01:35,790
-y el meme más reciente es el de "La Novia Psicópata"
+y el meme más reciente era el de "La Novia Psicópata"
 En tiempo del Internet,
 
 13
 00:01:35,790 --> 00:01:42,500
-basically been an eternity. So strap in, set
-yourself away, enable that do not disturb
+básicamente una eternidad. Así que ponte el cinturón de seguridad,
+desconéctate de todo, y habilita el modo de "no molestar",
 
 14
 00:01:42,500 --> 00:01:45,320
-because this is quite the underdog story.
+porque está es la historia de algo que tenía pocas posibilidad de ganar.
 
 15
 00:01:45,320 --> 00:01:46,320
-[Music]
+[Música]
 
 16
 00:01:46,320 --> 00:01:51,480
-I see this camera has a red light on but this
-one doesn't.
+Veo que esta cámara tiene una luz roja,
+pero está otra no lo tiene.
 
 17
 00:01:51,480 --> 00:01:52,480
-[Music]
+[Música]
 
 18
 00:01:52,480 --> 00:01:55,840
-Just clip it on with this.
+Solo sujétalo con esto.
 
 19
 00:01:55,840 --> 00:02:10,819
+Probando uno dos, probando.
 Testing one two, testing.
 
 20
 00:02:10,819 --> 00:02:17,200
-[Music]
+[Música]
 
 21
 00:02:17,200 --> 00:02:36,349
-[Computer turning on]
+[La computadora se enciende]
 
 22
 00:02:36,349 --> 00:02:40,050
-When I got the offer to work at Facebook,
-I told my mom, I was like really excited.
+Cuando obtuve la oferta para trabajar en Facebook,
+le conté a mi mamá. Estaba muy emocionado.
 
 23
 00:02:40,050 --> 00:02:44,840
-The Social Network the movie had just come
-out and she had you know seen it recently
+La película "La Red Social" se había estrenado,
+y ella la había visto recientemente.
 
 24
 00:02:44,840 --> 00:02:48,970
-and she was actively discouraging me from
-joining because she was like Mark Zuckerberg
+Ella constantemente me desanimaba de aceptar
+porque pensaba que Mark Zuckerberg
 
 25
 00:02:48,970 --> 00:02:54,769
-doesn't seem like a very nice boy. Facebook
-in the time I was there was, I don't think
+no parecía una buena persona. Durante el tiempo
+en el que trabajé en Facebook,
 
 26
 00:02:54,769 --> 00:02:59,170
-they'll be anything like it ever again. It
-was certainly not like anything that I had
+no creo que vuelva a existir algo similar nunca más.
+No era algo que que hubiese experimentado antes.
 
 27
 00:02:59,170 --> 00:03:04,129
-experienced before. In fact just a couple
-months after I joined Kanye West came to visit
+Solo unos meses antes de unirme, Kanye West visitó
+las oficinas de Facebook,
 
 28
 00:03:04,129 --> 00:03:11,049
-Facebook's campus and he got up on a table
-in the cafe and you know rapped a few bars
+se subió a una mesa de la cafetería
+y rapeó algunas rimas
 
 29
 00:03:11,049 --> 00:03:15,321
-and I was working mostly with this guy who
-had just graduated from college and I was
+y estaba trabajando con esta persona que recién se había
+graduado de la Universidad,
 
 30
 00:03:15,321 --> 00:03:20,299
-trying to explain to him you know I've worked
-these crap jobs in software, at that point
+y yo estaba tratando de explicarle que había trabajado
+en estos trabajos de mierda en software. Para ese entonces,
 
 31
 00:03:20,299 --> 00:03:26,410
-had been like 10 or 15 years, nothing like
-this ever happens, not to software engineers.
+ya habían sido 10 o 15 años, y nada como esto había pasado antes,
+no en la ingeniería de software.
 
 32
 00:03:26,410 --> 00:03:32,319
-"You're my stressing, you're my masseuse,
-mama say mama sa mama coosa". JavaScript at
+"♪ Eres mi estrés, eres mi masajista ♪"
 
 33
 00:03:32,319 --> 00:03:37,159
-the time, I think, was going through this
-little bit of an existential crisis as to
+En aquel tiempo, JavaScript pasaba por un poco
+de crisis existencial,
 
 34
 00:03:37,159 --> 00:03:44,189
-whether it was like a real programming language
-or a toy programming language. And so there
+acerca de si ser más como un lenguagje de programación real,
+o un lenguaje de programación de juguete.
 
 35
 00:03:44,189 --> 00:03:49,040
-was a lot of churn. So you had jQuery was
-popular and MooTools was popular and there
+Había mucha agitación. jQuery era popular,
+MooTools era popular,
 
 36
 00:03:49,040 --> 00:03:53,459
-was so many different like warring frameworks
-to try to get the mind share. And there's
+y había tantas opciones diferentes en guerra
+tratando de llegar a la mente del público.
 
 37
 00:03:53,459 --> 00:03:57,390
-a lot of similarities between them but each
+Y había muchas similitudes entre ellos, pero cada
+una tenía sútiles diferencias
 one had its kind of bespoke differences and
 
 38
 00:03:57,390 --> 00:04:02,780
-none of them were actually really fantastic
-for building really kind of complicated user
+y ninguna era realmente fantástica para construir
+interfaces de usuario y aplicaciones complejas.
 
 39
 00:04:02,780 --> 00:04:07,220
-interfaces and apps. There was this trend
+Había esta tendencia más hacia aplicaciones sofisticadas.
 towards more sophisticated applications that
 
 40
 00:04:07,220 --> 00:04:13,230
-do more stuff and at Facebook we still had
-a primarily sort of server rendered technology
+que hacían más cosas, y en Facebook todavía
+priorizabamos la tecnología para hacer render en el server,
 
 41
 00:04:13,230 --> 00:04:18,299
-stack which you know, one of the things that
-we fought against for a really long time was
+y una de las cosas por las cuales
+estuvimos en contra por un largo tiempo
 
 42
 00:04:18,299 --> 00:04:22,930
-just growing JavaScript bundle sizes so as
-we moved more and more stuff to the client,
+fue simplemente incrementar el tamaño de los paquetes de JavaScript,
+así que conforme moviamos más y más cosas al lado del cliente,
 
 43
 00:04:22,930 --> 00:04:27,370
-the client got slower and slower so we actually
-swung the pendulum towards server-side rendering
+el cliente se volvía más y más lento, así que en realidad 
+nos cambiamos hacia el render del lado del servidor
 
 44
 00:04:27,370 --> 00:04:32,270
-and towards you know minimal amounts of JavaScript
-for a while. And there was this feeling that
+y hacia pequeñas pedazos de JavaScript por un tiempo.
+Y había esta sensación de que
 
 45
 00:04:32,270 --> 00:04:37,590
-we knew that what we were doing for client-side
+sabíamos que lo que estábamos haciendo para
+el desarrollo en el lado del cliente no estaba funcionando
 development wasn't working but also that server
 
 46
 00:04:37,590 --> 00:04:43,770
-side wasn't going to get us all the way there.
+pero también lo que teníamos en el lado del servidor no nos iba a llevar
+a ningún lado. 
 So I think that was the kind of environment
 
 47
 00:04:43,770 --> 00:04:51,090
-that React came out of.
+Creo que ese fue el tipo de ambiente del nació
+salió React.
 
 48
 00:04:51,090 --> 00:04:57,620
-[Music]
+[Música]
 
 49
 00:04:57,620 --> 00:05:03,260
-I joined Facebook back in 2010. I've been
-doing a lot of open source work particularly
+Cuando me uní a Facebook en el 2010, había colaborado mucho
+en código libre, particularmente
 
 50
 00:05:03,260 --> 00:05:08,229
-in the JavaScript world. I was a committer
-on the Dojo.js toolkit back in the day, which
+en el mundo de JavaScript. Era un colaborador en la herramienta
+Dojo.js en aquel entonces
 
 51
 00:05:08,229 --> 00:05:14,210
-is one of the the granddaddies of the JavaScript
-movement along with prototype and jQuery.
+el cual es uno de los abuelos del movimiento de JavaScript, junto
+a los prototipos y jQuery.
 
 52
 00:05:14,210 --> 00:05:20,270
-I spent my first two years at Facebook on
+Pasé mis primeros dos años en Facebook en el equipo de desarrollo móvil.
+Empezamos con una gran determinación
 the mobile team. We had started off a big
 
 53
 00:05:20,270 --> 00:05:25,289
-push to compete with Apple and Google and
-we thought that our best chance of success
+para competir con Apple y Google, y pensamos
+que nuestra mayor oportunidad de éxito
 
 54
 00:05:25,289 --> 00:05:32,419
-as a company was to go directly to the web
-and really push to build out the HTML5 ecosystem.
+como compañía era ir directamente hacia la web, y
+empujar para construir el ecosistema de HTML5.
 
 55
 00:05:32,419 --> 00:05:38,819
