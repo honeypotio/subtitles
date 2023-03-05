@@ -263,427 +263,426 @@ que nuestra mayor oportunidad de éxito
 54
 00:05:25,289 --> 00:05:32,419
 como compañía era ir directamente hacia la web, y
-empujar para construir el ecosistema de HTML5.
+abogar para construir el ecosistema de HTML5.
 
 55
 00:05:32,419 --> 00:05:38,819
-So as part of that we developed, myself and
-two other engineers called Vladimir Kolesnikov
+Así que, como parte de eso, yo y otros dos ingenieros
+llamados Vladimir Kolesnikov y Will Bailey
 
 56
 00:05:38,819 --> 00:05:43,970
-and Will Bailey, built a framework called
-Bolt.js so named because we bolted together
+construimos un framework llamado Bolt.js (Tornillo.js)
+Lo llamamos así porque 
 
 57
 00:05:43,970 --> 00:05:50,630
-a bunch of things that each of us liked. Bolt
-was basically more or less Facebook's implementation
+justo "atornillábamos" muchas cosas que cada uno nos interesaba.
+"Bolt" era básicamente más o menos la implementación de Facebook
 
 58
 00:05:50,630 --> 00:05:55,699
-of a client-side MVC. I think it was like
+de un modelo vista-controlador (MVC) para el lado del cliente.
+Creo que era una versión bastante buena, tal vez una mejor versión
 a pretty good version, maybe a better version,
 
 59
 00:05:55,699 --> 00:06:01,400
-of things like backbone and a couple of other
-Frameworks that had existed at the time. But
+de cosas como Backbone y algunos otros frameworks que existían
+en aquellos tiempos.
 
 60
 00:06:01,400 --> 00:06:08,510
-it was born from a place of the specific constraints
-of Facebook. It's the heart of your Facebook
+Pero nació desde unas limitaciones muy específicas de Facebook.
+Es el corazón de tu experiencia en Facebook.
 
 61
 00:06:08,510 --> 00:06:14,190
-experience. Completely rethought from the
-ground up. We've been working on it all year
+Lo re-pensamos completamente desde las raíces.
+Habíamos trabajado en el durante todo el año,
 
 62
 00:06:14,190 --> 00:06:20,400
-and we're calling it Timeline. Facebook was
-one of the first big products that was really
+y lo llamábamos "Timeline". Facebook era uno de los primeros
+grandes productos que era realmente una experiencia más que nada.
 
 63
 00:06:20,400 --> 00:06:25,759
-an experience more than anything else. You're
-not trying to buy groceries or get tickets
+No estás tratando de comprar comida u obtener boletos,
+o algo así en Facebook.
 
 64
 00:06:25,759 --> 00:06:30,259
-or anything like that on Facebook, you really
-just want to be entertained. And as such you
+Lo que realmente quieres es entretenimiento.
+Y por ello sabes que la interfaz de usuario
 
 65
 00:06:30,259 --> 00:06:35,960
-know the user interface itself needs to be
-really pleasing. Bolt was not a tool belt,
+necesita ser interesante. Bolt no solo era
+una caja de herramientas,
 
 66
 00:06:35,960 --> 00:06:42,389
-it was truly a application development framework.
-Something designed and meant to build complicated
+realmente era un framework para desarrollo de aplicaciones.
+Algo diseñado y hecho para construir
 
 67
 00:06:42,389 --> 00:06:48,580
-interactive rich apps and was being used to
-build pretty complicated very real products
+aplicaciones complejas y altamente interactivas, y estaba siendo
+usando para construir productos realmente complejos
 
 68
 00:06:48,580 --> 00:06:53,330
-at Facebook at the time. We ended up having
-to essentially replicate most of Facebook,
+en Facebook. Al final terminamos prácticamente recreando
+la mayor parte de Facebook:
 
 69
 00:06:53,330 --> 00:06:59,111
-all the various apps, be it timeline, chat,
-newsfeed. We had a whole photos app that we
+toda la variedad de aplicaciones: timeline, chat, la sección
+de noticias. Teníamos toda una aplicación de fotos
 
 70
 00:06:59,111 --> 00:07:04,440
-built and so obviously the team had to expand
-greatly. Like that so I think at some point
+que construimos, y obviamente el equipo tenía que expandirlo.
+Así que en algún punto pensé
 
 71
 00:07:04,440 --> 00:07:09,270
-we probably had maybe 25 Engineers working
-on all this between building Bolt and building
+que probablemente teníamos alrededor de 25 ingenieros trabajando
+en todo esto, entre los que construían Bolt y
 
 72
 00:07:09,270 --> 00:07:13,420
-apps built on Bolt and that's just on the
-mobile team. Bolt was never the problem, it
+y los que creaban aplicacions usando Bolt, y eso solamente
+contando al equipo de aplicaciones móviles.
 
 73
 00:07:13,420 --> 00:07:18,460
-was the architecture that would eventually
-break down for us. As the product itself got
+Bolt nunca fue el problema, fue la arquitectura lo que terminó
+por derrotarnos. El producto por sí mismo
 
 74
 00:07:18,460 --> 00:07:23,690
-more complex and as we added more engineers
+se volvió más complejo, y entre más añadíamos ingenieros al equipo,
+no nos topamos con la pared, pero si comenzó a ser
 to the team, we didn't hit a wall but it started
 
 75
 00:07:23,690 --> 00:07:28,460
-to get really, really hard to make changes.
-And so you know that was around the time that
+muy, muy díficil hacer cambios.
+Fue justo por aquellas fechas
 
 76
 00:07:28,460 --> 00:07:42,949
-Jordan was on the ads team and he's like I
-wonder, there's got to be a better way.
+que Jordan estaba en el equipo de anuncios, y el se comenzó
+a preguntar si había una mejor forma.
 
 77
 00:07:42,949 --> 00:07:48,320
-Jordan is an enigmatic figure. He uh he's
-a little secretive so there's not much that
+Jordan es una figura enigmática. El el un poco privado,
+así que no hay mucho que sepa de el.
 
 78
 00:07:48,320 --> 00:07:54,699
-I know about him. Jordan and I aren't necessarily..
-we haven't necessarily been in the spotlight
+Jordan y yo no eramos el centro de atención.
 
 79
 00:07:54,699 --> 00:07:59,111
-much. Especially Jordan kind of shied away
-from spotlights since the early days. Jordan
+Especialmente Jordan evitaba ser el centro de atención
+desde los primeros días.
 
 80
 00:07:59,111 --> 00:08:05,979
-was a product engineer at the time, working
-on ads and ads has one of the most complicated
+Jordan era un ingeniero de producto por aquel entonces,
+trabajando en anuncios, y los anuncios eran una de las partes
 
 81
 00:08:05,979 --> 00:08:12,830
-pieces of UI across all of Facebook at the
-moment. On the as team they were hitting much
+de interfaz de usuario más complicadas de todo Facebook.
+Como equipo, se topaban constantemente
+On the as team they were hitting much
 
 82
 00:08:12,830 --> 00:08:18,310
-you know really hitting the limits of what
-you can do without React complexity wise.
+con los límmites de lo que se podía lograr sin React,
+hablando de complejidad.
 
 83
 00:08:18,310 --> 00:08:22,560
-And just the developers ability to hold in
-their head and understand a bit of code that
+Y solo la habilidad de los desarrolladores para mantener en su mente
+y entender un poco de código que alguien más había hecho
 
 84
 00:08:22,560 --> 00:08:27,370
-somebody else wrote and you know look at the
-screen and say okay this code is doing that
+mientras miran el monitor y decir: "ok, entonces este código
+hace esto y necesito saber porqué".
 
 85
 00:08:27,370 --> 00:08:32,560
-and I need to know why. And Jordan had a lot
-of very interesting ideas around how you could
+Jordan tenía muchas ideas muy interesantes acerca de como
 
 86
 00:08:32,560 --> 00:08:36,550
-take what we had done in Bolt and make it
-much more functional and make it more ability..
+podríamos tomar lo que se había hecho en Bolt y hacerlo más
+funcional y fácil de escalar
 
 87
 00:08:36,550 --> 00:08:41,269
-to make it easier for it to scale with people's
-ability to understand large applications.
+junto con la habilidad de las personas de
+entender aplicaciones grandes
 
 88
 00:08:41,269 --> 00:08:44,990
-And so we had a lot of ongoing dialogue and
-he would come back and forth to us with various
+Así que teníamos muchas conversaciones, y el
+iba y venía con nosotros con varias ideas
 
 89
 00:08:44,990 --> 00:08:49,720
-ideas how to change it. I think one of the
-original names for react was FBolt which is
+acerca de como cambiarlo. Creo que uno de los nombres originales
+para React era FBolt,
 
 90
 00:08:49,720 --> 00:08:53,450
-Functional Bolt.
+que significaba Functional Bolt.
 
 91
 00:08:53,450 --> 00:08:59,310
-He saw that there was an oppotunity to do
-it.. to solve some of the tricky parts in
+Jordan vio que había una oportunidad de resolver algunas de
+las partes más complicadas en Bolt
 
 92
 00:08:59,310 --> 00:09:06,500
-Bolt in an easier way. So what Jordan decided
-to do, or at least the story that he had told
+de una forma más sencilla. Así que lo que Jordan decidió
+hacer, o al menos la historia que me contó
 
 93
 00:09:06,500 --> 00:09:15,060
-me, was: "hey wouldn't it be easier if, any
-time anything happened, in the app: API state
+fue: "Oye, no sería más sencillo si cada vez que algo cambiara
+en la app: el estado de la API, el usuario escribió algo...
 
 94
 00:09:15,060 --> 00:09:19,670
-changes, user type something, we just blow
-away the entire UI and we re-render all of
+solamente destruyéramos toda la UI y
+volvieramos a recrear todo?"
 
 95
 00:09:19,670 --> 00:09:25,300
-it". If you look at what every other framework
-was doing at the time, it was called two-way
+Lo que el resto de los frameworks hacía entonces se llamaba
+"enlace de datos bi-direccional"
 
 96
 00:09:25,300 --> 00:09:30,940
-data binding and this was not that. It was
-like: forget about data binding we're not
+y esto no era eso. Era alg así como:
+olvídate del enlace de datos
 
 97
 00:09:30,940 --> 00:09:35,459
-going to do that at all. Anytime anything
-changes we're just going to re-render and
+no vamos a hacer eso en lo absoluto.
+Cada vez que algo cambie vamos a repintar todo
 
 98
 00:09:35,459 --> 00:09:38,380
-then there's an asterisk which says well we're
-not going to re-render everything, we're going
+pero hay un gran asterico que dice "en realidad no vamos
+a repintar todo, vamos a repintar lo menos posible"
 
 99
 00:09:38,380 --> 00:09:43,690
-to try to render as little as possible but
-conceptually we're not going to manage these
+pero conceptualmente no vamos a manejar estas relaciones
+entre vistas y modelos
 
 100
 00:09:43,690 --> 00:09:48,589
-relationships between views and models, we're
-just gonna.. Honestly I thought it was completely
+Honestamente pensé que era una una locura.
 
 101
 00:09:48,589 --> 00:09:53,880
-crazy. At the time I was really down on frameworks
-in general and I thought there was no way
+Por aquel entonces estaba muy convencido en la idea de los
+frameworks en general,
 
 102
 00:09:53,880 --> 00:09:58,190
-that was going to work. To many people that
-seemed like magic, it was so far outside of
+y pensé que algo así no iba a funcionar. Para algunas personas,
+parecía magia. Estaba muy lejos
 
 103
 00:09:58,190 --> 00:10:10,560
-everybody's idea of how things should work
-and do work that yeah it took a lot of convincing.
+de la idea que todos tenían acerca de como funcionaban y
+como deberían funcionar las cosas. Tomó mucho para convencerlos.
 
 104
 00:10:10,560 --> 00:10:16,340
-[Music]
+[Música]
 
 105
 00:10:16,340 --> 00:10:39,410
-I've been working at Facebook for 10 years
-now. I met this person called Jordan Walke.
+He trabajado en Facebook por 10 años hasta ahora.
+Y conocí a esta persona llamada Jordan Walke.
 
 106
 00:10:39,410 --> 00:10:43,770
-Some people told me he had an interesting
-project about JavaScript and I may be interested.
+Algunas personas me decían que el tenía un proyecto interesante
+acerca de JavaScript, y que tal vez me interesaría.
 
 107
 00:10:43,770 --> 00:10:49,149
-And so I had this meeting with him and one
-thing he asked me at the beginning of the
+Así que tuve una junta con él y una de las cosas
+que me preguntó al inicio de la reunión fue
 
 108
 00:10:49,149 --> 00:10:57,760
-meeting was: what is the most difficult thing
-to do in the front-end right now? And I mean,
+"qué es lo más difícil de hacer en el Front End hasta ahora?"
+Y bueno,
 
 109
 00:10:57,760 --> 00:11:03,230
-I was six months out of school, I was like
-I don't know and the thing he told me is:
+yo llevaba 6 meses que me había graduado de la escuela.
+Respondí: "no sé". Y lo que me dijo fue:
 
 110
 00:11:03,230 --> 00:11:09,470
-updates. You need to find the DOM node that
-is going to change, you need to change the
+"las actualizaciones". Tienees que encontrar el nodo del DOM
+que va a cambiar, luego tienes que cambiar el "listener"
 
 111
 00:11:09,470 --> 00:11:16,310
-listener to the click event and remove it
-and do all of this, which is pretty complicated.
+del evento del click y removerlo. Hacer todo esto
+es bastante complicado.
 
 112
 00:11:16,310 --> 00:11:22,930
-And this was also a massive source of bugs
-within the Facebook codebase. I was like okay,
+Esto también era una masiva fuente de "bugs" dentro del código
+de Facebook.
 
 113
 00:11:22,930 --> 00:11:28,960
-yeah you're right, this is probably the hardest
-thing. And he was like: I have a solution
+Entonces dije: "ok, tienes razón, esto es probablemente una
+de las cosas más difíciles.".
 
 114
 00:11:28,960 --> 00:11:33,310
-for this. I was like, okay this guy is crazy,
-like this is never going to work, it's never
+El contestó: "tengo una solución para esto".
+Pensé: este tipo esta loco, esto jamás va a funcionar.
 
 115
 00:11:33,310 --> 00:11:39,100
-going to be performant. The meeting ended
-and for a few weeks I forgot about the idea.
+Nunca va a tener un buen desempeño. La reunión terminó
+y por algunas semanas me olvidé de la idea.
 
 116
 00:11:39,100 --> 00:11:45,450
-But one weekend I was like, okay maybe I should
-try this, maybe there's something to it. Before
+Pero un fin de semana pensé: ok, tal vez debería probar esto,
+tal vez haya algo aquí.
 
 117
 00:11:45,450 --> 00:11:53,920
-joining Facebook, I worked on a way to find
-your guilds in World of Warcraft and we basically
+Antes de unirme a Facebook, trabajé en en una forma de encontrar
+tus gremios en "World of Warcraft", y básicamente
 
 118
 00:11:53,920 --> 00:12:01,320
-needed to search through like 20 000 guilds.
-And I did a lot of performance work to be
+necesitábamos buscar entre 20, 000 gremios.
+Trabajé en muchas cosas de "performance"
 
 119
 00:12:01,320 --> 00:12:05,700
-the fastest way possible to display when you
-change all of those filters in real time.
+para que desplegara resultados lo más rápido posible
+cuando cambiabas los filtros en tiempo real.
 
 120
 00:12:05,700 --> 00:12:12,829
-And I was like: okay I spent months, full
-time, working on making this super performant,
+Y pensé: ok, he pasado meses, tiempo completo, trabajando en
+que esto tuviera un gran desempeño
 
 121
 00:12:12,829 --> 00:12:19,240
-let's try it with React. And in practice it
-took me like half an hour to write it and
+intentémoslo con React. En la práctica, me tomó cerca de
+media hora escribirlo,
 
 122
 00:12:19,240 --> 00:12:25,130
-it was actually not as performant but around
-the same order of magnitude at performance.
+y en realidad no tenía un buen desempeño, pero tenía
+un desempeño similar.
 
 123
 00:12:25,130 --> 00:12:30,600
-And I was like mind blown and to this day
-I became the biggest React fan in the world.
+Yo estaba impresionado, y hasta este día soy el fan más grande
+de React en el mundo.
 
 124
 00:12:30,600 --> 00:12:35,839
-I was in the photos team and spending all
-of my working hours like trying to use React
+Yo estaba en el equipo de fotos y pasaba todo el tiempo
+de mis horas de trabajo intentando usar React
 
 125
 00:12:35,839 --> 00:12:40,740
-on my own projects in the photos team, evangelizing.
-I felt like it could change the world, which
+en mis proyectos de mi equipo, evangelizando.
+Sentía que podría cambiar al mundo,
 
 126
 00:12:40,740 --> 00:12:45,910
-it did.
+lo cual ocurrió.
 
 127
 00:12:45,910 --> 00:12:48,490
-[Music]
+[Música]
 
 128
 00:12:48,490 --> 00:12:55,880
-[Chantastic] Jordan is making headway on his
-project. He's gotten others involved and they're
+[Chantastic] Jordan está logrando progreso en su proyecto.
+Ha conseguido que otros se involucren y que
 
 129
 00:12:55,880 --> 00:13:03,329
-seeing the value. But not everyone is impressed.
+vean el valor que tiene. Pero no todos están impresionados.
+Un manager empezó a notarlo, pero vió el proyecto
 One manager started to take notice but saw
 
 130
 00:13:03,329 --> 00:13:09,790
-Jordan's project as a distraction. So they
-asked Lee Byron to meet with Jordan and put
+de Jordan como una distracción. Así que le pidió a
+Lee Byron que se reuniera con Jordan
 
 131
 00:13:09,790 --> 00:13:13,600
-a stop to it to focus efforts on Bolt. We
-get into a room. Instantly I knew that this
+y le pusiera un alto para que enfocara los esfuerzos en Bolt.
+Entramos a la sala. Al instante sabía
 
 132
 00:13:13,600 --> 00:13:17,300
-was going to be weird because we showed up
-with very different energies. I'm showing
+que esto iba a ser raro porque llegamos con diferentes energías.
 
 133
 00:13:17,300 --> 00:13:23,950
-up with this like, okay Jordan I want to understand
-what's going on with your project but I also
+Yo llegué como: ok Jordan, quiero entender como va tu proyecto,
+pero también quiero
 
 134
 00:13:23,950 --> 00:13:28,870
-want to help make sure that we are spending
-our time well and we're working on things
+ayudarte a que nos aseguremos que estás inviertiendo nuestro
+tiempo de la forma correcta y que estamos trabajando
 
 135
 00:13:28,870 --> 00:13:33,100
-that are gonna have longevity and solving
-problems we want to have. And Jordan came
+en las cosas que van a tener longevidad y van a resolver los problemas
+que tenemos. Y Jordan llegó con
 
 136
 00:13:33,100 --> 00:13:36,860
-in with like, can I show you a demo of what
-I've been working on like this is so exciting
+"puedo mostarte una demo de lo que he estado trabajando", algo así
+como "esto es muy emocionante,
 
 137
 00:13:36,860 --> 00:13:40,740
-and it does this and it does that. And eventually
-like towards the end of this meeting with
+y hace esto esto y esto otro". Y eventualmente,
+al final de la reunión
 
 138
 00:13:40,740 --> 00:13:46,709
-him I had to kind of admit like he had something
-really compelling. Like I was now really interested
+tuve que admitir que tenía algo muy interesante entre manos.
+Ahora estaba muy interesado en aprender más de lo que estaba haciendo.
 
 139
 00:13:46,709 --> 00:13:51,670
-in learning more about what he was doing.
 So Jordan's pitch to me was like I only want
 
 140
