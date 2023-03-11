@@ -635,7 +635,6 @@ Ha conseguido que otros se involucren y que
 00:12:55,880 --> 00:13:03,329
 vean el valor que tiene. Pero no todos están impresionados.
 Un manager empezó a notarlo, pero vió el proyecto
-One manager started to take notice but saw
 
 130
 00:13:03,329 --> 00:13:09,790
@@ -683,316 +682,310 @@ Ahora estaba muy interesado en aprender más de lo que estaba haciendo.
 
 139
 00:13:46,709 --> 00:13:51,670
-So Jordan's pitch to me was like I only want
+Así que la presentación de Jordan fue para mí
+algo así como:
 
 140
 00:13:51,670 --> 00:13:55,810
-to invest in this and work on it if it's going
-to be something that people will use and if
+Solo quiero invertir mi tiempo en esto y trabajarlo
+si va a ser algo que las personas van a usar,
 
 141
 00:13:55,810 --> 00:13:59,199
-that's not going to be the case, sure we're
-not going to do this. He's like but I feel
+y si ese no es el caso, entonces no lo hagamos.
 
 142
 00:13:59,199 --> 00:14:04,290
-really strongly that all the ways we've been
-doing UI development up until now have been
+Pero opino que todas las formas en las que hemos
+desarrollado interfaces de usuario hasta ahora
 
 143
 00:14:04,290 --> 00:14:08,230
-flawed. Whether they're a JavaScript library
-that doesn't quite work for us or whether
+han tenido defectos. O son una biblioteca de JavaScript
+que no cubre nuestras necesidades,
 
 144
 00:14:08,230 --> 00:14:14,000
-it's like a 30 year old tried and true model
-for doing UI application development. They
+o es un modelo probado de hace 30 años para el desarrollo
+de aplicaciones con interfaces de usuario.
 
 145
 00:14:14,000 --> 00:14:21,260
-all suffer from the same base problem: a state
-management and I think this is the way forward,
+Todos ellos sufren del mismo problema de raíz: el manejo del estado.
+Y creo que esto es el camino hacia adelante.
 
 146
 00:14:21,260 --> 00:14:27,759
-and Lee if you could just dig into the code
-and learn more and try it and then come back
+y Lee, si pudieras indagar un poco más en el código
+aprender más de ello y lo probarás, y entonces volvieras
 
 147
 00:14:27,759 --> 00:14:32,120
-and we'll talk about this again, then we can
-figure this out. I was like all right all
+para hablar de esto neuvamente, tal vez podríamos encontrar
+una solución a esto. Y pensé: está bien, está bien.
 
 148
 00:14:32,120 --> 00:14:38,690
-right and so I did I dug around the code and
-it was um a little hard to understand, but
+Así que comencé a explorar el código y
+era algo difícil de entender,
 
 149
 00:14:38,690 --> 00:14:43,339
-I eventually got to play with it and got to
-build a couple of things and had to admit,
+pero eventualmente pude jugar con el y
+construir algunas cosas, y tuve que admitir
 
 150
 00:14:43,339 --> 00:14:48,060
-coming away, that like yes there was something
-incredibly interesting there. And that was
+que había algo realmente interesante ahí. Y así fue
 
 151
 00:14:48,060 --> 00:14:52,730
-how I got sucked into the project and I ended
-up working on it quite a bit for the the next
+como me metí de lleno en el proyecto, y terminé
+trabajando en el bastante tiempo en los siguientes
 
 152
 00:14:52,730 --> 00:14:59,209
-couple of months. Lee brings this rigor and
-sort of design mentality to these things that
+meses. Lee trajo esta meticulosa mentalidad de diseño
+a estas cosas que ayudaron
 
 153
 00:14:59,209 --> 00:15:03,940
-really helped with the initial versions of
-React in terms of standardizing it and turning
+bastante en las versiones iniciales de React en cuestión
+de estándarizarlo y convertirlo
 
 154
 00:15:03,940 --> 00:15:08,459
-it from something that was kind of like an
-ugly baby that had just grown up at Facebook
+de algo así como un bebé feo que había crecido en Facebook
 
 155
 00:15:08,459 --> 00:15:14,029
-to something that really people could approach
-from around the world. [Music] There were
+a algo que cualquier persona podía entender.
 
 156
 00:15:14,029 --> 00:15:21,000
-a couple of problems that I faced right away
-when trying to understand the code base and
+Había algunos problemas que me topé de inmediato
+intentando entender el código para construir algo.
 
 157
 00:15:21,000 --> 00:15:26,990
-build something. Not only was the the set
-of tools and the mental models really different
+No eran solamente las herramientas y la cuestión
+de que el modelo mental era muy diferente
 
 158
 00:15:26,990 --> 00:15:35,220
-from what I was used to as a UI engineer.
-The syntax and the programming concepts involved,
+de lo que estaba acostumbrado como ingeniero de UI.
+No solo sintaxis y los conceptos de programación,
 
 159
 00:15:35,220 --> 00:15:39,850
-just the terminology, was also really different.
-My takeaway was, you know, okay the whole
+también la terminología era muy diferente.
+Mis conclusiones eran: ok, toda la apuesta
 
 160
 00:15:39,850 --> 00:15:44,790
-bid here was that this would be simpler but
-I can't help but feel like this is really
+gira en torno a que esto es más simple, pero
+no puedo evitar sentir que esto es realmente complicado.
 
 161
 00:15:44,790 --> 00:15:51,790
-complicated. Mostly as a desire for me to
-understand the model but also with a hope
+Sobretodo, deseaba poder entender el modelo
+pero también esperaba
 
 162
 00:15:51,790 --> 00:15:58,800
-that it would kind of end up helping resolve
-some things, I wanted to build a glossary.
+que esto de alguna forma terminara resolviendo algunas cosas.
+Quería construir un glosario.
 
 163
 00:15:58,800 --> 00:16:06,300
-Like what are all the things the concepts
-and then what are all the actions or verbs
+Qué son todas estás cosas, los conceptos y
+todas las acciones o verbos
 
 164
 00:16:06,300 --> 00:16:10,649
-that are going on here. And so I literally
-just listed them all out. And then I would
+que están ocurriendo aquí. Así que literamente
+lo listé todo. Y entonces iba con Jordan,
 
 165
 00:16:10,649 --> 00:16:13,610
-go back to Jordan, I'd go back to other people
-working on it, and ask questions like did
+iba con otras personas trabajando en el proyecto,
+y les preguntaba:
 
 166
 00:16:13,610 --> 00:16:17,199
-I get this right? Are these definitions right?
-And they go yeah okay, no you should really
+Entendí esto bien? Estás definiciones están correctas?
 
 167
 00:16:17,199 --> 00:16:20,380
-think about it that way, and be like okay,
-well that's not how this.. And it would go
+Y ellos contestaban: sí, o no, debes verlo de esta otra forma.
 
 168
 00:16:20,380 --> 00:16:24,700
-back and forth and back and forth and I'd
-be honing these definitions and along the
+Y conversábamos una y otra vez y yo iba ajustando estas definiciones,
+y mientras tanto nos dábamos cuenta
 
 169
 00:16:24,700 --> 00:16:30,040
-way we'd realize like, oh this concept and
-that concept are the same, we're going to
+de que varios conceptos eran lo mismo,
 
 170
 00:16:30,040 --> 00:16:35,080
-name them one thing instead of two things.
-So unwinding all of this and essentially writing
+mejor vamos a nombrarlos de una sola forma en lugar de ser dos cosas.
+Así que desenmarañar todo esto y prácticamente escribirlo
 
 171
 00:16:35,080 --> 00:16:41,100
-up what ended up being like a reimagining
-of the component life cycle and therefore
+terminó siendo como reimaginar el ciclo de vida
+del componente, algo así
 
 172
 00:16:41,100 --> 00:16:46,899
-sort of the entire front-facing API for React.
-And I was very happy to see like incredible
+como todo la API pública de React.
+Y yo estaba muy feliz todo el entusiasmo
 
 173
 00:16:46,899 --> 00:16:50,610
-enthusiasm around that. Jordan was like "ah
-this is amazing, this really clarifies the
+alrededor de eso. Jordan decía: esto es increíble, esto
+aclara todas las ideas.
 
 174
 00:16:50,610 --> 00:16:56,050
-ideas". At that point a handful of other folks
-had gotten involved with the project too and
+A ese punto, varios compañeros también
+comenzaron a ser parte del proyecto,
 
 175
 00:16:56,050 --> 00:17:02,060
-then I spent sort of the next month or so,
-sort of piece by piece folding those into
+y pasé poco más del siguiente mes,
+poniendo todo en orden
 
 176
 00:17:02,060 --> 00:17:08,560
-place and pretty significantly changing the
-surface API of React in the process. That
+ y cambiando considerablemente
+la superficie de la API de React en el proceso.
 
 177
 00:17:08,560 --> 00:17:14,400
-was I think the first shift from this being
-a thing that existed mostly in Jordan's head,
+Creo que fue fue el primer cambio, de ser esta cosa
+que existia solamente en la mente de Jordan
 
 178
 00:17:14,400 --> 00:17:18,630
-that other people were playing with, to a
-thing that all of a sudden felt owned by the
+y con la que otras personas jugaban, a algo del que,
+de un día a otro, todo un equipo eramos responsables.
 
 179
 00:17:18,630 --> 00:17:23,280
-whole team. Where team here is like a collection
-of UI Engineers scattered across Facebook
+Donde la palabra "equipo" es algo así como muchos ingenieros
+de interfaces de usuario repartidos por todo Facebook
 
 180
 00:17:23,280 --> 00:17:28,270
-who were sort of bought in on this vision,
-who now felt that we now have the same terminology
+que estabamos metidos de lleno en esta visión, y del que ahora
+todos ahora podíamos usar la misma terminología
 
 181
 00:17:28,270 --> 00:17:32,380
-we can use when someone has a question, anyone
-can jump in and answer it rather than only
+cada vez que alguien tenía una pregunta.
+Ahora todos podíamos intentar responder una pregunta
 
 182
 00:17:32,380 --> 00:17:41,179
-Jordan. That was the first big shift. [Music]
+más allá de Jordan. Ese fue el primer gran cambio.
 
 183
 00:17:41,179 --> 00:17:49,410
-One of the first projects that React was used
-for was the UFI, the Universal Feedback Interface,
+Uno de los primeros proyectos donde React fue usado fue para UFI:
+Universal Feedback Interface (Interfaz de Retroalimentación Universal)
 
 184
 00:17:49,410 --> 00:17:54,250
-which is basically the likes, comments and
-shares at the bottom of each post. This was
+que básicamente son los "me gusta", los comentarios y
+la opción de compartir en la parte baja de cada publicación.
 
 185
 00:17:54,250 --> 00:17:59,450
-still during Facebook's kind of web era, when
-Facebook on the web was like the sort of big
+Esto fue todavía durante la era web de Facebook, cuando Facebook
+en la web era algo así como
 
 186
 00:17:59,450 --> 00:18:05,690
-driver of engagement. Newsfeed had a billion
-people hitting it every day and was massively
+el mayor direccionador de "engagement".
+El "Newsfeed" (Muro en Facebook en español) tenía mil millones de usuarios
 
 187
 00:18:05,690 --> 00:18:11,030
-tuned for performance. Heavily interactive
-surface both on the input side of course you're
+al día, y estaba perfeccionado para tener gran desempeño.
+Es una superficie altamente interactiva, donde
 
 188
 00:18:11,030 --> 00:18:15,090
-like clicking it to add likes, you're typing
-into it to add comments, but also on the receiving
+das click para dar un "me gusta", escribes para agregar comentarios,
+y a la par queremos que los comentarios lleguen en vivo,
 
 189
 00:18:15,090 --> 00:18:18,970
-side we want comments to come in live, so
-as you're looking at it as a comment comes
+de manera que si le estas poniendo atención
+mientras un comentario llega
 
 190
 00:18:18,970 --> 00:18:24,650
-in we want it to just pop up right there.
-And there was this product desire for that
+queremos que aparezca justo ahí.
+Y había este deseo en el producto
 
 191
 00:18:24,650 --> 00:18:31,540
-interface to feel almost like a one-off chat
-thread, and that was so cool at that time.
+para que esa interfaz se sintiera como si fuera un chat,
+y eso sonaban genial para la época.
 
 192
 00:18:31,540 --> 00:18:36,150
-And as that started to work the second thread
-was well okay if this can work for this really
+Así que mientras eso comenzaba a funcionar, para el segundo
+punto dijimos: si esto puede funcionar para este caso único
 
 193
 00:18:36,150 --> 00:18:41,710
-isolated sense of messaging then what if it
-could work for messaging as a whole and this
+de mensajería, que tal si pudiera funcionar
+para un caso completo de chats.
 
 194
 00:18:41,710 --> 00:18:47,740
-was another really complicated and fraught
-with bug surface area. That was when a lot
+Esto era un área muy complicada y frágil, propensa a "bugs".
+Eso fue cuando muchas de las ideas
 
 195
 00:18:47,740 --> 00:18:54,780
-of the ideas in React congealed, the JSX syntax
-was introduced and some of the ideas about
+en React cuadraron, la sintaxis de JSX fue introducida
+y algunas de las ideas acerca de como trabajar con datos
 
 196
 00:18:54,780 --> 00:19:00,000
-how to work with data and React sort of were
-clarified. A couple of our UI Engineers, along
+y React ya estaban claros.
+Algunos de nuestros ingenieros
 
 197
 00:19:00,000 --> 00:19:05,280
-with the messaging team, if I remember correctly
-Jing Chen was sort of the champion of this
+junto al equipo de mensajería, representados por
+Jing Chen si recuerdo bien,
 
 198
 00:19:05,280 --> 00:19:10,470
-project, realized that we needed a completely
-new way to think about state too.
+se dieron cuenta de que necesitabamos una forma
+diferente para pensar en el estado.
 
 199
 00:19:10,470 --> 00:19:17,669
-So my name is Jing and I'm a software engineer
-in the product infrastructure team at Facebook.
+Mi nombre es Jing, y soy software engineer en
+la infraestructura del producto en Facebook.
 
 200
 00:19:17,669 --> 00:19:24,070
-Flux is an application architecture designed
-around React's principle of unidirectional
+Flux es una arquitectura diseñada alrededor del
+principio de React del flujo de datos unidireccional.
 
 201
 00:19:24,070 --> 00:19:30,250
-data flow. Paired with flux, React could go
-beyond the view layer to model entire applications.
+Junto con Flux, React podía ir más allá de la capa de la vista
+para modelar toda una aplicación entera.
 
 202
 00:19:30,250 --> 00:19:34,700
@@ -1978,63 +1971,63 @@ hated it, everyone thought it was awful!
 
 400
 00:37:43,329 --> 00:37:47,770
-[Music]
+[Música]
 
 401
 00:37:47,770 --> 00:37:53,080
-Internally we were expecting a much better
-reception. Or at least an "oh that's interesting
+Internamente estabamos esperando una mejor recepción.
+O al menos un "oh, eso suena interesante"
 
 402
 00:37:53,080 --> 00:37:57,500
-reception". We thought there'd be some language
-nerds in there who would um think "oh I can
+Pensamos que habría algunos nerds de algún
+lenguaje de programación que pensarían
 
 403
 00:37:57,500 --> 00:38:01,020
-do fully functional programming in the UI,
-oh at least that's interesting". It was a
+"oh, podría hacer programación funcional en la UI,
+al menos eso es interesante".
 
 404
 00:38:01,020 --> 00:38:05,260
-really humbling experience, it was kind of
-a letdown for us because we had worked nights
+Fue una lección de humildad, fue una decepción para nosotros
+porque trabajamos varias noches
 
 405
 00:38:05,260 --> 00:38:09,369
-and weekends on getting this thing open sourceable
-and then when we go to launch it, everyone
+y fines de semana para tener esto listo para ser open source,
+y entonces cuando lo lanzamos, todos lo odiaron.
 
 406
 00:38:09,369 --> 00:38:13,900
-hated it. The thing that everyone focuses
-on is that people really hated JSX.
+El detalle en donde todos se enfocaron fue que las personas
+realmente odiaron JSX.
 
 407
 00:38:13,900 --> 00:38:24,680
-I haven't watched this video in a while.
+No he visto este video hace tiempo.
 
 408
 00:38:24,680 --> 00:38:30,720
-See these divs are not exactly what you're
-used to they're not DOM nodes, they're special
+Estos divs no son exactamente a lo que estas acostumbrado.
+No son nodos del DOM.
 
 409
 00:38:30,720 --> 00:38:35,620
-reactives and I'll get to why that's important.
-I don't remember thinking that they were hating
+Son especialmente reactions, y te diré porque eso es importante.
+No recuerdo haber pensado en que lo odiarían.
 
 410
 00:38:35,620 --> 00:38:43,240
-it. I don't remember at all thinking that
-they were like tweeting a bunch of stuff.
+No recuerdo en lo en lo absoluto haber pensado que tuitearían
+tantas cosas acerca de eso.
 
 411
 00:38:43,240 --> 00:38:46,650
-This is the slide for sure. We haven't talked
-about any problems we're trying to solve,
+Esta es la diapositiva. Aún no habíamos hablado
+de los problemas que intentábamos solucionar.
 
 412
 00:38:46,650 --> 00:38:50,630
-we haven't talked about why this is working
-for us or what were the principles of design.
+Tampoco habíamos hablado de porque esto funcionaba
+para nosotros, o cuales eran los principios de diseño.
