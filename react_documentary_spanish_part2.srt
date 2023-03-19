@@ -815,3 +815,122 @@ por repensar las mejores prácticas.
 576
 00:54:39,490 --> 00:54:46,880
 [Music]
+
+577
+00:54:46,880 --> 00:54:51,340
+Primero escuchamos sobre React en 2014. El
+sitio web de Netflix había sido construido en Java
+
+578
+00:54:51,340 --> 00:54:57,380
+Web. Era muy lento, tardaba alrededor de 15 minutos
+en construir y decidimos pasar a un marco de trabajo
+
+579
+00:54:57,380 --> 00:55:03,160
+más moderno. Ahí vamos. En ese momento no
+estábamos muy seguros si, ya sabes,
+
+580
+00:55:03,160 --> 00:55:07,240
+esto de React iba a funcionar. Era algo nuevo
+y estábamos muy aprensivos,
+
+581
+00:55:07,240 --> 00:55:12,530
+especialmente porque estábamos construyendo
+el futuro de los próximos 10 años del sitio web.
+
+582
+00:55:12,530 --> 00:55:18,030
+Si tomábamos una mala decisión, tendríamos que
+retroceder años de trabajo. Y así que muy cautelosos
+
+583
+00:55:18,030 --> 00:55:22,670
+de no saltar a algo que fuera demasiado de
+vanguardia. Y así que lo que hicieron fue
+
+584
+00:55:22,670 --> 00:55:26,869
+crear a dos equipos. A cada uno
+se le dio 30 días para construir un prototipo
+
+585
+00:55:26,869 --> 00:55:31,430
+con uno siendo React y el otro Backbone y
+después de 30 días la elección era clara.
+
+587
+00:55:32,430 --> 00:55:37,950
+Así que gracias a todos por venir esta noche. 
+Estamos realmente emocionados de tenerlos aquí
+y compartir
+
+588
+00:55:37,950 --> 00:55:42,220
+las lecciones que hemos aprendido construyendo
+la nueva interfaz de usuario en React durante
+el último año. Era
+
+589
+00:55:42,220 --> 00:55:46,580
+no en esta etapa, era nuestra próxima etapa,
+donde di mi presentación de React, supongo
+
+590
+00:55:46,580 --> 00:55:53,220
+que en 2015. La misma sensación de "oh dios mío,
+tengo que convencer a todas estas personas de
+
+591
+00:55:53,220 --> 00:55:56,890
+que React es asombroso".
+
+592
+00:55:56,890 --> 00:56:01,390
+Pero supongo que funcionó. Así que fui parte
+del equipo que construyó el nuevo sitio
+usando React.
+
+593
+00:56:01,390 --> 00:56:05,820
+Al principio era muy torpe, como cuando escribes
+componentes y no están del todo, ¿sabes?,
+
+594
+00:56:05,820 --> 00:56:10,450
+estás poniendo demasiada lógica en ellos o
+estás pensando en algo demasiado grande.
+No está claro
+
+595
+00:56:10,450 --> 00:56:14,100
+la diferencia en el paradigma. Y luego comienzonzas
+a usarlo y piensas: "espera, espera, estoy
+
+596
+00:56:14,100 --> 00:56:19,579
+pensando mucho más atómicamente". De ahí el
+símbolo de React. Estoy pensando en
+esta reutilización
+
+597
+00:56:19,579 --> 00:56:23,450
+individual, ahora estoy pensando en la
+testabilidad de estos componentes, estoy viendo
+
+598
+00:56:23,450 --> 00:56:27,830
+que beneficios surgen de ello. Puedo
+reutilizar esto aquí, podemos probar esto aquí,
+
+599
+00:56:27,830 --> 00:56:32,460
+podemos agregar props aquí.
+Y se vuelve muy emocionante ver
+
+600
+00:56:32,460 --> 00:56:37,120
+ese nuevo paradigma en juego y pensar: 
+esto va a ser revolucionario, esto va
