@@ -989,985 +989,990 @@ para modelar toda una aplicación entera.
 
 202
 00:19:30,250 --> 00:19:34,700
-This shift in how to think about state paired
-very well with how React was thinking about
+Este cambio de como pensar en el estado encajó
+muy bien en la manera en la que React
 
 203
 00:19:34,700 --> 00:19:39,860
-updating UI and ended up being sort of the
-next chapter for how to think about React
+actualizaba la UI, y esto terminó siendo el siguiente
+capítulo sobre como pensar en React como
 
 204
 00:19:39,860 --> 00:19:46,909
-being more than just how do you model complicated
-UI but how do you model sufficiently complicated
+algo más que como modelar UI complicadas, y en lugar de ello,
+como modelar apps bastante complicadas.
 
 205
 00:19:46,909 --> 00:19:50,340
-applications. Like this was something that
+Como si esto fuera algo que expandiera
+applications. Por ejemplo: esto se expande a pantalla completa,
 expanded the full screen and multiple touch
 
 206
 00:19:50,340 --> 00:19:55,240
-points and had navigation to it and it allowed
-us to step into that next chapter. I remember
+y soporta pantallas táctiles, y tiene navegación.
+Esto nos permitió avanzar al siguiente capítulo.
 
 207
 00:19:55,240 --> 00:20:00,419
-asking Jing like hey how's it going with this
-React stuff? Do you think this is going to
+Recuerdo que le pregunté a Jing: oye, como va React?
+Crees que vaya a funcionar?
 
 208
 00:20:00,419 --> 00:20:04,340
-work? She was like, yeah this is pretty good,
-I'm pretty sure it's gonna work. That was
+Y ella decía: esto va bastante bien. Estoy segura que
+lo vamos a lograr.
 
 209
 00:20:04,340 --> 00:20:16,950
+Fue entonces que me convencí aún más.
 when I became more convinced.
 
 210
 00:20:16,950 --> 00:20:22,530
-[Music]
+[Música]
 
 211
 00:20:22,530 --> 00:20:27,530
-Instagram joined Facebook in 2012. I think
-we had started calling it React by then and
+Instagram se unió a Facebook en 2012. Creo que por
+ese entonces ya lo llamábamos "React"
 
 212
 00:20:27,530 --> 00:20:32,330
-there was a couple of engineers from Facebook
-that went to join Instagram to help them expand
+y había algunos ingenieros de Facebook que se unieron a Instagram
+para ayudarles a expandir las ofertas del producto.
 
 213
 00:20:32,330 --> 00:20:37,860
-the product offering. At the time Instagram
-was just an iOS and an Android app and they
+Instagram solo era una app para iOS y Android
 
 214
 00:20:37,860 --> 00:20:49,020
-wanted to have a web presence as well.
-I spent 11 years in San Francisco, it was
+y querían estar presentes también en web.
+Pasé 11 años en San Francisco
 
 215
 00:20:49,020 --> 00:20:56,600
-really fun and I made a lot of great friends
-but the the change of pace out in the in the
+fue bastante divertido e hice varios amigos,
+pero el cambio de ritmo en el campo
 
 216
 00:20:56,600 --> 00:21:00,680
-countryside is great. It's just very peaceful
-and nice. I went to Facebook straight out
+es genial. Es muy pacífico y agradable.
+Entrée a Facebook recién me gradué
 
 217
 00:21:00,680 --> 00:21:05,780
-of school. I studied computer science undergrad
-and I got a master's degree. Facebook was,
+de la escuela. Estudie ciencias de la computación
+y obtuve una maestría.
 
 218
 00:21:05,780 --> 00:21:12,750
-believe it or not, the cool place to work
-back in 2010. It was this great product, that
+Facebook era, aunque no lo creas, un gran lugar para trabajar
+en 2010. Era un gran producto que todos usaban.
 
 219
 00:21:12,750 --> 00:21:17,870
-everybody used. It was super cool on college
-campuses and I was really excited to work
+Era muy popular en los campus de las escuelas, y
+estaba muy emocionado
 
 220
 00:21:17,870 --> 00:21:23,550
-there.
+de trabajar ahí.
 
 221
 00:21:23,550 --> 00:21:30,529
-I joined Facebook video. The pitch was, we're
-the third largest video site in the world,
+Entré a Facebook video. La idea era: somos la tercer
+plataforma de video más grande del mundo,
 
 222
 00:21:30,529 --> 00:21:36,480
-after YouTube and Dailymotion I think, and
-there was like one engineer working on it
+justo detrás de YouTube y Dailymotion creo, y había
+solo un ingeniero trabajando en ello,
 
 223
 00:21:36,480 --> 00:21:39,970
-and like you get to be engineer number two
-and I was like that sounds pretty cool. We
+y tu serás el ingeniero número dos.
+Eso sonaba genial.
 
 224
 00:21:39,970 --> 00:21:42,861
-worked really closely with the iOS photos
-team in the Android Photos team and we were
+Trabajamos muy de cerca con los equipos de fotos
+para Android y iOS,
 
 225
 00:21:42,861 --> 00:21:48,659
-building an Instagram killer and nobody remembers
-this but it was called Facebook Camera. One
+y estábamos construyendo un competidor para Instagram
+que nadie recuerda, pero se llamaba Faceboom Camera.
 
 226
 00:21:48,659 --> 00:21:54,410
-morning the photo's team got called into the
-office early. They said like be at HQ at 8am
+Una mañana, el equipo de fotos fue llamado llegar temprano.
+Nos dijeron que fueramos a las oficinas principales a las 8 am.
 
 227
 00:21:54,410 --> 00:21:57,789
-and then the VP of engineering was like hey
-we bought Instagram, they're your new co-workers
+El vicepresidente de ingeniería nos contó que habían comprado Instagram,
+y que ahora eran nuestros colaboradores.
 
 228
 00:21:57,789 --> 00:22:02,980
-now. And these were like the people that were
-like our fierce competitors you know. We looked
+Estas personas eran nuestros rivales, sabes?
 
 229
 00:22:02,980 --> 00:22:06,730
-at them a little bit as the enemy, I'm sure
-they looked at us a little bit as the enemy.
+Los veíamos un poco como nuestros enemigos.
+Estoy seguro que también nos veían como enemigos.
 
 230
 00:22:06,730 --> 00:22:10,950
-They were a really small team at the time,
-they had their core fundamentals really nailed
+Eran un equipo muy pequeño,
+y habían acertado con los fundamentos,
 
 231
 00:22:10,950 --> 00:22:15,370
-but there was a lot of stuff they needed to
-figure out, that they did not have the team
+pero todavía faltaban muchas por solucionar,
+y no tenían un equipo que se encargara de encontrar esas soluciones,
 
 232
 00:22:15,370 --> 00:22:19,730
-to figure out on their own and a big one of
-those was what does it mean for Instagram
+y uno de esos casos era entender que era necesario para que
+Instagram llegara a la web.
 
 233
 00:22:19,730 --> 00:22:23,140
-to be on the web. The web experience is really
+La experiencia en la web es muy important
+para lograr crecimiento
 important for driving growth and so this was
 
 234
 00:22:23,140 --> 00:22:28,100
-a pretty important priority and so me and
-this designer, Maykel Loomans, started building
+por lo que era una gran prioridad, así que el diseñador
+Maykel Loomans y yo comenzamos a trabajar
 
 235
 00:22:28,100 --> 00:22:34,370
-all the web stuff. And that's kind of where
-React enters the picture, when we started
+todo lo relacionado a web.
+Y es entonces cuando React entra a escena
 
 236
 00:22:34,370 --> 00:22:40,760
-developing this website. [Music]
+cuando comenzamos a trabajar en este sitio web.
+[Música]
 
 237
 00:22:40,760 --> 00:22:49,270
-We were given this mandate to use client rendering
-so I went to the product infrastructure team
+Nos dieron la orden de usar render del lado del cliente,
+así que fui con el equipo de infraestructura de producto
 
 238
 00:22:49,270 --> 00:22:56,830
-at Facebook, which was run by Tom Occhino.
-Product infrastructure's role was to support
+en Facebook, que estaba lidereado por Tom Occhino.
+El rol de este equipo era apoyar
 
 239
 00:22:56,830 --> 00:23:03,830
-any team that needed help and do it in a way
-that your key indicators of success are going
+a cualquier otro equipo que necesitara ayuda, y hacerlo
+de forma en que tus métricas clave de éxito
 
 240
 00:23:03,830 --> 00:23:08,380
-to be other teams saying "yeah that really
+fueran otros equipos diciendo: sí, eso realme
+nos ayudó. Ibas con ellos a algo así como una
 helped us". You go to them and you kind of
 
 241
 00:23:08,380 --> 00:23:15,060
-consult the Council of Elders and they give
-you their recommendation and I said, hey we
+reuinón con el consejo de sabios, y ellos te
+daban sus recomendaciones, y les dije:
 
 242
 00:23:15,060 --> 00:23:19,900
-need to do client rendering, what do we do?
-And the recommendation at the time was yeah
+Oigan, necesitamos hacer render en el lado del cliente.
+Cómo lo hacemos? Y nos dijeron:
 
 243
 00:23:19,900 --> 00:23:22,420
-we don't know. We've got like three different
-things that we're working on, you should go
+No sabemos. Tenemos 3 cosas diferentes en las que
+hemos estado trabajando, deberías probar alguna.
 
 244
 00:23:22,420 --> 00:23:33,809
-try one. We had something called Bolt.js,
-there was a second thing called JS.HTML and
+Tenemos algo llamado Bolt.js, otro llamado JS.HTML, y
 
 245
 00:23:33,809 --> 00:23:39,850
-then there was this this thing called React.
-Pete went and spoke to Jordan about using
+esto otro llamado React.
+Pete fue y habló con Jordan acerca de usar
 
 246
 00:23:39,850 --> 00:23:44,620
-React and he came and talked to me about potentially
-using Bolt for it but I think he really, really
+React, y me contó acerca de potencialmente usar Bolt, pero
+creo que de verdad le gustaban las ideas
 
 247
 00:23:44,620 --> 00:23:50,559
-liked Jordan's ideas around functional programming.
-The conceptual model of react was like crazy
+de Jordan acerca programación funcional.
+El model conceptual de React era muy innovador,
 
 248
 00:23:50,559 --> 00:23:55,830
-Innovative and it really, really spoke to
-me. My background was in distributed systems.
+y me llamaba la atención.
+Mis experiencia era en sistemas distribuidos.
 
 249
 00:23:55,830 --> 00:24:01,610
-I was not somebody that loved front-end or
-thought front-end was doing things well, so
+No era alguien a quien le encantara el frontend, o
+que pensara que las cosas iban bien en el frontend.
 
 250
 00:24:01,610 --> 00:24:06,070
-the fact that React came in with like a totally
-fresh approach and didn't really care too
+Así que el hecho de que React llegara con un enfoque
+nuevo y no le importara en lo absoluto
 
 251
 00:24:06,070 --> 00:24:11,070
-much about existing best practices, like I
-was I was on board with that. So while I had
+acerca de las mejores prácticas existentes, fue lo que me
+convenció. Así que mientras yo había considerado
 
 252
 00:24:11,070 --> 00:24:16,289
-evaluated all three I really just dove in
-on React to build a prototype first and that
+las 3 opcionas, estaba inmerso en la idea de construir
+un prototipo hecho en React,
 
 253
 00:24:16,289 --> 00:24:22,870
-ended up shipping on Instagram.com which was
-the second use of React in production ever
+y eso terminó en lo que lanzamos en Instagram.com, que fue
+el segundo uso de React en producción,
 
 254
 00:24:22,870 --> 00:24:30,590
-and the first use of building a full application
-end to end in React.
+y el primer caso de construir una aplicación completa
+en React.
 
 255
 00:24:30,590 --> 00:24:35,429
-When I chose React for Instagram it was not
-well known within Facebook and it was this
+Cuando elegí React para Instagram no era tan conocido
+dentro de Facebook, y era algo así
 
 256
 00:24:35,429 --> 00:24:40,300
-kind of crazy science experiment.
+como un loco experimento de ciencias.
 
 257
 00:24:40,300 --> 00:24:45,520
-Not even close. By the time Instagram was,
-and you know Pete started playing with it,
+No era ni remotamente eso. Pete estaba experimentando
+con React,
 
 258
 00:24:45,520 --> 00:24:50,909
-it was significantly better than it was in
-the early, early stage but it still needed
+y para aquel entonces, ya era mucho mejor que los primeros
+días, pero aún necesitaba muchas iteraciones más.
 
 259
 00:24:50,909 --> 00:24:55,200
-a ton of iteration. We had to take this thing
-that was very much tied to Facebook's infrastructure
+Teníamos que tomar esto que estaba muy atado
+a la infraestructura de Facebook,
 
 260
 00:24:55,200 --> 00:25:01,720
-which back then was a big giant PHP application
-and I had to go get that working in a Django
+que era una aplicación gigante hecha en PHP,
+y tenía que hacerlo trabajar en una aplicación de Django,
 
 261
 00:25:01,720 --> 00:25:07,440
-application which is a totally different system.
+que era un sistema totalmente distinto.
+Y lo que fue clave no fue hacerlo una vez,
 And what was key was not doing that once but
 
 262
 00:25:07,440 --> 00:25:12,049
-making that a repeatable process and making
-sure that that pipeline didn't break. I think
+sino hacerlo un proceso repetible y asegurarnos que
+el proceso no se rompiera.
 
 263
 00:25:12,049 --> 00:25:17,059
-he hit a number of really interesting problems
-along the way which quite proved the fact
+Creo que alcanzamos un número muy interesante de problemas
+en el camino, que demostró que React
 
 264
 00:25:17,059 --> 00:25:22,130
-that React was not quite ready for that scale
-and along the way Pete, and the team that
+aún no estaba listo para esta escala, y mientras tanto,
+Pete y el equipo con el que estaba trabajando
 
 265
 00:25:22,130 --> 00:25:50,590
-he was working with, built a lot of really
-interesting things. [Music]
+construyero varias cosas interesantes.
+[Música]
 
 266
 00:25:50,590 --> 00:25:56,190
-Some of these products ended up being fairly
-successful. There were relatively short time
+Algunos de estos productos terminando siendo exitosos.
+Había un período de tiempo relativamente corto
 
 267
 00:25:56,190 --> 00:26:03,800
-to deliver a relatively high quality product.
-That showed that this model could work and
+para entregar un producto de alta calidad.
+Eso demostró que este modelo podría funcionar,
 
 268
 00:26:03,800 --> 00:26:10,010
-it was not just that, but people liked developing
-using it. And so that kind of spread and took
+y no solo eso, también que la gente disfrutaba desarrollar
+con el. Eso se extendió y despegó,
 
 269
 00:26:10,010 --> 00:26:15,510
-off and especially is it got more and more
-investment, it became clear that this was
+y especialmente comenzó a tener más y más inversión,
+y se volvió claro que esto era
 
 270
 00:26:15,510 --> 00:26:22,110
-what we wanted to use and it was really ads
+lo que queríamos usar. Realmente el equipo de publicidad
+eran quienes usaban más Bolt.
 that was kind of using Bolt more. It had a
 
 271
 00:26:22,110 --> 00:26:28,230
-higher level of investment, more people working
-in that code base, that already knew it and
+Tenían un nivel más alto de inversión en el, más personas trabajando
+en ese código, que ya estaban familiarizados, y tenían
 
 272
 00:26:28,230 --> 00:26:35,929
-more components so it was a harder shift to
-make.
+muchos componentes, así que era más difícil de cambiar.
 
 273
 00:26:35,929 --> 00:26:40,340
-The ads team just before I joined ads from
-the mobile team had done a full rewrite of
+El equipo de publicidad, justo antes de que me cambiara del equipo
+de apps móviles, recién habían reescrito completamente
 
 274
 00:26:40,340 --> 00:26:45,820
-the ads creation flow into Bolt. Which took
-them I think upwards of six months replacing
+todo el flujo de creación de publicidad en Bolt.
+Creo que les tomó unos 6 meses reemplazar
 
 275
 00:26:45,820 --> 00:26:52,340
-a very old PHP application with what time
-was considered a very modern JavaScript application.
+esta aplicación vieja hecha en PHP con lo que se consideraba
+entonces una aplicación moderna en JavaScript.
 
 276
 00:26:52,340 --> 00:26:58,679
-But at the same time React was also now actually
-deployed for real on Facebook and had a team
+Pero al mismo tiempo, React ya estaba lanzado en la aplicación
+de Facebook, y tenía un equipo
 
 277
 00:26:58,679 --> 00:27:03,000
-that was forming around it. So we now had
-two viable frameworks that were both live
+que se estaba formando alrededor de el. Así que
+ahora teníamos dos frameworks viables que vivían
 
 278
 00:27:03,000 --> 00:27:09,360
-on Facebook, both solving real problems. We
-shouldn't have two. Especially two that were
+en Facebook, ambos resolviendo problemas reales.
+No deberíamos tener ambos, especialmente cuando
 
 279
 00:27:09,360 --> 00:27:12,919
-similar. Similar enough to confuse people.
+los dos eran muy similares. Suficientemente similares como
+para confundir a la gente. Si mirabas el código,
 Like if you looked at the code, their code
 
 280
 00:27:12,919 --> 00:27:17,029
-almost looked identical but that worked really
-differently. It would actually be an absolute
+parecían prácticamente idénticos, pero funcionaban totalmente
+diferente. Sería una pesadilla
 
 281
 00:27:17,029 --> 00:27:24,320
-nightmare if you had to work in both. So we
-had to decide which to use.
+si tuvieras que trabajar en ambos.
+Así que tuvimos que decidir cual usar.
 
 282
 00:27:24,320 --> 00:27:26,890
-[Music]
+[Música]
 
 283
 00:27:26,890 --> 00:27:31,580
-A lot of this ended up being a conversation
-between myself and Jordan. We did an evaluation
+Mucho de esto terminó siendo una conversación entre
+Jordan y yo.
 
 284
 00:27:31,580 --> 00:27:36,660
-of both of them. A lot of performance-based
-stuff and trying to figure out where the edge
+Evalúamos ambas opciones. Muchas cosas relacionadas a desempeño,
+y tratando de entender todos los casos.
 
 285
 00:27:36,660 --> 00:27:42,030
-cases were. On the pro side of React, obviously
-there's all the things that we know now: it
+Del lado a favor de React, obviamente están todas las
+cosas que conocemos ahora:
 
 286
 00:27:42,030 --> 00:27:46,890
-handles complexity way, way more. Even when
-writing the ads creation flow in Bolt we had
+es capaz de manejar muchísima complejidad.
+Incluso cuando creamos el flujo de creación de publicidad
 
 287
 00:27:46,890 --> 00:27:51,760
-already hit one place that you just could
-not do in Bolt without writing spaghetti code,
+en Bolt, llegamos a un punto que no podíamos hacer en Bolt
+sin escribir código spaghetti.
 
 288
 00:27:51,760 --> 00:27:56,940
-and you can do in React. So we knew in the
-future even if it was only 10% of the experience
+Esto se podía lograr en React. Entonces supimos que
+en el futuro, incluso si solo era 10% de la experiencia
 
 289
 00:27:56,940 --> 00:28:01,230
-we were building, we're going to run into
-this problem again. Now it might only be 10%
+que estábamos construyendo, volveríamos a toparnos con este problema
+nuevamente. Tal vez solo sea 10% inmantenible,
 
 290
 00:28:01,230 --> 00:28:05,169
-unmaintainable but as you scale that across
-a company that is growing rapidly, this becomes
+pero conforme escalas esto en compañía que está creciendo rápidamente,
+esto se convierte en un desastre.
 
 291
 00:28:05,169 --> 00:28:10,140
-an absolute mess. The cons of it on the other
-hand were that React in a lot of ways was
+Los contras eran que React, en muchos casos, aún no estaba probado
+totalmente aún.
 
 292
 00:28:10,140 --> 00:28:13,860
-not battle tested yet. There's a lot of things
-that simply didn't work in React. It couldn't
+Habían muchas cosas que simplemente no funcionaban en React.
+No manejaba formularios,
 
 293
 00:28:13,860 --> 00:28:17,970
-handle forms, they'd never done a text box
-and there's a lot of complexities around handing
+no habían hecho una caja de texto,
+y había muchas dificultades
 
 294
 00:28:17,970 --> 00:28:22,610
-awkward form controls like radio buttons and
+para manejar el estado en controles de un formulario, como los
+botones de radio, y otras cosas que se complicaban.
 so on that it messed up. Just performance
 
 295
 00:28:22,610 --> 00:28:27,679
-issues where it would try and re-render large
-blocks so they hadn't had to do all of the
+Problemas de desempeño donde intentaba repintar largos bloques
+para que no tuvieran que hacer todas esas mejoras
 
 296
 00:28:27,679 --> 00:28:32,830
-performance improvements that obviously exist
-now. On the organizational side the other
+que actualmente existen. Del lado de la organización,
 
 297
 00:28:32,830 --> 00:28:39,590
-con was that we had just done the six-month
-rewrite in Bolt. Facebook had done an IPO
+otro contra era que recién habíamos reescrito el proyecto en Bolt
+Facebook había salido a la bolsa recientemente,
 
 298
 00:28:39,590 --> 00:28:45,750
-recently and the stock had halved since IPO.
-Facebook wasn't making enough money and so
+y las acciones se habían reducido a la mitad desde entonces.
+Facebook no estaba generado suficiente dinero
 
 299
 00:28:45,750 --> 00:28:49,870
-the ads team is the team that makes, you know,
-that's where the money starts. If we stop
+y el equipo de publicidad es el equipo donde el dinero
+empieza. Si parábamos por 4 meses
 
 300
 00:28:49,870 --> 00:28:55,679
-for four months we're gonna have to tell everybody
-sorry no money for you so there was a lot
+tendríamos que decirle a todos: lo sentimos, no hay dinero,
+así que había muchas conversaciones
 
 301
 00:28:55,679 --> 00:28:59,150
-of conversation back and forth about all this.
-It got very difficult. Initially a lot of
+acerca de todo esto. Se volvió muy difícil.
+Inicialmente,
 
 302
 00:28:59,150 --> 00:29:03,620
-the engineers that used Bolt, including Shane,
-realized just what you said. Like look we've
+muchos de los ingenieros que habían usado Bolt, incluyendo
+Shane, se dieron cuenta de ello.
 
 303
 00:29:03,620 --> 00:29:07,760
-invested so much in this thing and it's really
-worked for all this stuff, certainly we can
+Hemos invertido mucho en esto, y ha funcionado para todo,
+ciertamente podemos hacerlo trabajar
 
 304
 00:29:07,760 --> 00:29:12,100
-work through the next set of challenges we're
-having. So initially there was opposition
+para los problemas que vengan.
+Así que hubo oposición de usar React
 
 305
 00:29:12,100 --> 00:29:16,299
-to React coming in and saying like how are
-you gonna, you know, this new thing that's
+sabiendo que esto era nuevo y
+que ni siquiera estaba probado.
 
 306
 00:29:16,299 --> 00:29:20,750
-not even proven yet. This is our business,
-this is really important. When Jordan and
+Este es nuestro negocio, y es muy importante.
+Cuando Jordan
 
 307
 00:29:20,750 --> 00:29:25,890
-I were working through it, there was definitely
-uh some emotions uh there um and mostly I
+y yo pláticamos con ellos,
+había algunas sentimientos encontrados,
 
 308
 00:29:25,890 --> 00:29:29,640
-think it came from uh each of us having a
-lack of context of where the other one was
+y creo que venían de cada uno de nosotros que no
+teníamos el contexto del otro.
 
 309
 00:29:29,640 --> 00:29:34,510
-coming from. So I think there was a lot of
-talking past each other. In the end Mike Schroepfer
+Hubo muchas conversaciones.
+Al final, Mike Schroepfer
 
 310
 00:29:34,510 --> 00:29:41,360
-stepped in and said, look make the right technical
-decision, make the right long-term decision
+intervino y dijo: mira, toma la decisión técnica correcta,
+y haz la decisión correcta a largo plazo
 
 311
 00:29:41,360 --> 00:29:47,159
-and whatever it is I'll back you up. But if
-you need to pause product development for
+y cualquiera que sea esa decisión, yo te respaldo.
+Si necesitas parar el desarrollo de producto
 
 312
 00:29:47,159 --> 00:29:53,070
-four months you can. We all kind of just got
-in rooms and you know worked through all these
+por 4 meses, puedes hacerlo. Conseguimos algunas salas
+de juntas y comenzamos a aclarar todas estas dudas
 
 313
 00:29:53,070 --> 00:29:57,320
-things and got everything out in the air of
-what's a technical problem, what's an organization
+acerca de que era un problema técnico,
+que era un problema de la organización,
 
 314
 00:29:57,320 --> 00:30:03,390
-problem, what's a financial problem and kind
-of a came to the understanding eventually
+que era un problema financiero, y comenzamos a entender,
 
 315
 00:30:03,390 --> 00:30:09,220
-through uh with lots and lots of coffee that
-React was the right way to go, but um it was
+junto a mucho, mucho café, que React era el camino
+a tomar. Pero no era una decisión sencilla después de todo.
 
 316
 00:30:09,220 --> 00:30:14,799
-not a straight line at all. He ultimately
-was one of the biggest proponents or decision
+El fue una los proponentes más grandes
 
 317
 00:30:14,799 --> 00:30:21,330
-makers in ads switching everything over to
-React and that doesn't happen in most companies.
+para que el equipo de publicidad migrara todo a React, y
+eso no es algo que ocurra normalmente en la mayoría de las empresas.
 
 318
 00:30:21,330 --> 00:30:27,289
-In most companies if that's your baby project
-you try to undermine the other, the upstart,
+En casi todas las compañías, si este proyecto es tu bebé,
+tratas de desestimar a los otros
 
 319
 00:30:27,289 --> 00:30:31,860
-because you're you know you're really defensive
-over your own thing. That was not the vibe
+porque sabes bien que te pones a la defensiva de tus proyectos.
+Ese no fue el caso en Facebook en ese entonces,
 
 320
 00:30:31,860 --> 00:30:39,090
-at Facebook at the time and I think that Shane
-in particular really exemplified that. There
+y creo que Shane ejemplificó exactamente eso.
 
 321
 00:30:39,090 --> 00:30:45,070
-was still a lot of work to do on the ads creation
-flow. Tensions were mounting and the team
+Había mucho trabajo por hacer en el flujo de creación de publicidad.
+Las tensiones se acumulaban y el equipo estaba atascado.
 
 322
 00:30:45,070 --> 00:30:52,179
-was stuck. Here again to get them unstuck,
-is Jing Chen. We'd have this thorny management
+Y para desbloquearlos, está Jing Chen.
+Teníamos este problema de gestión algo complicado,
 
 323
 00:30:52,179 --> 00:30:55,659
-issue and a lot of people disagreeing with
-each othe,r up and down the management chain
+todos entraban en desacuerdos en ambos bandos:
 
 324
 00:30:55,659 --> 00:30:59,960
-on both sides of you know in ads and in this
-product infrastructure group those building
+de un lado tenías al equipo de publicidad, y
+del otro al equipo de infraestructura.
 
 325
 00:30:59,960 --> 00:31:04,130
-react and we'd send Jing in to talk to the
-engineers and everyone would come out, like
+Envíamos a Jing a que hablara con los ingenieros,
+y salieron motivados,
 
 326
 00:31:04,130 --> 00:31:08,539
-patting each other on the back, full agreement,
-a plan to move forward. So she's great at
+todos llegaron a acuerdos, con un plan para seguir adelante.
+Ella es muy buena
 
 327
 00:31:08,539 --> 00:31:14,430
-building a consensus because she's able to
-drill into the important technical details,
+construyendo consensos, porque es capaz de llegar
+hasta los detalles técnicos más importantes,
 
 328
 00:31:14,430 --> 00:31:18,520
-identify them really quickly and get everyone
-talking about the same thing. She obviously
+los identifica rápidamente, y logra que todos hablen
+del mismo punto. Obviamente
 
 329
 00:31:18,520 --> 00:31:23,330
-helped both build the product but she also
-made sure that every time we found a bug in
+ella ayudó a ambos equipos a construir el producto, pero se
+aseguró que cada vez que encontraban un bug en
 
 330
 00:31:23,330 --> 00:31:28,380
-React or just something that it didn't handle
-yet, she either stepped back from product
+React, o había algo que todavía no soportábamos,
+simplemente iba al framework y lo arreglaba.
 
 331
 00:31:28,380 --> 00:31:32,269
-and then just fixed the framework. Or she
-went back to the team and said look we need
+O iba con el equipo de React y les decía:
+necesitamos dos o tres ingenieros trabajando
 
 332
 00:31:32,269 --> 00:31:36,340
-two or three engineers working on this stuff
-for the next month to unblock the ads team.
+en esto por un mes para desbloquear al equipo de publicidad.
 
 333
 00:31:36,340 --> 00:31:40,580
-The ads manager was complicated enough that
-it actually ended up being a really great
+El administrador de publicidad era tan complicado
+que terminó siendo una gran fuente
 
 334
 00:31:40,580 --> 00:31:48,020
-source of performance improvements and finding
-like, where are the true points where it just
+para lograr mejoras en el desempeño de React, y también
+para encontrar puntos donde no escalaba bien.
 
 335
 00:31:48,020 --> 00:31:53,039
-doesn't quite scale. So I think it was a lot
+Fue bastante acerca de usar estas piezas que teníamos
 of using the building blocks that we had and
 
 336
 00:31:53,039 --> 00:31:56,110
-as you start to assemble them into a really
-complicated looking application, what are
+y que conforme las ensamblaba en lo que parecía una
+aplicación compleja, emergían nuevos problemas
 
 337
 00:31:56,110 --> 00:31:59,410
-the new problems that come out of that, that
-we need to solve. And there was definitely
+que teníamos que solucionar. Y definitivamente
 
 338
 00:31:59,410 --> 00:32:04,500
-a lot of those. This is one of the most fun
-intense periods of my career as I remember
+había mucho de eso. Este fue uno de los períodos más
+divertidos e intensos de mi carrera.
 
 339
 00:32:04,500 --> 00:32:08,289
-it. We would be going to meet with the team
-and we would have to help them put some feature
+Ibamos a conocer al equipo y teníamos que
+ayudarles a crear un feature
 
 340
 00:32:08,289 --> 00:32:14,380
-in and we would code it up ourselves first
-in React just to make sure that the that they
+y primero lo programaríamos nosotros mismos en React
+para asegurarnos que ellos no
 
 341
 00:32:14,380 --> 00:32:18,740
-wouldn't hit any rough edges. Or more like
-to find all the rough edges that we knew they'd
+llegaran a un caso difícil. O algo así como encontrar
+todos los casos difíciles que pudieran enfrentar
 
 342
 00:32:18,740 --> 00:32:24,100
-hit and figure out what the solutions would
-be. So it was really exciting because we were
+y descubrir soluciones para eso.
+Así que fue muy emocionante porque
 
 343
 00:32:24,100 --> 00:32:28,279
+estábamos trabajando en dos cosas al mismo tiempo.
+Una era entregar esto, que era un proyecto complicado
 working on two things at the same time. One
 was delivering this really complicated, really
 
 344
 00:32:28,279 --> 00:32:33,110
-important software project for Facebook: the
-ads manager. And the other was refining this
+y muy importante para Facebook: el administrador de publicidad.
+Y lo otro era refinar este framework
 
 345
 00:32:33,110 --> 00:32:40,330
-framework that we really believed in which
-was React. By the time we had rebuilt the
+en el cual todos confíabamos, que era React.
+Por aquel entonces tuvimos que rehacer
 
 346
 00:32:40,330 --> 00:32:44,460
-ads creation flow, which I think took about
-four months, it had been battle tested with
+el flujo de creación de publicidad,
+que creo que nos tomo 4 meses. Habíamos probado
 
 347
 00:32:44,460 --> 00:32:49,880
-basically everything about the browser supports,
-all the form fields and everything, and also
+básicamente todo: el soporte a navegadores, todos los campos
+del formulario y problemas de desempeño
 
 348
 00:32:49,880 --> 00:32:55,950
-massive performance issues that had been resolved,
-so at that point it was kind of felt that
+habían sido resueltos, así que estábamos
+en un punto en que se sentía que esto
 
 349
 00:32:55,950 --> 00:33:01,710
-it was ready to be open source because you
-know we we used it in multiple different types
+estaba listo para ser liberado como código abierto,
+porque sabes? Lo usamos en múltiples tipos
 
 350
 00:33:01,710 --> 00:33:10,190
-of contexts and that you know it would actually
-be generally useful to the public. [Music]
+de contextos, y sabíamos que iba a ser muy útil
+para el público. [Música]
 
 351
 00:33:10,190 --> 00:33:19,610
-[Mumbled question]
-What did you say, Evan?
+Qué dijiste, Evan?
 
 352
 00:33:19,610 --> 00:33:29,130
-Uh there is not, sorry. Open sourcing React
-was never a question for me. That was the
+No hay, lo siento. Para mí, publicar el código de React
+nunca estuvo en duda. Esa era la meta
 
 353
 00:33:29,130 --> 00:33:35,370
-goal from the very beginning. Tom had this
-idea, he called it project perception, and
+desde el principio. Tom tenía esta idea que llamaba
+percepción de proyecto,
 
 354
 00:33:35,370 --> 00:33:40,580
-he was really angry I think it's probably
-the best word for it. He was angry that Facebook
+creo que "furioso" es la mejor palabra para describirlo.
+El estaba furioso de que Facebook
 
 355
 00:33:40,580 --> 00:33:46,279
-was hiring all these luminaries from the JavaScript
-world. They would come to Facebook and you
+estuviera contratando a todas estás estrellas del mundo
+de JavaScript. Ellos llegaban a Facebook
 
 356
 00:33:46,279 --> 00:33:50,360
-know because we discouraged people from writing
-client-side JavaScript and because it was
+y sabías, porque estaban en contra de escribir JavaScript
+para el lado del cliente, y porque
 
 357
 00:33:50,360 --> 00:33:54,900
-a hard environment to maneuver in, they would
-actually go pick up mobile because that was
+era un ambiente difícil de maniobrar, que ellos elegirían
+el desarrollo móvil porque
 
 358
 00:33:54,900 --> 00:33:58,970
-where a lot of the interesting client-side
-development was happening. And Tom was determined
+había muchos desarrollos interesantes ocurriendo del lado del cliente.
+Y Tom estaba determinado
 
 359
 00:33:58,970 --> 00:34:05,389
-to change this around. I remember going to
-this conference and I was talking to someone
+a cambiar esto. Recuerdo haber ido a esta conferencia y yo
+estaba platicando con alguien
 
 360
 00:34:05,389 --> 00:34:09,169
-and I told them I worked at Facebook on JavaScript
-and they're like why would you do that? I
+y le dije que trabajaba en Facebook usando JavaScript, y
+el respondió: pero porque harías eso?
 
 361
 00:34:09,169 --> 00:34:13,040
-hate what Facebook does to the JavaScript
-industry. You have hired all these really
+Odio lo que Facebook le está haciendo a la industria de JavaScript.
+Han contratado a todas estas personas
 
 362
 00:34:13,040 --> 00:34:17,050
-great people from these really great projects
-and we have no idea what they're working on
+de estos grandes proyectos, y ahora no tenemos idea
+de lo que están trabajando.
 
 363
 00:34:17,050 --> 00:34:23,159
-now. They've given nothing back. So I think
+No han dado nada de vuelta. Creo que
+cuando React llegó, yo recién había comenzado
 when React came along I started very early
 
 364
 00:34:23,159 --> 00:34:28,770
-on talking about if this thing works for us
-I really want us to find a path to open source.
+a hablar de que, si esto realmente nos funciona, teníamos
+que encontrar un camino para publicarlo como código abierto.
 
 365
 00:34:28,770 --> 00:34:33,859
-And I was running that up the management chain
-very early so when the time came to open source
+Y estaba comunicando esto a la administración desde el inicio,
+para que cuando llegara el momento de hacerlo código abierto,
 
 366
 00:34:33,859 --> 00:34:45,020
-it, there were some meetings, it was controversial
-but we had all the support we needed already.
+hubieran algunas juntas, fuera controversial, pero ya tuvieramos
+todo el apoyo que necesitáramos.
 
 367
 00:34:45,020 --> 00:34:52,220
-The process of open sourcing is interesting.
-There's first a technical problem to solve.
+El proceso de acerlo código abierto fue interesante.
+Primero hay un problema técnico por resolver.
 
 368
 00:34:52,220 --> 00:34:55,609
-You have to figure out how to extract it out
-of your infrastructure and make it work in
+Tienes que descubrir como extraerlo de tu infraestructura
+y hacerlo funcionar como código abierto,
 
 369
 00:34:55,609 --> 00:35:01,180
-the open source, which is all the homework
-that we did for Instagram. We made this call
+que fue toda la tarea que hicimos para Instagram.
 
 370
 00:35:01,180 --> 00:35:05,849
-that like we will not impact developer productivity
+Tuvimos esta iniciativa de que no ibamos a impactar
+la productividad de los desarrolladores en lo absoluto,
 at all, it's going to be entirely on the open
 
 371
 00:35:05,849 --> 00:35:10,660
-source team, which was just a bunch of people
-that wanted to open source it, to make it
+esto va a recaer totalmente en el equipo de código abierto,
+que eran solamente un montón de personas que querían publicarlo,
 
 372
 00:35:10,660 --> 00:35:17,120
-work. Then actually pulling the trigger on
-open source, we had to write a lot of documentation.
+querían que ocurriera. Y para realmente hacerlo código abierto,
+teníamos que escribir mucha documentación.
 
 373
 00:35:17,120 --> 00:35:21,710
-We spent actually a lot of time with the documentation
-to explain like, hey what is React, what are
+Pasamos mucho tiempo con la documentación para explicar:
+esto es React, esto son los conceptos,
 
 374
 00:35:21,710 --> 00:35:27,170
-all the concepts and we tried to put ourselves
-in the shoes of somebody that want to build
+y tratamos de ponernos en los zapatos de alguien
+que quería crear una app.
 
 375
 00:35:27,170 --> 00:35:33,220
-an app. How do we give the documentation in
-a way it helps them do that. Paul O'Shannessy
+Como das la documentación en una forma en que
+puedas ayudarlos a lograrlo.
 
 376
 00:35:33,220 --> 00:35:37,630
-did a lot of this because he really had the
-experience with what the ecosystem needed
+Paul O'Shannessy hizo mucho de esto porque tenía
+la experiencia de lo que el ecosistema necesitaba
 
 377
 00:35:37,630 --> 00:35:46,240
-to make this work at the time. Paul O'Shannessy
+en aquel entonces hacerlo funcionar.
+Paul O'Shannessy fue una gran fuerza para
 was a huge force on open sourcing. As was
 
 378
 00:35:46,240 --> 00:35:51,770
-James Pearce who was the head of Facebook
-open source. James had joined the company
+lograrlo publicar como código abierto, al igual que lo fue James Pearce,
+quien era el líder del la división de código libre en Facebook.
 
 379
 00:35:51,770 --> 00:35:57,720
-and he really wanted to change Facebook's
-open source image. We had previously open
+James se había unido a la compañía y realmente quería
+cambiar la imagen de Facebook en el mundo del código abierto.
 
 380
 00:35:57,720 --> 00:36:02,080
-sourced a lot of stuff but we let it rot.
-We would say, hey we're an open source company,
+Recientemente habíamos liberado muchas cosas, pero los abandonamos.
+Podíamos decir: somos una empresa que apoya el código abierto
 
 381
 00:36:02,080 --> 00:36:06,160
-here's our great framework and then we would
-just never maintain it. And James and Paul
+aquí está nuestro gran framework, y entonces nunca
+darle mantenimiento. James y Paul
 
 382
 00:36:06,160 --> 00:36:09,970
-in particular were pretty instrumental in
-saying, hey if we're going to open source
+en lo particular fueron muy específicos
+en mencionar que si ibamos a publicar React
 
 383
 00:36:09,970 --> 00:36:15,990
-React, we're going to do it right. Internally
-there was a lot of excitement because we had
+como código libre, teníamos que hacerlo bien.
+Internamente había mucha emoción porque ya
 
 384
 00:36:15,990 --> 00:36:20,520
-already been using this thing for a while
-and it was working for us, we were excited
+habíamos usado este proyecto por algo de tiempo
+y nos estaba funcionando, y nos emocionaba eso.
 
 385
 00:36:20,520 --> 00:36:27,450
-about it. We chose JSconf US which was kind
-of the, I don't know, the Oscars of JavaScript
+Elegimos la JSConf US, que era algo así
+como los Oscars de JavaScript
 
 386
 00:36:27,450 --> 00:36:31,750
-- is that fair representation maybe? You know
+tal vez es una comparación justa?
+Todas las celebridades estaban aquí
 all the celebrities are there and everyone's
 
 387
 00:36:31,750 --> 00:36:36,340
-paying attention and everybody watches it
-live on YouTube. Tom and Jordan put together
+y todos ponían atención y lo miraban en vivo por YouTube.
+Tom y Jordan crearon una presentación.
 
 388
 00:36:36,340 --> 00:36:40,490
-this presentation. Tom is a great speaker
+Tom es un gran orador,
+y Jordan es un ingeniero brillante
 and Jordan is a brilliant engineer, it was
 
 389
 00:36:40,490 --> 00:36:46,359
-like a Lennon and McCartney type of situation.
-There was no way that this thing could possibly
+y era algo así como ver a Lennon y McCartney
+No había nada en esto que pudiera
 
 390
 00:36:46,359 --> 00:36:50,579
-fail.
+fallar.
 
 391
 00:36:50,579 --> 00:37:00,619
-[Music] It was in Florida, at like 9 00 a.m.
-We were in Menlo Park and we woke up early,
+[Música] Fue en Florida, eran las 9:00 am.
+Estábamos en Melo Park y nos despertamos temprano,
 
 392
 00:37:00,619 --> 00:37:05,050
-we took the first bus into the office. It
-was completely empty and we're getting ready
+y tomamos el primer bus a la oficina.
+Estaba totalmente vacío, y estábamos listos
 
 393
 00:37:05,050 --> 00:37:09,241
-to like press the button on the repo to open
+para presionar el botón para exponer el repositorio
+como código libre. Jordan y yo estábamos emocionados
 source it. Jordan and I were all excited we
 
 394
 00:37:09,241 --> 00:37:13,140
-got up on stage. I'm going to talk a bit about
-how we do JavaScript application development
+cuando subimos al escenario. Yo iba a hablar un poco
+de como hacíamos desarrollabamos con JavaScript
 
 395
 00:37:13,140 --> 00:37:17,560
-at Facebook. It was a little unconventional,
-I did a little bit of it, he did more of it.
+en Facebook. Era poco convencional. Hice un poco de esto,
+el hizo un poco de aquello.
 
 396
 00:37:17,560 --> 00:37:23,750
-So along with react we are shipping an embeddable
+Junto con React estamos lanzando una sintaxis de XML
+que llamamos JSX.
 XML syntax and we're calling that JSX. And
 
 397
 00:37:23,750 --> 00:37:29,301
-we jumped into showing some code and that
+Mostramos algo de código y ese código se veía raro.
 code looked different, it looked weird. Here
 
 398
 00:37:29,301 --> 00:37:36,570
-we have React used with JSX. And people were
-rightfully skeptical we'll call it. Everyone
+Aquí tenemos React y JSX.
+Y las personas estaban escépticas.
 
 399
 00:37:36,570 --> 00:37:43,329
-hated it, everyone thought it was awful!
+Todos lo odiaron. Todos pensaron que era horrible.
 
 400
 00:37:43,329 --> 00:37:47,770
