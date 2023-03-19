@@ -1,37 +1,41 @@
 1
-00:00:04,520 --> 00:00:13,670
+00:00:24,000 --> 00:00:26,000
 [Música]
 Probando. Uno, dos, uno, dos.
 
 2
-00:00:13,670 --> 00:00:33,489
+00:00:26,000 --> 00:00:31,489
 Uno, dos, tres, cuatro.
 El rápido zorro café salta sobre el perro perezoso.
 
 3
 00:00:33,489 --> 00:00:41,200
 Este es el podcast de React. Soy Chantastic.
-Hoy vamos a volver atrás. Muy, muy atrás. De regreso a los inicios
+Hoy vamos a volver atrás. Muy, muy atrás.
 
 4
 00:00:41,200 --> 00:00:47,380
-de React. Mirando 10 años atrás,
-pareciería que React siempre estuvo destinado a triunfar.
+De regreso a los inicios de React.
+Mirando 10 años atrás, pareciería que React
+siempre estuvo destinado a triunfar.
 
 5
 00:00:47,380 --> 00:00:52,719
-Que un framework hecho por Facebook era demasiado grande para fallar.
-Pero esta no es ese tipo de historia.
+Que un framework hecho por Facebook era demasiado
+grande para fallar. Pero esta no es ese
+tipo de historia.
 
 6
 00:00:52,719 --> 00:00:58,290
-De hecho, hubieron muchas ocasiones en la historia de Reacts
-donde parecia que no iba a tener éxito en lo absoluto.
+De hecho, hubieron muchas ocasiones en la
+historia de React donde parecia que no iba a
+tener éxito en lo absoluto.
 
 7
 00:00:58,290 --> 00:01:05,610
 Entonces, ¿qué pasó?
-¿Como es que React paso en 10 años de verse muerto al llegar
+¿Como es que React paso en 10 años de verse
+muerto al llegar
 
 8
 00:01:05,610 --> 00:01:12,580
@@ -40,28 +44,32 @@ Javascript dominante que es ahora?
 
 9
 00:01:12,580 --> 00:01:18,820
-Todo empieza en el 2011 en Facebook. jQuery y Backbone
-dominaban el front-end en JavaScript
+Todo empieza en el 2011 en Facebook.
+jQuery y Backbone dominaban el front-end
+en JavaScript
 
 10
 00:01:18,820 --> 00:01:24,710
-pero herramientas pragmáticas como Ember, Angular y
-Knockout entraron en escena. En el mundo exterior
+pero herramientas pragmáticas como Ember,
+Angular y Knockout entraron en escena
+En el mundo exterior
 
 11
 00:01:24,710 --> 00:01:30,070
 "Gangnam Style" recién se había subido a YouTube,
-"Call Me Maybe" estaba en la cima de las listas de música
+"Call Me Maybe" estaba en la cima de las
+listas de música
 
 12
 00:01:30,070 --> 00:01:35,790
-y el meme más reciente era el de "La Novia Psicópata"
-En tiempo del Internet,
+y el meme más reciente era el de
+"La Novia Psicópata" En tiempo del Internet,
 
 13
 00:01:35,790 --> 00:01:42,500
-básicamente una eternidad. Así que ponte el cinturón de seguridad,
-desconéctate de todo, y habilita el modo de "no molestar",
+básicamente una eternidad. Así que ponte el
+cinturón de seguridad, desconéctate de todo, y
+habilita el modo de "no molestar",
 
 14
 00:01:42,500 --> 00:01:45,320
@@ -175,7 +183,6 @@ tratando de llegar a la mente del público.
 00:03:53,459 --> 00:03:57,390
 Y había muchas similitudes entre ellos, pero cada
 una tenía sútiles diferencias
-one had its kind of bespoke differences and
 
 38
 00:03:57,390 --> 00:04:02,780
