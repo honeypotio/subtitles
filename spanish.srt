@@ -32,7 +32,6 @@ donde parecia que no iba a tener éxito en lo absoluto.
 00:00:58,290 --> 00:01:05,610
 Entonces, ¿qué pasó?
 ¿Como es que React paso en 10 años de verse muerto al llegar
-How did react go, in 10 years, from looking
 
 8
 00:01:05,610 --> 00:01:12,580
