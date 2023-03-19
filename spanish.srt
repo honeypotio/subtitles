@@ -3158,3 +3158,349 @@ Y se vuelve muy emocionante ver
 00:56:32,460 --> 00:56:37,120
 ese nuevo paradigma en juego y pensar: 
 esto va a ser revolucionario, esto va
+
+601
+00:56:37,120 --> 00:56:41,180
+cambiar el mundo. Volvamos en el tiempo
+un año atrás a la antigua interfaz de Netflix,
+ustedes podrían
+
+602
+00:56:41,180 --> 00:56:45,690
+recordarla. La apariencia general es como la de
+las viejas cajas de DVD,
+
+603
+00:56:45,690 --> 00:56:49,850
+Y así que quiero mostrarles uno de los primeros
+prototipos de lo que pensábamos que se 
+
+604
+00:56:49,850 --> 00:56:55,960
+vería la nueva interfaz de usuario. Sabíamos que
+hacia adelante el mundo estaba cambiando, la
+web estaba cambiando,
+
+605
+00:56:55,960 --> 00:57:00,059
+las cosas se movían más rápido, y nuestra
+competencia también se movía más rápido.
+Así que elegir React
+
+606
+00:57:00,059 --> 00:57:04,260
+y optar por un framework más moderno realmente
+nos ayudó a acelerar la velocidad a la que
+podíamos construir
+
+607
+00:57:04,260 --> 00:57:08,089
+el sitio web, la velocidad a la que podíamos
+sacar nuevas actualizaciones, la velocidad a
+la que podíamos probar mejoras
+
+608
+00:57:08,089 --> 00:57:13,619
+para nuestros clientes para crear la mejor
+experiencia posible.
+
+609
+00:57:13,619 --> 00:57:18,240
+Y debido a eso, hemos estado a la vanguardia
+de liderar cómo se ve el diseño de la interfaz
+de usuario en términos de
+
+610
+00:57:18,240 --> 00:57:23,720
+desarrollo web. Hemos tenido muchas empresas que
+nos han copiado, lo que tomamos como un gran
+cumplido,
+
+611
+00:57:23,720 --> 00:57:27,750
+pero nosotros estuvimos allí primero debido a
+React y su capacidad para moverse tan rápidamente
+en términos
+
+612
+00:57:27,750 --> 00:57:33,170
+de diseño. Así es como terminó resultando y
+esta es una interfaz de usuario que es grande
+e inmersiva
+
+613
+00:57:33,170 --> 00:57:42,940
+y completamente construido en React. Así que
+estamos muy muy orgullosos de ello y del resultado.
+[Música]
+
+614
+00:57:42,940 --> 00:57:48,410
+Netflix estaba elogiando públicamente a React
+y con una segunda gran empresa apostando
+fuerte por React,
+
+615
+00:57:48,410 --> 00:57:54,740
+el framework se hizo más popular. De hecho, tomó
+vida propia y la comunidad
+
+616
+00:57:54,740 --> 00:58:02,270
+comenzó a despegar.
+
+617
+00:58:02,270 --> 00:58:14,089
+[Música] En este punto, React estaba ganando más
+popularidad y alguien en Twitter mencionó
+
+618
+00:58:14,089 --> 00:58:19,820
+"sería genial tener una conferencia de React"
+y muchas personas comenzaron a comentar y
+
+619
+00:58:19,820 --> 00:58:24,770
+tuitear sobre esto. Y fui a mi gerente
+Tom Occhino. Y él dijo: hoy hay como
+
+620
+00:58:24,770 --> 00:58:31,020
+50 tweets sobre React, como la gente está
+hablando de organizar conferencias, ¿deberíamos
+
+621
+00:58:31,020 --> 00:58:34,200
+organizar una conferencia? Y yo estaba como,
+no sé lo que eso significa, no sé
+
+622
+00:58:34,200 --> 00:58:38,680
+cómo hacerlo, pero tal vez. Estaba muy
+en contra de hacer una conferencia.
+Pensé que era
+
+623
+00:58:38,680 --> 00:58:47,079
+muy cool que obtuviéramos tanto vuelo
+sin invertir mucho dinero en marketing.
+
+624
+00:58:47,079 --> 00:58:51,920
+A pesar de que React provenía del gigante de
+la tecnología Facebook, era un pequeño grupo
+
+625
+00:58:51,920 --> 00:58:56,099
+de personas que estaban realmente dedicadas,
+a ver que esta cosa tuviera éxito, así que
+
+626
+00:58:56,099 --> 00:59:03,079
+se sintió como este proyecto indie muy tipo
+Alianza Rebelde. Y así que yo estaba como,
+no necesitamos
+
+627
+00:59:03,079 --> 00:59:07,869
+una conferencia de usuarios, como tenemos
+esta vibra genial sucediendo, veamos hasta
+dónde podemos llegar.
+
+628
+00:59:07,869 --> 00:59:12,630
+Estaba completamente equivocado. Nos dijimos
+a nosotros mismos, creo que sería divertido
+organizar una conferencia de React,
+
+629
+00:59:12,630 --> 00:59:18,210
+pero ¿hay suficientes personas que usan React
+que querrían ir a eso, y finalmente
+
+630
+00:59:18,210 --> 00:59:24,570
+decidimos: bueno, intentémoslo, intentemos
+organizar la conferencia y ver cómo va.
+
+631
+00:59:24,570 --> 00:59:30,390
+En cuestión de minutos, todas las entradas se
+agotaron y colapsamos el sitio web que
+
+632
+00:59:30,390 --> 00:59:34,349
+manejaba el sistema de pagos.
+
+633
+00:59:34,349 --> 00:59:42,559
+Schrep, el CTO de Facebook, me contactó
+diciendo: tengo un 
+
+634
+00:59:42,559 --> 00:59:48,630
+VP o CTO muy importante de alguna compañía que
+quería entrar pero no pudo.
+
+635
+00:59:48,630 --> 00:59:56,010
+Me preguntó si podía hacerle un favor y le dije
+que me encantaría, ya que era el CTO y todo,
+
+636
+00:59:56,010 --> 01:00:00,900
+pero sabía que ya estábamos completamente llenos.
+Realmente nos sorprendió lo rápido que se
+
+637
+01:00:00,900 --> 01:00:05,740
+agotaron las entradas. No nos dimos cuenta
+de cuánto había crecido el ecosistema de React y
+
+638
+01:00:05,740 --> 01:00:11,580
+cuánto entusiasmo había creado entre los
+primeros adoptantes.
+
+639
+01:00:11,580 --> 01:00:26,780
+[Música]
+Lo organizamos bastante rápido en lo
+que respecta
+
+640
+01:00:26,780 --> 01:00:31,910
+a la planificación de la conferencia y lo hicimos
+en el campus en una de nuestras cafeterías, y
+
+641
+01:00:31,910 --> 01:00:38,349
+llevamos a la gente desde el hotel más cercano.
+Fue muy, muy mal producido,
+
+642
+01:00:38,349 --> 01:00:46,510
+pero funcionó muy bien.
+-¡Buenos días a todos y bienvenidos a React.js Conf!
+
+643
+01:00:46,510 --> 01:00:50,920
+La conferencia fue extremadamente, extremadamente
+bien. Como organizador de la conferencia,
+
+644
+01:00:50,920 --> 01:00:56,940
+estoy muy emocionado de estar ahy. Y compartimos
+varios de nuestros proyectos de código abierto,
+como React Native,
+
+645
+01:00:56,940 --> 01:01:00,930
+y empezamos a hablar sobre GraphQL y Relay.
+Así que sí, fue un éxito masivo.
+
+646
+01:01:00,930 --> 01:01:09,230
+Hay este momento en el que vas y ves el escenario
+y hay un gran corte de 
+
+647
+01:01:09,230 --> 01:01:15,940
+como logotipo del átomo React. Y yo estaba
+como, mi amigo Maykel, el diseñador de Instagram,
+
+648
+01:01:15,940 --> 01:01:19,750
+lo dibujó frente a mí en medio de la noche antes
+de que abriéramos esta cosa
+
+649
+01:01:19,750 --> 01:01:22,589
+y yo le dije a Maykel que hiciera algo rápidamente.
+
+650
+01:01:22,589 --> 01:01:27,730
+Y ahora es esta cosa que alguien ha construido con 
+un gran letrero con esto.
+
+651
+01:01:27,730 --> 01:01:32,230
+Hay algo sobre el impacto físico de eso,
+que es realmente genial.
+
+652
+01:01:32,230 --> 01:01:37,490
+Ese fue el momento en que me di cuenta de que
+React estaba convirtiéndose en algo diferente, tú
+
+653
+01:01:37,490 --> 01:01:43,350
+sabes. Durante mucho tiempo, lo que era React
+para mí era un proyecto de software y la razón
+
+654
+01:01:43,350 --> 01:01:46,819
+por la que quería que la gente lo adoptara
+era porque realmente pensaba que haría que su software
+
+655
+01:01:46,819 --> 01:01:51,150
+fuera mejor y haría que sus vidas fueran mejores
+y haría que sus rotaciones de guardia fueran mejores.
+
+656
+01:01:51,150 --> 01:01:56,109
+Hay muchas razones por las que pensé que les
+ayudaría. Después de esa conferencia, me di cuenta
+
+657
+01:01:56,109 --> 01:02:00,619
+es que React se estaba convirtiendo en una
+comunidad. Había reuniones que sucedían la próxima
+
+658
+01:02:00,619 --> 01:02:04,880
+semana que tendrían una audiencia ampliada y
+podrían profundizar en algunas
+
+659
+01:02:04,880 --> 01:02:09,440
+de las cosas que se discutieron, fue realmente,
+realmente genial y un reconocimiento enorme para
+nosotros de que
+
+660
+01:02:09,440 --> 01:02:15,920
+la comunidad iba a ser una parte increíble de
+lo que haría que React funcionara y en ese momento
+
+661
+01:02:15,920 --> 01:02:20,410
+ya era definitivamente una parte realmente
+importante de lo que había llevado a React
+a ese punto
+
+662
+01:02:20,410 --> 01:02:28,640
+hasta ahora. [Música] Me ha demostrado que
+interactuar con tu comunidad de código abierto es en realidad
+
+663
+01:02:28,640 --> 01:02:32,650
+más importante que el trabajo técnico en sí
+mismo, como si no tuvieras una comunidad no tienes
+
+664
+01:02:32,650 --> 01:02:37,079
+un proyecto de código abierto. Estoy emocionado
+de que sigamos repensando las mejores prácticas.
+
+665
+01:02:37,079 --> 01:02:40,799
+Quiero agradecer a esta comunidad por hacer
+posible que sigamos invirtiendo en esto
+
+666
+01:02:40,799 --> 01:02:48,190
+y sigamos trabajando en ello. Eso es todo
+lo que tengo, gracias!
