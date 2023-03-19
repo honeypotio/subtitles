@@ -170,3 +170,648 @@ que React probablemente no tenia futuo afuera
 00:41:40,330 --> 00:41:48,960
 de Facebook. [Music]
 
+447
+00:41:48,960 --> 00:41:59,340
+Toda esperanza parecia perdida para nuestros
+amigos en Facebook. Afortunadamente,
+
+448
+00:41:59,340 --> 00:42:11,750
+alguien afuera de Facebook estaba dispuesto
+a darle una oportunidad. [Music]
+
+449
+00:42:11,750 --> 00:42:18,069
+Empecé a usar React en 2013. No era
+popular en la comunidad, apenas se habia
+
+450
+00:42:18,069 --> 00:42:27,829
+anunciado en JSConf. Vi el anuncio a travez
+de Hacker News e imediatamente pense
+
+451
+00:42:27,829 --> 00:42:32,800
+que seria de buen uso para un proyecto
+en el que trabajaba entonces. Construia
+
+452
+00:42:32,800 --> 00:42:38,720
+un editor interactivo para preguntas de
+matematicas en Khan Academy, el cual tenia
+
+453
+00:42:38,720 --> 00:42:45,220
+una arquitectura similar basada en componentes.
+Intente usar Backbone.js y descrubri
+
+454
+00:42:45,220 --> 00:42:49,800
+que el manejo de estado se esta volviendo 
+dificil, y cuando vi React me dije
+
+455
+00:42:49,800 --> 00:42:56,560
+a mi mismo, esto parece resolver todos los
+problemas que tengo justo en este
+
+456
+00:42:56,560 --> 00:42:57,560
+momento.
+
+457
+00:42:57,560 --> 00:43:05,380
+Estoy viendo un post del 2013 que al parecer
+escribi una semana despues que descubri
+
+458
+00:43:05,380 --> 00:43:13,339
+React, y fue al comienzo de cuando apenas
+inicie a usarlo y alguien me pregunto, "¿Qué
+
+459
+00:43:13,339 --> 00:43:21,170
+te parece la libreria React de Facebook?" Solo
+llevaba unos dias usandola asi que decidi
+
+460
+00:43:21,170 --> 00:43:29,030
+escribir una respuesta basada en mi
+experiencia. La respuesta es bastante
+
+461
+00:43:29,030 --> 00:43:37,810
+positiva. Creo que me estaba divirtiendo
+bastante y resolvia mis problemas
+
+462
+00:43:37,810 --> 00:43:43,240
+muy bien. Una frase de mi respuesta dice,
+"Acabo de reescribir un proyecto de 2000 lineas
+
+463
+00:43:43,240 --> 00:43:47,609
+lineas de codigo a React, y tambien comenze a
+abrir 'pull requests' a React. Todo lo que
+
+464
+00:43:47,609 --> 00:43:53,040
+he visto hasta ahorita parece muy bien pensado.
+Y es un orgullo ser el primer usuario 
+
+465
+00:43:53,040 --> 00:43:59,750
+fuera de Facebook." Despues hable un poco mas
+sobre algunos detalles tecnicos y de como
+
+466
+00:43:59,750 --> 00:44:05,200
+me ha ayudado. Es cool mirar atras, es asi
+como una capsula de tiempo. Ver
+
+467
+00:44:05,200 --> 00:44:14,530
+como dentro de la misma semana que React
+sale a la luz, ya estaba emocionda de usarla.
+
+468
+00:44:14,530 --> 00:44:20,079
+Creo que se esa emocion a durado por mucho
+tiempo. Converti todo el repositorio de codigo
+
+469
+00:44:20,079 --> 00:44:24,920
+en el que trabajaba a React. Creo que termine
+escribiendo menos codigo y se volvio mas facil
+
+470
+00:44:24,920 --> 00:44:30,460
+de leer y mucho mas eficiente. Muy pronto me
+encontre diciendo, "okay, quiero continuar
+
+471
+00:44:30,460 --> 00:44:38,170
+usando React," y termine desplegando mi codigo
+a producción, el codigo que reescribi, y
+
+472
+00:44:38,170 --> 00:44:49,320
+eso creo que fue mi primer codigo corriendo
+en producción usando React fuera de Facebook.
+
+473
+00:44:49,320 --> 00:44:53,579
+Era un proyecto nuevo que apenas habia salido
+a la comunida de open source, y no tantos
+
+474
+00:44:53,579 --> 00:44:58,619
+lo habian usado, y tenia mucho por mejorar.
+Parecia que nadie habia intentado
+
+475
+00:44:58,619 --> 00:45:03,180
+usarlo de algun modo en particular. O parecia
+como si nada estuviera bien docuemntado
+
+476
+00:45:03,180 --> 00:45:07,990
+y el momento que usaba algo fuera de su
+intencion original, comenzaba a notar estos
+
+477
+00:45:07,990 --> 00:45:13,980
+defectos o problemas donde no funcionaban
+como me lo imaginaba. Para algunos de estos
+
+478
+00:45:13,980 --> 00:45:19,180
+problemas comenze a leer el codigo de fuente e
+intente averiguar: ¿por qué esto no funciona?
+
+479
+00:45:19,180 --> 00:45:26,440
+¿hay algo que pueda hacer diferente en mi codigo
+para que funcione? Asi fue como me uni al canal
+
+480
+00:45:26,440 --> 00:45:32,660
+IRC de chat donde varios miembros de equipos
+'core' se estaban reuniendo despues de a verlo
+
+481
+00:45:32,660 --> 00:45:40,381
+lanzado al open source. Me ayudaron a no solo
+como usar React pero tambien como contribuir
+
+482
+00:45:40,381 --> 00:45:45,870
+al proyecto al como iniciaba abriendo issues y
+ayudaba personas que estaban en el chat room,
+
+483
+00:45:45,870 --> 00:45:52,650
+y con el transcurso del tiempo comenze a
+contribuir al codigo de React poco a poco.
+
+484
+00:45:52,650 --> 00:45:59,559
+Su perspectiva de Khan Academy, y como alguien
+que no venia de Facebook, trajo muchas ideas!
+
+485
+00:45:59,559 --> 00:46:05,280
+Sophie comenzo como un usuario externo de React
+quien lentamente fue avanzando a
+
+486
+00:46:05,280 --> 00:46:11,069
+contribuir a React core de forma externa, y asi
+convirtiendose en la mayor contribuidora de
+
+487
+00:46:11,069 --> 00:46:17,119
+React core. Nuestro equipo comenzo a invitar
+a Sophie a las juntas semanales.
+
+488
+00:46:17,119 --> 00:46:22,410
+De ahy Sophie hizo un arreglo con su jefe para
+que la dejaran venir los Viernes por la tarde
+
+489
+00:46:22,410 --> 00:46:28,700
+a las oficinas de Facebook. Y determinados a
+no hacer lo que hicimos antes
+
+490
+00:46:28,700 --> 00:46:34,390
+donde contratamos personas de la comunidad
+open source y jamas contribuyen  de vuelta,
+
+491
+00:46:34,390 --> 00:46:43,119
+ella se volvio la primera persona reclutada
+proveninente de la comunidad open source.
+
+492
+00:46:43,119 --> 00:46:48,940
+La participación de Sophie levantó el ánimo de
+el equipo de React. Tambien los hizo pensar
+
+493
+00:46:48,940 --> 00:46:56,930
+que tal vez, solo tal vez, el resto del
+ecosistema habia mal entendido a React.
+
+494
+00:46:56,930 --> 00:47:03,030
+Tenian algo especial, lo sabian. Lo que no
+sabian era como convencer a los demas. Creo
+
+495
+00:47:03,030 --> 00:47:10,869
+que hay gente como Jordan, Tom, Chadeau,
+y yo que disfrutan el desafio
+
+496
+00:47:10,869 --> 00:47:17,390
+y su naturaleza competitiva. Sabiamos que esta
+era buena tecnologia y yo estaba
+
+497
+00:47:17,390 --> 00:47:25,450
+seguro de ello. Lo comenze a ver como un
+problema en el mensaje, habia que averiguar
+
+498
+00:47:25,450 --> 00:47:29,400
+como transmitir el mensaje porque nadie lo
+entiende y como hacerlo llegar a ellos.
+
+499
+00:47:29,400 --> 00:47:35,790
+El open source se puede sentir como un logro
+pero tambien como el final. Pero en realidad
+
+500
+00:47:35,790 --> 00:47:39,760
+es solo el comienzo. Cuando llegas al open
+source tienes cero usuarios,
+
+501
+00:47:39,760 --> 00:47:45,320
+ahora hay que comenzar a crear comunidad,
+arreglar todos los problemas, asegurarnos que
+
+502
+00:47:45,320 --> 00:47:50,980
+esto resuelve los problemas de la gente. Y
+aqui es donde el viaje por fin comienza.
+
+503
+00:47:50,980 --> 00:47:58,190
+Nos pusimos el cinturon. Y nos dimos cuenta
+que cuando tienes un proyecto como este
+
+504
+00:47:58,190 --> 00:48:03,200
+tienes que convencera a la gente uno por uno.
+Asi, que nos enfocamos en esto.
+
+505
+00:48:03,200 --> 00:48:10,859
+Aprendimos mucho de esto. Descubrimos que las
+ideas en React son buenas, pero el problema
+
+506
+00:48:10,859 --> 00:48:14,790
+no son las ideas cuando adoptas un framework.
+El reto tiende a ser
+
+507
+00:48:14,790 --> 00:48:20,280
+la documentación y los mensajes de error. Lo
+que necesitan mas que nada al comienzo
+
+508
+00:48:20,280 --> 00:48:26,030
+es encontar una forma de adoptarlo poco a
+poco. El equipo comenzo a trabajar en esto.
+
+509
+00:48:26,030 --> 00:48:32,859
+Se enfocaron en difundir React un concepto a
+la vez, una persona a la vez.
+
+510
+00:48:32,859 --> 00:48:40,850
+Luego una oportunidad surgio: una conferencia.
+Despues, gracias a dios, ese mismo año, Pete
+
+511
+00:48:40,850 --> 00:48:46,020
+dio una charla en JSConf EU. Tenia mi escritorio
+a lado del equipo de infraestructura de producto.
+
+512
+00:48:46,020 --> 00:48:53,780
+Estaba sentado a lado de Tomo y me dice,
+'patrocinaremos JSConf EU y tenemos que dar
+
+513
+00:48:53,780 --> 00:48:57,970
+el discurso de apertura pero no quiero ser yo
+quien lo de.' Creo que no queria pasar por el
+
+514
+00:48:57,970 --> 00:49:01,470
+proceso. No queria lidiar con bucheos o gente
+gritando cuando sales de la plataforma.
+
+515
+00:49:01,470 --> 00:49:06,359
+o cuando vas a platicar con la gente en los
+happy hours. No es lo mas placentero del mundo.
+
+516
+00:49:06,359 --> 00:49:11,109
+Y despues lo vi y le dije, yo lo hago! Yo
+tomo el viaje gratis a Berlin y doy
+
+517
+00:49:11,109 --> 00:49:16,970
+la charla en la conferencia. 'Hola me llamo
+Pete, y les hablare sobre una libreria
+
+518
+00:49:16,970 --> 00:49:23,630
+que permite crear interfaces de usuario que
+llamamos React. La lanzamos al open source
+
+519
+00:49:23,630 --> 00:49:28,880
+en JSConf EU hace unos meses. Y la respuesta
+fue algo sarcastica en Twitter, un poco
+
+520
+00:49:28,880 --> 00:49:34,930
+burlona por su mayoria. No estabamos
+comunicando bien lo que intentabamos hacer.
+
+521
+00:49:34,930 --> 00:49:39,980
+Asi que hoy me gustatria contarles de las
+decisiones del diseño en React, sus diferencias
+
+522
+00:49:39,980 --> 00:49:44,460
+en comparacion con otros frameworks, y el tipo
+de implementación que permitio ejecutar estas
+
+523
+00:49:44,460 --> 00:49:50,190
+decisiones, y a la vez hacerlo rapido.' En la
+platica queria mostrar que hacia React diferente.
+
+524
+00:49:50,190 --> 00:49:52,839
+No estoy intentando decir que es bueno, ni
+si quiera digo que lo usen, lo que quiero decir
+
+525
+00:49:52,839 --> 00:49:56,780
+es lo que vuleve interesante. Hay muchas cosas
+inteteresante de que platicar,
+
+526
+00:49:56,780 --> 00:50:03,319
+pero queria que la audiencia pusiera atencion
+a lo que hace que funcione. Y eso resono
+
+527
+00:50:03,319 --> 00:50:07,350
+con la gente. Y comenzamos a recibir a estos
+inovadores. Imaginemos un diagrama cruzando el
+
+528
+00:50:07,350 --> 00:50:13,150
+abismo. donde tienes a tus pioneros, y los
+rezagagos, y justo en medio esta tu
+
+529
+00:50:13,150 --> 00:50:17,700
+empresa promedio. Esa platica logro que los
+pioneros se emocionaran y evangelizaran React
+dentro de sus empresas. Despues que Pete hablo,
+
+531
+00:50:23,160 --> 00:50:26,311
+el interes comenzo a surgir. La gente empezo
+a poner atención. La gente queria ver si
+
+532
+00:50:26,311 --> 00:50:31,530
+habia algo interesante que ver en ello. Asi que
+fue este proceso lento de adopción de React.
+
+533
+00:50:31,530 --> 00:50:36,230
+Y esto abrio varias conversaciones intesantes.
+
+534
+00:50:36,230 --> 00:50:41,230
+Estas lograron atraer a Brandon Bloom a la comunidad
+quien venia del mundo de programacion functional.
+
+535
+00:50:41,230 --> 00:50:46,870
+Luego, el hablo con sus amigos a quien les dijo,
+'Creo que que vale la pena darle un ojo a React'
+
+536
+00:50:46,870 --> 00:50:51,099
+Y luego va y habla con su amigo David Nolen,
+
+537
+00:50:51,099 --> 00:50:58,150
+quien esta muy conocido, espetado, y tambien
+gran musico y desarollador de Javascript.
+
+538
+00:50:58,150 --> 00:51:03,040
+En ese entonces el trabajaba en el New York Times
+y yo visitaba New York para algo
+
+539
+00:51:03,040 --> 00:51:10,710
+y tomamos un cafe. Y le hize preguntas a Pete, tambien
+Brandon Bloom quien es mi amigo, me habia dicho
+
+540
+00:51:10,710 --> 00:51:16,890
+cosas buenas sobre React. Y la razon 
+por la cual yo estaba emocionado por ello,
+
+541
+00:51:16,890 --> 00:51:21,540
+más de lo que creo que podrías si
+fueras desarrollador de JavaScript,
+
+542
+00:51:21,540 --> 00:51:25,119
+Javascript es multiparadigma, puedes usarlo para
+programacion orientada objetos, puedes usarlo
+
+543
+00:51:25,119 --> 00:51:31,980
+para programción funcional pero no es requerido.
+Pero en Clojure y Clojurescript, funcional es
+
+544
+00:51:31,980 --> 00:51:37,349
+lo mas idiomatico lo cual no existia. Logramamos
+hacerlo funcionar pero siempre habia fricción.
+
+545
+00:51:37,349 --> 00:51:42,730
+Estaba en una etapa temprana en mi carrera
+y este
+
+546
+00:51:42,730 --> 00:51:48,040
+ingenerio super listo quien es el
+tipo de persona quien te puede
+
+547
+00:51:48,040 --> 00:51:53,109
+hacer preguntas y en algun momento me quedaba
+sin respuestas o lo explicaba de forma pesima.
+
+548
+00:51:53,109 --> 00:51:58,930
+Y despues el repetiria lo que le dije pero
+de una forma supe eloquente que yo estaba
+
+549
+00:51:58,930 --> 00:52:04,520
+como sí, ¡voy a robar eso! Y así cuando me
+senté con Brandon y Pete, fue como si se
+encendiera una bombilla.
+
+550
+00:52:04,520 --> 00:52:11,430
+En eso yo dije, esto es tan aleatorio, Facebook
+hizo que este framework funcional para armar
+
+551
+00:52:11,430 --> 00:52:18,700
+interfazes de usuario. ¡Eureka! Quiero decir,
+definitivamente fue un momento eureka. Permitió
+a los programadores de ClojureScript
+
+552
+00:52:18,700 --> 00:52:25,020
+escribir finalmente interfaces de usuario
+funcionales con rendimiento razonable.
+
+553
+00:52:25,020 --> 00:52:29,490
+Y fue muy natural, fue una combinación muy,
+muy buena. Como una semana o dos después,
+escribió esta publicación en un blog
+
+554
+00:52:29,490 --> 00:52:35,030
+titulado 'El futuro de los MVCs de JavaScript'
+que simplemente cambió la trayectoria del proyecto.
+
+555
+00:52:35,030 --> 00:52:39,849
+De muchas maneras, cuando miras React, piensas
+que no hay manera de que esto pueda ser rápido,
+
+556
+00:52:39,849 --> 00:52:46,400
+no hay forma en que pueda ser eficiente. Y luego
+mostré estos diagramas de cómo Backbone y React/Om
+
+557
+00:52:46,400 --> 00:52:52,119
+se comparan y React es mucho mejor. Especialmente
+cuando se usan estructuras de datos persistentes.
+
+558
+00:52:52,119 --> 00:52:59,570
+Creo que mi artículo se enfocaba puramente
+en los beneficios técnicos del diseño. Eliminó
+
+559
+00:52:59,570 --> 00:53:05,109
+la consideración superficial y creo que la
+gente empezó a decir: "Bueno, lo intentaré".
+No "lo usaré",
+
+560
+00:53:05,109 --> 00:53:12,109
+pero eliminó ese "nunca voy a usar eso" a
+
+561
+00:53:12,109 --> 00:53:17,660
+"oh, voy a probarlo, esto es interesante".
+Una vez que ese artículo salió, diría que
+en unos tres meses
+
+562
+00:53:17,660 --> 00:53:21,690
+éramos uno de los principales contendientes
+si estabas eligiendo un framework de JavaScript.
+
+563
+00:53:21,690 --> 00:53:25,849
+Si quieres difundir una idea, debes convencer
+realmente a unas pocas personas 
+
+564
+00:53:25,849 --> 00:53:31,731
+y hacer que esas personas compartan tu mensaje,
+no puedes estar gritándolo tú mismo.
+
+565
+00:53:31,731 --> 00:53:40,750
+Cada vez más personas comenzaron a darse cuenta
+de que React tenía algunas buenas ideas y hacía
+que el desarrollo de UI fuera más simple
+
+566
+00:53:40,750 --> 00:53:47,010
+de muchas maneras. Durante los próximos años,
+digamos dos o tres, seguimos
+
+567
+00:53:47,010 --> 00:53:53,070
+rastreando cosas como Google Alerts para ver
+cuántas veces se menciona, quién está escribiendo
+
+568
+00:53:53,070 --> 00:53:58,420
+sobre él, qué proyectos están surgiendo. Debido
+a que React era muy poco dogmático acerca de
+
+569
+00:53:58,420 --> 00:54:04,559
+un montón de cosas que necesitas para construir
+una aplicación web de front-end y la gente
+
+570
+00:54:04,559 --> 00:54:08,790
+llenaría los vacíos. Surgieron un montón de
+bibliotecas de gestión de estado y de enrutamiento,
+
+571
+00:54:08,790 --> 00:54:13,590
+y estrategias de renderizado en el servidor.
+Así que hubo una especie de lenta adopción durante
+
+572
+00:54:13,590 --> 00:54:18,280
+el siguiente año o dos.
+
+573
+00:54:18,280 --> 00:54:24,040
+React es una pequeña biblioteca de UI enfocada,
+pero demostró ser capaz de enfrentar los
+problemas más difíciles de Facebook
+
+574
+00:54:24,040 --> 00:54:30,840
+y otras grandes empresas se dieron cuenta.
+Pero hubo una empresa especialmente ansiosa
+
+575
+00:54:30,840 --> 00:54:39,490
+por repensar las mejores prácticas.
+
+576
+00:54:39,490 --> 00:54:46,880
+[Music]
