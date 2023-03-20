@@ -3840,8 +3840,12 @@ así que era solo como un botón que haces clic
 697
 01:05:59,180 --> 01:06:05,309
 y dice "te gusta esto" o "tú y alguien más
-les gusta esto" o "tú y 40 personas más les
-gusta esto". Así que había un poco de lógica dividida,
+les gusta esto"
+
+698
+01:06:05,309 --> 01:06:11,020
+o "tú y 40 personas más les gusta esto". Así
+que había un poco de lógica dividida,
 
 699
 01:06:11,020 --> 01:06:18,900
@@ -3851,4 +3855,595 @@ en ese momento, tenías que vigilar manualmente lo que
 700
 01:06:18,900 --> 01:06:23,549
 ha cambiado y actualizarlo. Y en React
-simplemente podías decir, si a nadie le gusta este programa
+simplemente podías decir expresar cosas como,
+si a nadie le gusta esto muestra esto,
+
+701
+01:06:23,549 --> 01:06:28,359
+si a una persona le gustó esto, muestra aquello,
+de lo contrario, muestra esto. Es una forma
+muy natural
+
+702
+01:06:28,359 --> 01:06:33,630
+de escribir este tipo de código. Y sí,
+escribí ese botón y pensé
+
+703
+01:06:33,630 --> 01:06:40,980
+"sí, se ve bien, publícalo". Y así reconstruimos
+toda la aplicación en React durante
+
+704
+01:06:40,980 --> 01:06:46,470
+aproximadamente 9 meses mientras seguíamos
+añadiendo nuevos features. Así que React
+aceleró nuestro desarrollo
+
+705
+01:06:46,470 --> 01:06:51,270
+tanto que pudimos agregar nuevas features
+más rápido, al mismo tiempo que reemplazabamos
+
+706
+01:06:51,270 --> 01:06:58,140
+features antiguos, por eso me enamoré de él.
+
+707
+01:06:58,140 --> 01:07:02,849
+Muchas cosas no existían en aquel entonces.
+Como no existía todo un ecosistema de React.
+
+708
+01:07:02,849 --> 01:07:08,400
+Así que si necesitabas algo y no existía,
+tenías que escribirlo.
+
+709
+01:07:08,400 --> 01:07:13,260
+Porque de lo contrario no tendrías
+un producto, ¿verdad?
+
+710
+01:07:13,260 --> 01:07:18,099
+Así que eso es lo que hice para muchas cosas.
+Uno de esos proyectos en particular
+
+711
+01:07:18,099 --> 01:07:26,560
+fue... vi una gran oportunidad allí. Se llamaba
+React Hot Loader en ese momento
+
+712
+01:07:26,560 --> 01:07:31,750
+Así que quería hablar de eso, pero alguien más
+había hecho una charla que lo mencionaba
+
+713
+01:07:31,750 --> 01:07:36,760
+anteriormente en React conf. Un tipo muy
+ingenioso llamado Dan Abramov descubrió esto
+
+714
+01:07:36,760 --> 01:07:42,040
+y creó el React Hot Loader. Y sentí que
+bueno, entonces eso no sería
+
+715
+01:07:42,040 --> 01:07:46,210
+interesante porque la gente ya lo había visto,
+lo cual, en retrospectiva, no creo 
+
+716
+01:07:46,210 --> 01:07:50,359
+que fuera cierto, pero así lo vi en ese momento.
+Así que quería darle un poco de sabor y
+
+717
+01:07:50,359 --> 01:07:55,960
+quería hacer una prueba de concepto de una cosa
+que vi cuando Bret Victor
+
+718
+01:07:55,960 --> 01:08:02,200
+hizo un demo que a menudo se llama viaje en el
+tiempo. Si estás diseñando algo incrustado
+
+719
+01:08:02,200 --> 01:08:06,630
+en el tiempo, necesitas poder controlar el tiempo,
+necesitas poder ver a través del tiempo,
+
+720
+01:08:06,630 --> 01:08:11,390
+de lo contrario estás diseñando a ciegas. No sabia
+como hacerlo, pero pense que era una idea cool
+
+721
+01:08:11,390 --> 01:08:16,810
+para dar una charla. Entonces mande la propuesta, y
+si la propuesta tenia exito entonces vere que hago.
+
+722
+01:08:16,810 --> 01:08:20,540
+Y resultó que la propuesta fue más exitosa de lo
+que pensé que sería, 
+
+723
+01:08:20,540 --> 01:08:25,600
+así que hice una prueba de concepto 
+y esa prueba de concepto se 
+
+724
+01:08:25,600 --> 01:08:33,270
+convirtió en Redux. Así que mi charla trata
+sobre herramientas para desarrolladores porque React
+y Hot Reloading y
+
+725
+01:08:33,270 --> 01:08:39,960
+viaje en el tiempo on todas herramientas para
+desarrolladores. Literalmente estaba creando Redux
+
+726
+01:08:39,960 --> 01:08:44,850
+para poder dar esta charla, y la llamé desarrollo
+impulsado por presentaciones porque
+
+727
+01:08:44,850 --> 01:08:49,541
+lo que surgió de ello fue esta especie de
+biblioteca canónica de gestión de estados
+
+728
+01:08:49,541 --> 01:08:54,750
+para aplicaciones React durante varios años.
+La mayor parte de mi trabajo se
+centra en el ecosistema porque
+
+729
+01:08:54,750 --> 01:08:59,770
+fue lo que me inspiró a contribuir al código
+abierto en primer lugar, pero hay
+
+730
+01:08:59,770 --> 01:09:06,120
+dos proyectos en particular sobre los que hablaré
+hoy. Fue muy gratificante
+
+731
+01:09:06,120 --> 01:09:14,850
+dar esa charla, pero no me sorprendió la
+respuesta porque bueno, tenía mis dudas
+
+732
+01:09:14,850 --> 01:09:21,720
+pero también pensé que era una buena charla.
+
+733
+01:09:21,720 --> 01:09:27,250
+Y me alegró que a la gente también le gustara,
+pero creo que en realidad no fue la charla lo que me alegro
+
+734
+01:09:27,250 --> 01:09:33,350
+fue realmente el momento para mí. Creo que fue
+simplemente estar allí. Me sentí un poco como
+
+735
+01:09:33,350 --> 01:09:38,408
+ir a Hogwarts por primera vez. Creo que tenía
+esta sensación
+
+736
+01:09:38,408 --> 01:09:44,389
+porque había todas estas personas que solo
+las conocía como avatares y cuando conoces
+
+737
+01:09:44,390 --> 01:09:48,870
+a alguien en persona, se vuelven tridimensionales,
+por supuesto. Ves todo
+
+738
+01:09:48,870 --> 01:09:53,738
+el cuadro completo. Y creo que fue solo una
+sensación tan buena. Es la sensación
+
+739
+01:09:53,738 --> 01:09:58,870
+de que todos estamos tratando de averiguar qué
+podemos hacer con esto y aún no lo sabemos
+
+740
+01:09:58,870 --> 01:10:05,929
+y estamos jugando con ello.
+
+741
+01:10:05,929 --> 01:10:11,850
+Eso también es donde conocí a Jing Chen. Le había pedido
+consejo antes porque es una de 
+
+742
+01:10:11,850 --> 01:10:17,400
+las co-creadoras de la arquitectura Flux. Así que
+fue agradable conocerla en persona y ella
+
+743
+01:10:17,400 --> 01:10:23,390
+mencionó que en realidad Facebook estaba
+contratando en Londres. Y así me programaron
+una entrevista
+
+744
+01:10:23,390 --> 01:10:27,429
+en la misma conferencia,
+que era nuestro proceso de entrevista normal
+
+745
+01:10:27,429 --> 01:10:31,989
+creo que fueron como cuatro entrevistas o algo así,
+pero me perdí el segundo día de la conferencia
+
+746
+01:10:31,989 --> 01:10:37,100
+Y solo hicimos una entrevista allí. Así es como
+entré en Facebook. Lo
+
+747
+01:10:37,100 --> 01:10:43,120
+sacamos rápidamente de la conferencia, un poco
+en secreto, y luego
+
+748
+01:10:43,120 --> 01:10:50,699
+realizamos las entrevistas en el sótano de
+un hotel, creo. ¿Es normal en Facebook?
+
+749
+01:10:50,699 --> 01:10:55,580
+No, Dan es especial, siempre ha sido un poco especial.
+Creo que yo podría considerarme
+
+750
+01:10:55,580 --> 01:11:02,520
+el primer miembro de lo que se convertiría en
+el equipo de React tal y como lo conocemos hoy,
+
+751
+01:11:02,520 --> 01:11:08,989
+porque me uní un poco antes que Andrew, Brian,
+Luna y otras
+
+752
+01:11:08,989 --> 01:11:14,219
+personas que trabajan con nosotros ahora. Y me
+uní en un momento en el que algunas personas
+
+753
+01:11:14,219 --> 01:11:19,969
+que habían trabajado con nosotros antes estaban
+a punto de irse. Así que estaba en este período
+de transición
+
+754
+01:11:19,969 --> 01:11:23,980
+cuando el equipo estaba cambiando mucho.
+
+755
+01:11:23,980 --> 01:11:40,053
+[ Música ] ¿Recuerdas la primera vez que
+conociste a Andrew? Creo que sí. ¡Sí!
+
+756
+01:11:40,053 --> 01:11:43,739
+Creo que lo conocí en React conf. Bueno,
+ese fue el momento claro, tal vez,
+
+757
+01:11:43,739 --> 01:11:50,570
+¿fue la primera vez? ¿Te invitaron a React conf
+por eso? Él tenía un discurso.
+
+758
+01:11:50,570 --> 01:11:56,729
+Lo conocí, creo, antes de eso. Conocí a ti,
+Sophie, Joe y Tim en la
+
+759
+01:11:56,729 --> 01:12:01,580
+misma semana. Sí, empezó a hacer preguntas que
+eran muy similares a las preguntas
+
+760
+01:12:01,580 --> 01:12:06,159
+que estábamos discutiendo internamente en el
+equipo y recuerdo haber pensado: tengo que
+conectarlo
+
+761
+01:12:06,159 --> 01:12:09,580
+con Sebastian, Jordan y el resto del equipo.
+Sí, y también
+
+762
+01:12:09,580 --> 01:12:13,810
+le dije a los reclutadores que teníamos que
+contratar a este tal Andrew.
+
+763
+01:12:13,810 --> 01:12:17,540
+Creo que tuvimos mucha suerte al principio
+de contar con un grupo de personas que se unieron
+
+764
+01:12:17,540 --> 01:12:22,064
+y dijeron "esto parece genial, quiero ser parte
+de esto, quiero ayudar".
+
+765
+01:12:22,064 --> 01:12:26,460
+No me di cuenta de que en ese momento era
+como sentirse en una clase de primer año. Sophie
+
+766
+01:12:26,460 --> 01:12:31,280
+había empezado a dirigir el equipo en esa
+época también y no podría haber pedido
+
+767
+01:12:31,280 --> 01:12:38,739
+un proyecto mejor ni un equipo y colegas
+mejores para unirme. El inicio de la fase dos,
+
+768
+01:12:38,739 --> 01:12:45,850
+sí, es genial. [Música] ¡Impresionante! Siento
+que lo hicimos muy bien al 
+
+769
+01:12:45,850 --> 01:12:47,730
+final
+
+770
+01:12:47,730 --> 01:12:57,170
+Como si hubiera anotado un gol en soccer.
+
+771
+01:12:57,170 --> 01:13:02,690
+[Música] React estaba ahora fuera de las manos
+de sus fundadores. Estaba listo para enfrentar
+
+772
+01:13:02,690 --> 01:13:09,699
+nueva vida bajo el cuidado de una nueva
+comunidad creciente y un equipo enfocado al futuro.
+
+773
+01:13:09,699 --> 01:13:15,660
+Tratamos de observar algunas de las cifras,
+como el número de estrellas de GitHub o el
+número de descargas de npm en Google
+
+774
+01:13:15,660 --> 01:13:21,690
+Trends, cuántas personas buscan React, y ninguna
+de esas cifras es perfecta,
+
+775
+01:13:21,690 --> 01:13:29,340
+pero básicamente todas siguieron aumentando
+con el tiempo y eventualmente llegamos a un
+punto en
+
+776
+01:13:29,340 --> 01:13:35,810
+que dijimos, "Oh sí, millones de personas
+están utilizando React". Hay
+
+777
+01:13:35,810 --> 01:13:43,090
+muchos detalles en cómo hacíamos las cosas que
+fomentan que el ecosistema participe,
+
+778
+01:13:43,090 --> 01:13:49,060
+que fueron partes críticas para hacerlo lo que
+es hoy. No pusimos todo en el
+
+779
+01:13:49,060 --> 01:13:54,389
+framework.  Dejamos mucho para que el ecosistema
+innovara. Y obtuvimos muchas contribuciones,
+
+780
+01:13:54,389 --> 01:14:01,239
+mucho interés de esa manera, y muchas cosas
+surgieron a partir de eso.
+
+781
+01:14:01,239 --> 01:14:07,679
+Nunca fue una conclusión preconcebida. Todavía
+me resulta surrealista que sea tan popular como lo es.
+
+782
+01:14:07,679 --> 01:14:13,550
+Es un gran ejemplo de esta tecnología inesperada
+dentro de una gran empresa donde podrían haber
+
+783
+01:14:13,550 --> 01:14:18,040
+habido fuerzas que se opusieran. Creo que muchos
+elementos
+
+784
+01:14:18,040 --> 01:14:24,310
+de buen momento, buena fortuna, buena suerte,
+buen apoyo de liderazgo, todo se agregó para
+hacer que esto suceda
+
+785
+01:14:24,310 --> 01:14:31,740
+para permitir que React sea un éxito, si nos
+hubiéramos saltado algunos de esos o si
+hubieran fallado algunos más
+
+786
+01:14:31,740 --> 01:14:36,550
+en lugar de tener éxito, entonces no creo
+que React estaría en el lugar en el
+
+787
+01:14:36,550 --> 01:14:42,840
+que está hoy. Siento que no puedes sacar a nadie
+de esto y que siga siendo lo que se convirtió.
+
+788
+01:14:42,840 --> 01:14:46,550
+Creo que en los primeros días, obviamente Jordan,
+tenía razón. Como esta cosa no existiría. Y
+
+789
+01:14:46,550 --> 01:14:51,560
+luego Jing Chen fue absolutamente crítica.
+Quiero decir, fue tan instrumental en los primeros
+
+790
+01:14:51,560 --> 01:14:56,070
+días de React que simplemente no habría sido
+algo por lo que nos preocupáramos si no
+hubiera demostrado
+
+791
+01:14:56,070 --> 01:15:03,449
+su valor. Y luego Shane O'Sullivan es responsable
+de, ya sabes, una decisión muy difícil
+
+792
+01:15:03,449 --> 01:15:07,770
+de ir por este camino en lugar de ese otro.
+Y luego los ingenieros que trabajaron
+
+793
+01:15:07,770 --> 01:15:12,000
+en la refinación y la iteración y lo convirtieron
+en algo bueno fueron Chedeau y
+
+794
+01:15:12,000 --> 01:15:16,600
+Paul O'Shannessy y Pete Hunt. Y mi gerente,
+Adam Wolff, cuando estaba haciendo todas
+estas preguntas
+
+795
+01:15:16,600 --> 01:15:20,860
+sobre si deberíamos hacerlo, si realmente valía
+la pena, especialmente
+
+796
+01:15:20,860 --> 01:15:24,780
+después de JS Conf cuando nos sentíamos derrotados, él estaba
+allí para levantarme
+
+797
+01:15:24,780 --> 01:15:29,520
+y decirme: no, mira que está entregando valor,
+esto es bueno, sigue adelante.
+
+798
+01:15:29,520 --> 01:15:34,150
+Y también hay diferentes fases, ¿verdad? Tienes los
+primeros días, y luego para
+
+799
+01:15:34,150 --> 01:15:40,300
+los próximos casi 10 años, con el liderazgo
+técnico de Sebastian y Andrew y Dan y
+
+800
+01:15:40,300 --> 01:15:46,830
+Dominic y Flarney y Sophie
+y siento que es solo un grupo de personas increíbles
+
+801
+01:15:46,830 --> 01:15:53,150
+y si sacas a cualquiera de ellos, se ve muy diferente.
+
+802
+01:15:53,150 --> 01:15:59,870
+Realmente fue un esfuerzo de equipo desde el principio
+
+803
+01:15:59,870 --> 01:16:12,679
+Misko Hevery dice que las soluciones impresionantes
+rara vez son creadas por grandes organizaciones
+
+804
+01:16:12,679 --> 01:16:19,280
+Casi siempre es una persona con pasión y visión
+que lentamente comienza a infectar a otras.
+
+805
+01:16:19,280 --> 01:16:25,370
+Esta es una gran síntesis de cómo React se
+convirtió en React. Porque nunca fue inevitable,
+
+806
+01:16:25,370 --> 01:16:31,600
+siempre fue una idea loca que fue ganando
+impulso, persona por persona. Y muchos esperaban
+
+807
+01:16:31,600 --> 01:16:38,469
+que React fracasara y si no fuera por el arduo
+trabajo de unos pocos desarrolladores decididos,
+
+808
+01:16:38,469 --> 01:16:43,020
+podría haber fracasado.
+
+809
+01:16:43,020 --> 01:16:48,639
+Este es solo el comienzo de la historia de React.
+La historia de cómo una comunidad transformó una
+
+810
+01:16:48,639 --> 01:16:57,199
+biblioteca de UI marginada en el framework de JavaScript
+más popular de hoy.
+
+811
+01:16:57,199 --> 01:16:58,199
+Este es el podcast de React, soy Chantastic.
+
+812
+01:16:58,199 --> 01:16:59,199
+[Música]
+
+813
+01:16:59,199 --> 01:17:26,560
+Estoy tan tentado de sorprender a Jordan
+ahora mismo y decirle: ¡entrevista! Es muy extraño
+
+814
+01:17:26,560 --> 01:17:46,230
+pensar que estás tan cerca de la muerte. La
+primera camiseta de React que hicimos.
+
+815
+01:17:46,230 --> 01:17:48,719
+Miles de desarrolladores encuentran trabajo en
+toda Europa usando Honeypot. Si buscas un nuevo desafío
+
+816
+01:17:48,719 --> 01:17:54,010
+en una de estas ciudades europeas, regístrate
+en honeypot.io. Si quieres ver más documentales de tecnología,
+
+818
+01:18:00,350 --> 01:18:03,540
+entonces suscríbete para no perderte el siguiente.
+
+819
+01:18:03,540 --> 01:18:03,770
+[Música]
