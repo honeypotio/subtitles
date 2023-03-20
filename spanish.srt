@@ -3327,18 +3327,22 @@ Y se vuelve muy emocionante ver ese nuevo
 
 598
 00:56:23,450 --> 00:56:27,830
-paradigma en juego y pensar: esto va a ser
-revolucionario, esto va a cambiar la forma
-en que construimos aplicaciones.
+ello. Puedo reutilizar esto aquí, podemos probar
+esto aquí, podemos agregar props aquí.
+
+599
+00:56:27,830 --> 00:56:32,460
+Y se vuelve muy emocionante ver ese nuevo paradigma
+en juego y pensar: esto va a ser revolucionario,
 
 600
 00:56:32,460 --> 00:56:37,120
-ese nuevo paradigma en juego y pensar: 
-esto va a ser revolucionario, esto va
+esto va a cambiar la forma en que construimos
+aplicaciones.
 
 601
 00:56:37,120 --> 00:56:41,180
-cambiar el mundo. Volvamos en el tiempo
+Volvamos en el tiempo
 un año atrás a la antigua interfaz de Netflix,
 ustedes podrían
 
