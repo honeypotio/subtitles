@@ -3685,3 +3685,170 @@ posible que sigamos invirtiendo en esto
 01:02:40,799 --> 01:02:48,190
 y sigamos trabajando en ello. Eso es todo
 lo que tengo, gracias!
+
+667
+01:02:48,190 --> 01:02:52,720
+Fue un verdadero punto alto para no solo
+para mí, sino para el equipo, y creo
+
+668
+01:02:52,720 --> 01:02:59,681
+para la ingeniería de Facebook. Realmente
+sentimos que no solo estábamos validados
+sino que estábamos
+
+669
+01:02:59,681 --> 01:03:05,230
+realmente haciendo algo que a la gente le
+importaba y fue una sensación realmente muy buena.
+
+670
+01:03:05,230 --> 01:03:10,320
+Ya se usaba más ampliamente dentro de la empresa, 
+pero ahora era como, bien,
+
+671
+01:03:10,320 --> 01:03:15,661
+¿cómo empezamos a convertir todo a React, cómo
+removemos y eliminamos todas
+
+672
+01:03:15,661 --> 01:03:21,561
+de las otras estructuras y realmente nos
+enfocamos en React? Oh, ¿cómo va todo? Pasando
+
+673
+01:03:21,561 --> 01:03:27,440
+de ser un producto interesante a ser la
+próxima gran cosa. Así que fue un momento realmente asombroso
+
+674
+01:03:27,440 --> 01:03:33,599
+para estar presente y hacer que toda la
+empresa trabajara junta como una sola, ya
+sabes, para hacer
+
+675
+01:03:33,599 --> 01:03:35,079
+esto suceder.
+
+676
+01:03:35,079 --> 01:03:46,830
+Vamos a ver, tengo algunos recuerdos aquí arriba,
+que no serán fáciles para mí de bajar.
+
+677
+01:03:46,830 --> 01:03:48,700
+Pero... Vamos a ver.
+
+678
+01:03:48,700 --> 01:03:56,740
+Tengo algunas calcomanías, oh esta es divertida,
+esta es la primera calcomanía de corte React.
+
+679
+01:03:56,740 --> 01:04:01,329
+Pedimos un montón de estas y las pusimos
+en nuestras computadoras portátiles y nunca
+quise usar la
+
+680
+01:04:01,329 --> 01:04:07,970
+última que tenía. Calcomanías de código abierto
+de Facebook. Ah, algunas de estas serán un viaje
+
+681
+01:04:07,970 --> 01:04:15,160
+por el carril de los recuerdos para la gente. React conf.
+Hicimos, ya sabes, en 2018 Facebook de código abierto es
+
+682
+01:04:15,160 --> 01:04:23,630
+bueno. Insignia de asistente a React conf. Este
+era un libro de la conferencia React.js original
+
+683
+01:04:23,630 --> 01:04:30,940
+en la sede de Facebook, así que tenía una lista
+de los oradores y el horario y aquí está
+
+684
+01:04:30,940 --> 01:04:39,110
+la presentación principal. Yo y Christopher Chedeau.
+Teníamos todo tipo de cosas promocionales y un montón de
+
+685
+01:04:39,110 --> 01:04:45,329
+otras cosas... Así que cosas bastante buenas,
+recuerdos bastante buenos.
+
+686
+01:04:45,329 --> 01:04:51,819
+El equipo se inundó con preguntas de la comunidad
+y un nuevo desarrollador entra en la
+
+687
+01:04:51,819 --> 01:04:55,900
+órbita de React.
+
+688
+01:04:55,900 --> 01:04:59,980
+[Music]
+
+689
+01:04:59,980 --> 01:05:20,059
+¿Qué debo hacer con mis manos?
+¿Entonces estás diciendo que debería en realidad...
+
+690
+01:05:20,059 --> 01:05:25,901
+empezar así, dejame enfocarme un segundo.
+Solo para que conste, yo no creé React,
+
+691
+01:05:25,901 --> 01:05:33,349
+React fue creado por Jordan Walke. Yo trabajaba
+en una pequeña startup. Estábamos creando una especie
+
+692
+01:05:33,349 --> 01:05:38,940
+de plataforma de publicación digital, por lo que
+había un editor de publicaciones realmente complejo
+con diferentes
+
+693
+01:05:38,940 --> 01:05:43,930
+bloques o un texto desplazable con diferentes
+efectos y cosas por el estilo. Y así, crear
+
+694
+01:05:43,930 --> 01:05:50,030
+un editor dinámico e interactivo para estas cosas
+fue realmente difícil.
+
+695
+01:05:50,030 --> 01:05:53,700
+Y lo estábamos haciendo con Backbone.
+Quería probar React porque se suponía que
+
+696
+01:05:53,700 --> 01:05:59,180
+resolvía este problema. El primer componente
+de React que escribí fue un botón "me gusta",
+así que era solo como un botón que haces clic
+
+697
+01:05:59,180 --> 01:06:05,309
+y dice "te gusta esto" o "tú y alguien más
+les gusta esto" o "tú y 40 personas más les
+gusta esto". Así que había un poco de lógica dividida,
+
+699
+01:06:11,020 --> 01:06:18,900
+y luego la forma en que lo expresarías en otros frameworks
+en ese momento, tenías que vigilar manualmente lo que
+
+700
+01:06:18,900 --> 01:06:23,549
+ha cambiado y actualizarlo. Y en React
+simplemente podías decir, si a nadie le gusta este programa
