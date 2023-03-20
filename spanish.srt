@@ -784,100 +784,104 @@ a Lee Byron que se reuniera con Jordan
 
 131
 00:13:09,790 --> 00:13:13,600
-y le pusiera un alto para que 
+y le pusiera un alto para que
 enfocara los esfuerzos en Bolt.
 Entramos a la sala. Al instante sabía
 
 132
 00:13:13,600 --> 00:13:17,300
-que esto iba a ser raro 
-porque llegamos con diferentes energías.
+que esto iba a ser raro
+porque llegamos con diferentes
+energías.
 
 133
 00:13:17,300 --> 00:13:23,950
-Yo llegué como: ok Jordan, 
+Yo llegué como: ok Jordan,
 quiero entender como va tu proyecto,
 pero también quiero
 
 134
 00:13:23,950 --> 00:13:28,870
-ayudarte a que nos aseguremos 
-que estás inviertiendo nuestro tiempo 
-de la forma correcta y que estamos trabajando
+ayudarte a que nos aseguremos
+que estás invirtiendo nuestro tiempo
+de la forma correcta y que estamos
 
 135
 00:13:28,870 --> 00:13:33,100
-en las cosas que van a tener longevidad 
-y van a resolver los problemas
-que tenemos. Y Jordan llegó con
+en las cosas que van a tener
+longevidad y van a resolver los
+problemas que tenemos. Y Jordan llegó
 
 136
 00:13:33,100 --> 00:13:36,860
-"puedo mostarte una demo de lo que 
-he estado trabajando", algo así
+con "puedo mostarte una demo de lo
+que he estado trabajando", algo así
 como "esto es muy emocionante,
 
 137
 00:13:36,860 --> 00:13:40,740
 y hace esto esto y esto otro".
-Y eventualmente,
-al final de la reunión
+Y eventualmente, al final de la
+reunión
 
 138
 00:13:40,740 --> 00:13:46,709
-tuve que admitir que tenía algo muy interesante 
-entre manos. Ahora estaba muy interesado 
-en aprender más de lo que estaba haciendo.
+tuve que admitir que tenía algo muy
+interesante entre manos. Ahora estaba
+muy interesado en aprender más de lo
 
 139
 00:13:46,709 --> 00:13:51,670
-Así que la presentación de 
-Jordan fue para mí algo así como:
+que estaba haciendo. Así que la
+presentación de Jordan fue para mí
+algo así como:
 
 140
 00:13:51,670 --> 00:13:55,810
-Solo quiero invertir mi tiempo en esto y 
-trabajarlo si va a ser algo que 
+Solo quiero invertir mi tiempo en esto y
+trabajarlo si va a ser algo que
 las personas van a usar,
 
 141
 00:13:55,810 --> 00:13:59,199
-y si ese no es el caso, entonces no lo hagamos.
+y si ese no es el caso, entonces
+no lo hagamos.
 
 142
 00:13:59,199 --> 00:14:04,290
-Pero opino que todas las formas en las que hemos
-desarrollado interfaces de usuario hasta ahora
+Pero opino que todas las formas en
+las que hemos desarrollado interfaces
+de usuario hasta ahora
 
 143
 00:14:04,290 --> 00:14:08,230
-han tenido defectos. O son una biblioteca 
-de JavaScript que no cubre nuestras
-necesidades,
+han tenido defectos. O son una
+biblioteca de JavaScript que no
+cubre nuestras necesidades,
 
 144
 00:14:08,230 --> 00:14:14,000
-o es un modelo probado de hace 30 años 
-para el desarrollo de aplicaciones 
+o es un modelo probado de hace 30 años
+para el desarrollo de aplicaciones
 con interfaces de usuario.
 
 145
 00:14:14,000 --> 00:14:21,260
 Todos ellos sufren del mismo problema
-de raíz: el manejo del estado. Y creo que
-esto es el camino hacia adelante.
+de raíz: el manejo del estado. Y creo
+que esto es el camino hacia adelante.
 
 146
 00:14:21,260 --> 00:14:27,759
-y Lee, si pudieras indagar un 
-poco más en el código aprender más de 
+y Lee, si pudieras indagar un
+poco más en el código aprender más de
 ello y lo probarás, y entonces volvieras
 
 147
 00:14:27,759 --> 00:14:32,120
-para hablar de esto nuevamente, 
-tal vez podríamos encontrar una solución 
-a esto. Y pensé: está bien, está bien.
+para hablar de esto nuevamente,
+tal vez podríamos encontrar una
+solución a esto. Y pensé: está bien,
 
 148
 00:14:32,120 --> 00:14:38,690
@@ -891,30 +895,30 @@ construir algunas cosas, y tuve que admitir
 
 150
 00:14:43,339 --> 00:14:48,060
-que había algo realmente interesante ahí.
-Y así fue
+que había algo realmente interesante
+ahí. Y así fue
 
 151
 00:14:48,060 --> 00:14:52,730
-como me metí de lleno en el proyecto, y terminé
-trabajando en el bastante tiempo
-en los siguientes
+como me metí de lleno en el proyecto,
+y terminé trabajando en el bastante
+tiempo en los siguientes
 
 152
 00:14:52,730 --> 00:14:59,209
-meses. Lee trajo esta meticulosa 
-mentalidad de diseño a estas cosas 
+meses. Lee trajo esta meticulosa
+mentalidad de diseño a estas cosas
 que ayudaron
 
 153
 00:14:59,209 --> 00:15:03,940
-bastante en las versiones iniciales de 
+bastante en las versiones iniciales de
 React en cuestión de estándarizarlo
 y convertirlo
 
 154
 00:15:03,940 --> 00:15:08,459
-de algo así como un bebé feo 
+de algo así como un bebé feo
 que había crecido en Facebook
 
 155
@@ -924,20 +928,20 @@ podía entender.
 
 156
 00:15:14,029 --> 00:15:21,000
-Había algunos problemas que me topé 
+Había algunos problemas que me topé
 de inmediato intentando entender
 el código para construir algo.
 
 157
 00:15:21,000 --> 00:15:26,990
-No eran solamente las herramientas y 
-la cuestión de que el modelo 
+No eran solamente las herramientas y
+la cuestión de que el modelo
 mental era muy diferente
 
 158
 00:15:26,990 --> 00:15:35,220
-de lo que estaba acostumbrado como 
-ingeniero de UI. No solo sintaxis 
+de lo que estaba acostumbrado como
+ingeniero de UI. No solo sintaxis
 y los conceptos de programación,
 
 159
@@ -948,7 +952,7 @@ Mis conclusiones eran: ok, toda la apuesta
 160
 00:15:39,850 --> 00:15:44,790
 gira en torno a que esto es más simple, pero
-no puedo evitar sentir que esto es 
+no puedo evitar sentir que esto es
 realmente complicado.
 
 161
@@ -958,29 +962,29 @@ pero también esperaba
 
 162
 00:15:51,790 --> 00:15:58,800
-que esto de alguna forma terminara 
+que esto de alguna forma terminara
 resolviendo algunas cosas.
 Quería construir un glosario.
 
 163
 00:15:58,800 --> 00:16:06,300
-Qué son todas estás cosas, los 
+Qué son todas estás cosas, los
 conceptos y todas las acciones o verbos
 
 164
 00:16:06,300 --> 00:16:10,649
-que están ocurriendo aquí. Así 
-que literamente lo listé todo. 
+que están ocurriendo aquí. Así
+que literamente lo listé todo.
 Y entonces iba con Jordan,
 
 165
 00:16:10,649 --> 00:16:13,610
-iba con otras personas trabajando 
+iba con otras personas trabajando
 en el proyecto, y les preguntaba:
 
 166
 00:16:13,610 --> 00:16:17,199
-Entendí esto bien? Estás 
+Entendí esto bien? Estás
 definiciones están correctas?
 
 167
@@ -990,7 +994,7 @@ debes verlo de esta otra forma.
 
 168
 00:16:20,380 --> 00:16:24,700
-Y conversábamos una y otra vez y yo 
+Y conversábamos una y otra vez y yo
 iba ajustando estas definiciones,
 y mientras tanto nos dábamos cuenta
 
@@ -1000,13 +1004,13 @@ de que varios conceptos eran lo mismo,
 
 170
 00:16:30,040 --> 00:16:35,080
-mejor vamos a nombrarlos de una 
-sola forma en lugar de ser dos cosas. Así que 
+mejor vamos a nombrarlos de una
+sola forma en lugar de ser dos cosas. Así que
 desenmarañar todo esto y prácticamente escribirlo
 
 171
 00:16:35,080 --> 00:16:41,100
-terminó siendo como reimaginar el ciclo 
+terminó siendo como reimaginar el ciclo
 de vida del componente, algo así
 
 172
@@ -1016,7 +1020,7 @@ Y yo estaba muy feliz todo el entusiasmo
 
 173
 00:16:46,899 --> 00:16:50,610
-alrededor de eso. Jordan decía: 
+alrededor de eso. Jordan decía:
 esto es increíble, esto aclara todas las ideas.
 
 174
@@ -1031,14 +1035,14 @@ poniendo todo en orden
 
 176
 00:17:02,060 --> 00:17:08,560
- y cambiando considerablemente
-la superficie de la API de React 
+y cambiando considerablemente
+la superficie de la API de React
 en el proceso.
 
 177
 00:17:08,560 --> 00:17:14,400
-Creo que fue fue el primer cambio, de 
-ser esta cosa que existia solamente 
+Creo que fue fue el primer cambio, de
+ser esta cosa que existia solamente
 en la mente de Jordan
 
 178
@@ -1049,97 +1053,103 @@ todo un equipo eramos responsables.
 
 179
 00:17:18,630 --> 00:17:23,280
-Donde la palabra "equipo" es algo 
-así como muchos ingenieros de interfaces 
-de usuario repartidos por todo Facebook
+Donde la palabra "equipo" es algo
+así como muchos ingenieros de
+interfaces de usuario repartidos
 
 180
 00:17:23,280 --> 00:17:28,270
-que estabamos metidos de lleno en 
-esta visión, y del que ahora todos ahora
-podíamos usar la misma terminología
+por todo Facebook que estabamos metidos
+de lleno en esta visión, y del que
+ahora todos ahora podíamos usar
 
 181
 00:17:28,270 --> 00:17:32,380
-cada vez que alguien tenía una pregunta.
-Ahora todos podíamos intentar 
-responder una pregunta
+la misma terminología cada vez que
+alguien tenía una pregunta. Ahora todos
+podíamos intentar responder una pregunta
 
 182
 00:17:32,380 --> 00:17:41,179
-más allá de Jordan. Ese fue el 
+más allá de Jordan. Ese fue el
 primer gran cambio.
 
 183
 00:17:41,179 --> 00:17:49,410
-Uno de los primeros proyectos donde React 
-fue usado fue para UFI: Universal Feedback Interface
-(Interfaz de Retroalimentación Universal)
+Uno de los primeros proyectos donde
+React fue usado fue para UFI:
+Universal Feedback Interface
 
 184
 00:17:49,410 --> 00:17:54,250
-que básicamente son los "me gusta", los comentarios y
-la opción de compartir en la parte baja de cada publicación.
+(Interfaz de Retroalimentación Universal)
+que básicamente son los "me gusta", los
+comentarios y la opción de compartir
 
 185
 00:17:54,250 --> 00:17:59,450
-Esto fue todavía durante la era web de Facebook, 
-cuando Facebook en la web era algo así como
+en la parte baja de cada publicación.
+Esto fue todavía durante la era web de
+Facebook, cuando Facebook en la web era
 
 186
 00:17:59,450 --> 00:18:05,690
-el mayor direccionador de "engagement".
-El "Newsfeed" (Muro en Facebook en español) tenía mil millones de usuarios
+algo así como el mayor direccionador
+de "engagement". El "Newsfeed" (Muro en
+Facebook en español) tenía mil millones
 
 187
 00:18:05,690 --> 00:18:11,030
-al día, y estaba perfeccionado para 
-tener gran desempeño. Es una superficie 
+de usuarios al día, y estaba perfeccionado
+para tener gran desempeño. Es una superficie
 altamente interactiva, donde
 
 188
 00:18:11,030 --> 00:18:15,090
-das click para dar un "me gusta", 
-escribes para agregar comentarios, y a la 
-par queremos que los comentarios lleguen en vivo,
+das click para dar un "me gusta",
+escribes para agregar comentarios, y a la
+par queremos que los comentarios lleguen
 
 189
 00:18:15,090 --> 00:18:18,970
-de manera que si le estas poniendo 
-atención mientras un comentario llega
+en vivo, de manera que si le estas
+poniendo atención mientras un comentario
+llega queremos que aparezca justo ahí.
 
 190
 00:18:18,970 --> 00:18:24,650
-queremos que aparezca justo ahí.
-Y había este deseo en el producto
+Y había este deseo en el producto para
+que esa interfaz se sintiera como si fuera
+un chat, y eso sonaban genial para la época.
 
 191
 00:18:24,650 --> 00:18:31,540
-para que esa interfaz se sintiera 
-como si fuera un chat, y eso sonaban genial
-para la época.
+Así que mientras eso comenzaba a funcionar,
+para el segundo punto dijimos: si esto puede
+funcionar para este caso único de mensajería,
 
 192
 00:18:31,540 --> 00:18:36,150
-Así que mientras eso comenzaba a 
-funcionar, para el segundo punto dijimos:
-si esto puede funcionar para este caso único
+que tal si pudiera funcionar para un caso
+completo de chats. Esto era un área muy
+complicada y frágil, propensa a "bugs".
 
 193
 00:18:36,150 --> 00:18:41,710
-de mensajería, que tal si pudiera funcionar
-para un caso completo de chats.
+Eso fue cuando muchas de las ideas en React
+cuadraron, la sintaxis de JSX fue introducida
+y algunas de las ideas acerca de como
 
 194
 00:18:41,710 --> 00:18:47,740
-Esto era un área muy complicada y frágil,
-propensa a "bugs". Eso fue cuando 
+Esto era un área muy complicada y
+frágil, propensa a "bugs". Eso fue cuando
 muchas de las ideas
 
 195
 00:18:47,740 --> 00:18:54,780
-en React cuadraron, la sintaxis de 
-JSX fue introducida y algunas de las 
+en React cuadraron, la sintaxis de
+JSX fue introducida y algunas de las
 ideas acerca de como trabajar con datos
 
 196
@@ -1149,64 +1159,74 @@ Algunos de nuestros ingenieros
 
 197
 00:19:00,000 --> 00:19:05,280
-junto al equipo de mensajería, representados por
-Jing Chen si recuerdo bien,
+junto al equipo de mensajería,
+representados por Jing Chen si
+recuerdo bien,
 
 198
 00:19:05,280 --> 00:19:10,470
-se dieron cuenta de que necesitabamos una forma
-diferente para pensar en el estado.
+se dieron cuenta de que necesitabamos
+una forma diferente para pensar en
+el estado.
 
 199
 00:19:10,470 --> 00:19:17,669
-Mi nombre es Jing, y soy software engineer en
-la infraestructura del producto en Facebook.
+Mi nombre es Jing, y soy software
+engineer en la infraestructura del
+producto en Facebook.
 
 200
 00:19:17,669 --> 00:19:24,070
-Flux es una arquitectura diseñada alrededor del
-principio de React del flujo de datos unidireccional.
+Flux es una arquitectura diseñada
+alrededor del principio de React del
+flujo de datos unidireccional.
 
 201
 00:19:24,070 --> 00:19:30,250
-Junto con Flux, React podía ir más allá de la capa de la vista
-para modelar toda una aplicación entera.
+Junto con Flux, React podía ir más
+allá de la capa de la vista para modelar
+toda una aplicación entera.
 
 202
 00:19:30,250 --> 00:19:34,700
-Este cambio de como pensar en el estado encajó
-muy bien en la manera en la que React
+Este cambio de como pensar en el
+estado encajó muy bien en la manera
+en la que React actualizaba la UI, y
 
 203
 00:19:34,700 --> 00:19:39,860
-actualizaba la UI, y esto terminó siendo el siguiente
-capítulo sobre como pensar en React como
+esto terminó siendo el siguiente
+capítulo sobre como pensar en React
+como algo más que como modelar UI
 
 204
 00:19:39,860 --> 00:19:46,909
-algo más que como modelar UI complicadas, y en lugar de ello,
-como modelar apps bastante complicadas.
+complicadas, y en lugar de ello,
+como modelar apps bastante
+complicadas.
 
 205
 00:19:46,909 --> 00:19:50,340
-Como si esto fuera algo que expandiera
-applications. Por ejemplo: esto se expande a pantalla completa,
-expanded the full screen and multiple touch
+Como si esto fuera algo que
+expandiera applications. Por
+ejemplo: esto se expande a pantalla completa,
 
 206
 00:19:50,340 --> 00:19:55,240
+expanded the full screen and multiple touch
 y soporta pantallas táctiles, y tiene navegación.
 Esto nos permitió avanzar al siguiente capítulo.
 
 207
 00:19:55,240 --> 00:20:00,419
-Recuerdo que le pregunté a Jing: oye, como va React?
-Crees que vaya a funcionar?
+Recuerdo que le pregunté a Jing: oye,
+como va React? Crees que vaya a
+funcionar?
 
 208
 00:20:00,419 --> 00:20:04,340
-Y ella decía: esto va bastante bien. Estoy segura que
-lo vamos a lograr.
+Y ella decía: esto va bastante bien.
+Estoy segura que lo vamos a lograr.
 
 209
 00:20:04,340 --> 00:20:16,950
@@ -1267,13 +1287,15 @@ de trabajar ahí.
 
 221
 00:21:23,550 --> 00:21:30,529
-Entré a Facebook video. La idea era: somos la tercer
-plataforma de video más grande del mundo,
+Entré a Facebook video. La idea era:
+somos la tercer plataforma de video
+más grande del mundo,
 
 222
 00:21:30,529 --> 00:21:36,480
-justo detrás de YouTube y Dailymotion creo, y había
-solo un ingeniero trabajando en ello,
+justo detrás de YouTube y Dailymotion
+creo, y había solo un ingeniero
+trabajando en ello,
 
 223
 00:21:36,480 --> 00:21:39,970
@@ -1282,58 +1304,65 @@ Eso sonaba genial.
 
 224
 00:21:39,970 --> 00:21:42,861
-Trabajamos muy de cerca con los equipos de fotos
-para Android y iOS,
+Trabajamos muy de cerca con los equipos
+de fotos para Android y iOS,
 
 225
 00:21:42,861 --> 00:21:48,659
-y estábamos construyendo un competidor para Instagram
-que nadie recuerda, pero se llamaba Faceboom Camera.
+y estábamos construyendo un competidor
+para Instagram que nadie recuerda, pero
+se llamaba Faceboom Camera.
 
 226
 00:21:48,659 --> 00:21:54,410
-Una mañana, el equipo de fotos fue llamado llegar temprano.
-Nos dijeron que fueramos a las oficinas principales a las 8 am.
+Una mañana, el equipo de fotos fue llamado
+llegar temprano. Nos dijeron que fueramos
+a las oficinas principales a las 8 am.
 
 227
 00:21:54,410 --> 00:21:57,789
-El vicepresidente de ingeniería nos contó que habían comprado Instagram,
-y que ahora eran nuestros colaboradores.
+El vicepresidente de ingeniería nos contó
+que habían comprado Instagram, y que
+ahora eran nuestros colaboradores.
 
 228
 00:21:57,789 --> 00:22:02,980
-Estas personas eran nuestros rivales, sabes?
+Estas personas eran nuestros rivales,
+sabes?
 
 229
 00:22:02,980 --> 00:22:06,730
 Los veíamos un poco como nuestros enemigos.
-Estoy seguro que también nos veían como enemigos.
+Estoy seguro que también nos veían
+como enemigos.
 
 230
 00:22:06,730 --> 00:22:10,950
-Eran un equipo muy pequeño,
-y habían acertado con los fundamentos,
+Eran un equipo muy pequeño, y habían
+acertado con los fundamentos,
 
 231
 00:22:10,950 --> 00:22:15,370
 pero todavía faltaban muchas por solucionar,
-y no tenían un equipo que se encargara de encontrar esas soluciones,
+y no tenían un equipo que se encargara
+de encontrar esas soluciones,
 
 232
 00:22:15,370 --> 00:22:19,730
-y uno de esos casos era entender que era necesario para que
-Instagram llegara a la web.
+y uno de esos casos era entender que
+era necesario para que Instagram llegara
+a la web.
 
 233
 00:22:19,730 --> 00:22:23,140
 La experiencia en la web es muy important
 para lograr crecimiento
-important for driving growth and so this was
 
 234
 00:22:23,140 --> 00:22:28,100
-por lo que era una gran prioridad, así que el diseñador
-Maykel Loomans y yo comenzamos a trabajar
+por lo que era una gran prioridad, así que
+el diseñador Maykel Loomans y yo comenzamos
+a trabajar
 
 235
 00:22:28,100 --> 00:22:34,370
@@ -1342,13 +1371,14 @@ Y es entonces cuando React entra a escena
 
 236
 00:22:34,370 --> 00:22:40,760
-cuando comenzamos a trabajar en este sitio web.
-[Música]
+cuando comenzamos a trabajar en este sitio
+web. [Música]
 
 237
 00:22:40,760 --> 00:22:49,270
-Nos dieron la orden de usar render del lado del cliente,
-así que fui con el equipo de infraestructura de producto
+Nos dieron la orden de usar render del
+lado del cliente, así que fui con el equipo
+de infraestructura de producto
 
 238
 00:22:49,270 --> 00:22:56,830
@@ -1364,26 +1394,28 @@ de forma en que tus métricas clave de éxito
 00:23:03,830 --> 00:23:08,380
 fueran otros equipos diciendo: sí, eso realme
 nos ayudó. Ibas con ellos a algo así como una
-helped us". You go to them and you kind of
 
 241
 00:23:08,380 --> 00:23:15,060
-reuinón con el consejo de sabios, y ellos te
+reunión con el consejo de sabios, y ellos te
 daban sus recomendaciones, y les dije:
 
 242
 00:23:15,060 --> 00:23:19,900
-Oigan, necesitamos hacer render en el lado del cliente.
-Cómo lo hacemos? Y nos dijeron:
+Oigan, necesitamos hacer render en el
+lado del cliente. ¿Cómo lo hacemos?
+Y nos dijeron:
 
 243
 00:23:19,900 --> 00:23:22,420
-No sabemos. Tenemos 3 cosas diferentes en las que
-hemos estado trabajando, deberías probar alguna.
+No sabemos. Tenemos 3 cosas diferentes
+en las que hemos estado trabajando,
+deberías probar alguna.
 
 244
 00:23:22,420 --> 00:23:33,809
-Tenemos algo llamado Bolt.js, otro llamado JS.HTML, y
+Tenemos algo llamado Bolt.js, otro
+llamado JS.HTML, y
 
 245
 00:23:33,809 --> 00:23:39,850
@@ -1392,53 +1424,61 @@ Pete fue y habló con Jordan acerca de usar
 
 246
 00:23:39,850 --> 00:23:44,620
-React, y me contó acerca de potencialmente usar Bolt, pero
-creo que de verdad le gustaban las ideas
+React, y me contó acerca de potencialmente
+usar Bolt, pero creo que de verdad
+le gustaban las ideas
 
 247
 00:23:44,620 --> 00:23:50,559
 de Jordan acerca programación funcional.
-El model conceptual de React era muy innovador,
+El model conceptual de React era muy
+innovador,
 
 248
 00:23:50,559 --> 00:23:55,830
 y me llamaba la atención.
-Mis experiencia era en sistemas distribuidos.
+Mis experiencia era en sistemas
+distribuidos.
 
 249
 00:23:55,830 --> 00:24:01,610
-No era alguien a quien le encantara el frontend, o
-que pensara que las cosas iban bien en el frontend.
+No era alguien a quien le encantara
+el frontend, o que pensara que las cosas
+iban bien en el frontend.
 
 250
 00:24:01,610 --> 00:24:06,070
-Así que el hecho de que React llegara con un enfoque
-nuevo y no le importara en lo absoluto
+Así que el hecho de que React llegara
+con un enfoque nuevo y no le importara
+en lo absoluto
 
 251
 00:24:06,070 --> 00:24:11,070
-acerca de las mejores prácticas existentes, fue lo que me
-convenció. Así que mientras yo había considerado
+acerca de las mejores prácticas existentes,
+fue lo que me convenció. Así que mientras
+yo había considerado
 
 252
 00:24:11,070 --> 00:24:16,289
-las 3 opcionas, estaba inmerso en la idea de construir
-un prototipo hecho en React,
+las 3 opcionas, estaba inmerso en la idea
+de construir un prototipo hecho en React,
 
 253
 00:24:16,289 --> 00:24:22,870
-y eso terminó en lo que lanzamos en Instagram.com, que fue
-el segundo uso de React en producción,
+y eso terminó en lo que lanzamos en
+Instagram.com, que fue el segundo uso
+de React en producción,
 
 254
 00:24:22,870 --> 00:24:30,590
-y el primer caso de construir una aplicación completa
-en React.
+y el primer caso de construir una
+aplicación completa en React.
 
 255
 00:24:30,590 --> 00:24:35,429
-Cuando elegí React para Instagram no era tan conocido
-dentro de Facebook, y era algo así
+Cuando elegí React para Instagram no era
+tan conocido dentro de Facebook, y era
+algo así
 
 256
 00:24:35,429 --> 00:24:40,300
@@ -1446,44 +1486,48 @@ como un loco experimento de ciencias.
 
 257
 00:24:40,300 --> 00:24:45,520
-No era ni remotamente eso. Pete estaba experimentando
-con React,
+No era ni remotamente eso. Pete estaba
+experimentando con React,
 
 258
 00:24:45,520 --> 00:24:50,909
-y para aquel entonces, ya era mucho mejor que los primeros
-días, pero aún necesitaba muchas iteraciones más.
+y para aquel entonces, ya era mucho
+mejor que los primeros días, pero aún
+necesitaba muchas iteraciones más.
 
 259
 00:24:50,909 --> 00:24:55,200
-Teníamos que tomar esto que estaba muy atado
-a la infraestructura de Facebook,
+Teníamos que tomar esto que estaba
+muy atado a la infraestructura de
+Facebook,
 
 260
 00:24:55,200 --> 00:25:01,720
-que era una aplicación gigante hecha en PHP,
-y tenía que hacerlo trabajar en una aplicación de Django,
+que era una aplicación gigante hecha
+en PHP, y tenía que hacerlo trabajar
+en una aplicación de Django,
 
 261
 00:25:01,720 --> 00:25:07,440
 que era un sistema totalmente distinto.
 Y lo que fue clave no fue hacerlo una vez,
-And what was key was not doing that once but
 
 262
 00:25:07,440 --> 00:25:12,049
-sino hacerlo un proceso repetible y asegurarnos que
-el proceso no se rompiera.
+sino hacerlo un proceso repetible y
+asegurarnos que el proceso no se rompiera.
 
 263
 00:25:12,049 --> 00:25:17,059
-Creo que alcanzamos un número muy interesante de problemas
-en el camino, que demostró que React
+Creo que alcanzamos un número muy
+interesante de problemas en el camino,
+que demostró que React
 
 264
 00:25:17,059 --> 00:25:22,130
-aún no estaba listo para esta escala, y mientras tanto,
-Pete y el equipo con el que estaba trabajando
+aún no estaba listo para esta escala,
+y mientras tanto, Pete y el equipo con
+el que estaba trabajando
 
 265
 00:25:22,130 --> 00:25:50,590
@@ -1492,8 +1536,9 @@ construyero varias cosas interesantes.
 
 266
 00:25:50,590 --> 00:25:56,190
-Algunos de estos productos terminando siendo exitosos.
-Había un período de tiempo relativamente corto
+Algunos de estos productos terminando
+siendo exitosos. Había un período de
+tiempo relativamente corto
 
 267
 00:25:56,190 --> 00:26:03,800
@@ -1502,68 +1547,79 @@ Eso demostró que este modelo podría funcionar,
 
 268
 00:26:03,800 --> 00:26:10,010
-y no solo eso, también que la gente disfrutaba desarrollar
-con el. Eso se extendió y despegó,
+y no solo eso, también que la gente disfrutaba
+desarrollar con el. Eso se extendió y
+despegó,
 
 269
 00:26:10,010 --> 00:26:15,510
-y especialmente comenzó a tener más y más inversión,
-y se volvió claro que esto era
+y especialmente comenzó a tener más
+y más inversión, y se volvió claro
 
 270
 00:26:15,510 --> 00:26:22,110
-lo que queríamos usar. Realmente el equipo de publicidad
-eran quienes usaban más Bolt.
-that was kind of using Bolt more. It had a
+que esto era lo que queríamos usar.
+Realmente el equipo de publicidad eran
+quienes usaban más Bolt. that was
 
 271
 00:26:22,110 --> 00:26:28,230
-Tenían un nivel más alto de inversión en el, más personas trabajando
-en ese código, que ya estaban familiarizados, y tenían
+kind of using Bolt more. It had a
+Tenían un nivel más alto de inversión
+en el, más personas trabajando
 
 272
 00:26:28,230 --> 00:26:35,929
-muchos componentes, así que era más difícil de cambiar.
+en ese código, que ya estaban
+familiarizados, y tenían muchos
+componentes, así que era más difícil
 
 273
 00:26:35,929 --> 00:26:40,340
-El equipo de publicidad, justo antes de que me cambiara del equipo
-de apps móviles, recién habían reescrito completamente
+de cambiar. El equipo de publicidad,
+justo antes de que me cambiara del
+equipo de apps móviles, recién habían
 
 274
 00:26:40,340 --> 00:26:45,820
-todo el flujo de creación de publicidad en Bolt.
-Creo que les tomó unos 6 meses reemplazar
+reescrito completamente todo el flujo
+de creación de publicidad en Bolt.
+Creo que les tomó unos 6 meses
 
 275
 00:26:45,820 --> 00:26:52,340
-esta aplicación vieja hecha en PHP con lo que se consideraba
-entonces una aplicación moderna en JavaScript.
+reemplazar esta aplicación vieja hecha
+en PHP con lo que se consideraba
+entonces una aplicación moderna
 
 276
 00:26:52,340 --> 00:26:58,679
-Pero al mismo tiempo, React ya estaba lanzado en la aplicación
+en JavaScript. Pero al mismo tiempo,
+React ya estaba lanzado en la aplicación
 de Facebook, y tenía un equipo
 
 277
 00:26:58,679 --> 00:27:03,000
-que se estaba formando alrededor de el. Así que
-ahora teníamos dos frameworks viables que vivían
+que se estaba formando alrededor de el.
+Así que ahora teníamos dos frameworks
+viables que vivían en Facebook,
 
 278
 00:27:03,000 --> 00:27:09,360
-en Facebook, ambos resolviendo problemas reales.
-No deberíamos tener ambos, especialmente cuando
+ambos resolviendo problemas reales.
+No deberíamos tener ambos, especialmente
+cuando los dos eran muy similares.
 
 279
 00:27:09,360 --> 00:27:12,919
-los dos eran muy similares. Suficientemente similares como
-para confundir a la gente. Si mirabas el código,
-Like if you looked at the code, their code
+Suficientemente similares como para
+confundir a la gente. Si mirabas el
+código, Like if you looked at the code,
 
 280
 00:27:12,919 --> 00:27:17,029
-parecían prácticamente idénticos, pero funcionaban totalmente
+their code parecían prácticamente
+idénticos, pero funcionaban totalmente
 diferente. Sería una pesadilla
 
 281
@@ -1577,113 +1633,133 @@ Así que tuvimos que decidir cual usar.
 
 283
 00:27:26,890 --> 00:27:31,580
-Mucho de esto terminó siendo una conversación entre
-Jordan y yo.
+Mucho de esto terminó siendo una
+conversación entre Jordan y yo.
 
 284
 00:27:31,580 --> 00:27:36,660
-Evalúamos ambas opciones. Muchas cosas relacionadas a desempeño,
-y tratando de entender todos los casos.
+Evalúamos ambas opciones. Muchas
+cosas relacionadas a desempeño, y
+tratando de entender todos los casos.
 
 285
 00:27:36,660 --> 00:27:42,030
-Del lado a favor de React, obviamente están todas las
-cosas que conocemos ahora:
+Del lado a favor de React, obviamente
+están todas las cosas que conocemos
+ahora:
 
 286
 00:27:42,030 --> 00:27:46,890
-es capaz de manejar muchísima complejidad.
-Incluso cuando creamos el flujo de creación de publicidad
+es capaz de manejar muchísima
+complejidad. Incluso cuando creamos
+el flujo de creación de publicidad
 
 287
 00:27:46,890 --> 00:27:51,760
-en Bolt, llegamos a un punto que no podíamos hacer en Bolt
-sin escribir código spaghetti.
+en Bolt, llegamos a un punto que no
+podíamos hacer en Bolt sin escribir
+código spaghetti.
 
 288
 00:27:51,760 --> 00:27:56,940
-Esto se podía lograr en React. Entonces supimos que
-en el futuro, incluso si solo era 10% de la experiencia
+Esto se podía lograr en React.
+Entonces supimos que en el futuro,
+incluso si solo era 10% de la
 
 289
 00:27:56,940 --> 00:28:01,230
-que estábamos construyendo, volveríamos a toparnos con este problema
-nuevamente. Tal vez solo sea 10% inmantenible,
+experiencia que estábamos construyendo,
+volveríamos a toparnos con este
+problema nuevamente. Tal vez solo
 
 290
 00:28:01,230 --> 00:28:05,169
-pero conforme escalas esto en compañía que está creciendo rápidamente,
-esto se convierte en un desastre.
+sea 10% inmantenible, pero conforme
+escalas esto en compañía que está
+creciendo rápidamente, esto se
 
 291
 00:28:05,169 --> 00:28:10,140
-Los contras eran que React, en muchos casos, aún no estaba probado
-totalmente aún.
+convierte en un desastre. Los contras
+eran que React, en muchos casos, aún
+no estaba probado totalmente aún.
 
 292
 00:28:10,140 --> 00:28:13,860
-Habían muchas cosas que simplemente no funcionaban en React.
-No manejaba formularios,
+Habían muchas cosas que simplemente
+no funcionaban en React. No manejaba
+formularios,
 
 293
 00:28:13,860 --> 00:28:17,970
 no habían hecho una caja de texto,
-y había muchas dificultades
+y había muchas dificultades para
+manejar el estado en controles
 
 294
 00:28:17,970 --> 00:28:22,610
-para manejar el estado en controles de un formulario, como los
-botones de radio, y otras cosas que se complicaban.
-so on that it messed up. Just performance
+de un formulario, como los botones
+de radio, y otras cosas que se
+complicaban. so on that it messed up.
 
 295
 00:28:22,610 --> 00:28:27,679
-Problemas de desempeño donde intentaba repintar largos bloques
-para que no tuvieran que hacer todas esas mejoras
+Just performance Problemas de
+desempeño donde intentaba repintar
+largos bloques para que no tuvieran
 
 296
 00:28:27,679 --> 00:28:32,830
-que actualmente existen. Del lado de la organización,
+que hacer todas esas mejoras que
+actualmente existen. Del lado de la
+organización,
 
 297
 00:28:32,830 --> 00:28:39,590
-otro contra era que recién habíamos reescrito el proyecto en Bolt
-Facebook había salido a la bolsa recientemente,
+otro contra era que recién habíamos
+reescrito el proyecto en Bolt Facebook
+había salido a la bolsa recientemente,
 
 298
 00:28:39,590 --> 00:28:45,750
-y las acciones se habían reducido a la mitad desde entonces.
-Facebook no estaba generado suficiente dinero
+y las acciones se habían reducido a la
+mitad desde entonces. Facebook no
+estaba generado suficiente dinero
 
 299
 00:28:45,750 --> 00:28:49,870
-y el equipo de publicidad es el equipo donde el dinero
-empieza. Si parábamos por 4 meses
+y el equipo de publicidad es el equipo
+donde el dinero empieza. Si parábamos
+por 4 meses
 
 300
 00:28:49,870 --> 00:28:55,679
-tendríamos que decirle a todos: lo sentimos, no hay dinero,
-así que había muchas conversaciones
+tendríamos que decirle a todos: lo
+sentimos, no hay dinero, así que había
+muchas conversaciones
 
 301
 00:28:55,679 --> 00:28:59,150
-acerca de todo esto. Se volvió muy difícil.
-Inicialmente,
+acerca de todo esto. Se volvió
+muy difícil. Inicialmente,
 
 302
 00:28:59,150 --> 00:29:03,620
-muchos de los ingenieros que habían usado Bolt, incluyendo
+muchos de los ingenieros que
+habían usado Bolt, incluyendo
 Shane, se dieron cuenta de ello.
 
 303
 00:29:03,620 --> 00:29:07,760
-Hemos invertido mucho en esto, y ha funcionado para todo,
+Hemos invertido mucho en esto,
+y ha funcionado para todo,
 ciertamente podemos hacerlo trabajar
 
 304
 00:29:07,760 --> 00:29:12,100
 para los problemas que vengan.
-Así que hubo oposición de usar React
+Así que hubo oposición de
+usar React
 
 305
 00:29:12,100 --> 00:29:16,299
@@ -1692,17 +1768,19 @@ que ni siquiera estaba probado.
 
 306
 00:29:16,299 --> 00:29:20,750
-Este es nuestro negocio, y es muy importante.
-Cuando Jordan
+Este es nuestro negocio, y es
+muy importante. Cuando Jordan
 
 307
 00:29:20,750 --> 00:29:25,890
 y yo pláticamos con ellos,
-había algunas sentimientos encontrados,
+había algunas sentimientos
+encontrados,
 
 308
 00:29:25,890 --> 00:29:29,640
-y creo que venían de cada uno de nosotros que no
+y creo que venían de cada uno
+de nosotros que no
 teníamos el contexto del otro.
 
 309
@@ -1712,283 +1790,312 @@ Al final, Mike Schroepfer
 
 310
 00:29:34,510 --> 00:29:41,360
-intervino y dijo: mira, toma la decisión técnica correcta,
+intervino y dijo: mira, toma la
+decisión técnica correcta,
 y haz la decisión correcta a largo plazo
 
 311
 00:29:41,360 --> 00:29:47,159
-y cualquiera que sea esa decisión, yo te respaldo.
+y cualquiera que sea esa
+decisión, yo te respaldo.
 Si necesitas parar el desarrollo de producto
 
 312
 00:29:47,159 --> 00:29:53,070
-por 4 meses, puedes hacerlo. Conseguimos algunas salas
+por 4 meses, puedes hacerlo.
+Conseguimos algunas salas
 de juntas y comenzamos a aclarar todas estas dudas
 
 313
 00:29:53,070 --> 00:29:57,320
-acerca de que era un problema técnico,
-que era un problema de la organización,
+acerca de que era un problema
+técnico, que era un problema
+de la organización,
 
 314
 00:29:57,320 --> 00:30:03,390
-que era un problema financiero, y comenzamos a entender,
+que era un problema financiero,
+y comenzamos a entender,
 
 315
 00:30:03,390 --> 00:30:09,220
-junto a mucho, mucho café, que React era el camino
+junto a mucho, mucho café, que
+React era el camino
 a tomar. Pero no era una decisión sencilla después de todo.
 
 316
 00:30:09,220 --> 00:30:14,799
-El fue una los proponentes más grandes
+El fue una los proponentes más
+grandes
 
 317
 00:30:14,799 --> 00:30:21,330
-para que el equipo de publicidad migrara todo a React, y
+para que el equipo de publicidad
+migrara todo a React, y
 eso no es algo que ocurra normalmente en la mayoría de las empresas.
 
 318
 00:30:21,330 --> 00:30:27,289
-En casi todas las compañías, si este proyecto es tu bebé,
+En casi todas las compañías, si
+este proyecto es tu bebé,
 tratas de desestimar a los otros
 
 319
 00:30:27,289 --> 00:30:31,860
-porque sabes bien que te pones a la defensiva de tus proyectos.
-Ese no fue el caso en Facebook en ese entonces,
+porque sabes bien que te pones a la
+defensiva de tus proyectos. Ese no
+fue el caso en Facebook en ese entonces,
 
 320
 00:30:31,860 --> 00:30:39,090
-y creo que Shane ejemplificó exactamente eso.
+y creo que Shane ejemplificó
+exactamente eso.
 
 321
 00:30:39,090 --> 00:30:45,070
-Había mucho trabajo por hacer en el flujo de creación de publicidad.
-Las tensiones se acumulaban y el equipo estaba atascado.
+Había mucho trabajo por hacer en el
+flujo de creación de publicidad.
+Las tensiones se acumulaban y el equipo
+estaba atascado.
 
 322
 00:30:45,070 --> 00:30:52,179
 Y para desbloquearlos, está Jing Chen.
-Teníamos este problema de gestión algo complicado,
+Teníamos este problema de gestión
+algo complicado,
 
 323
 00:30:52,179 --> 00:30:55,659
-todos entraban en desacuerdos en ambos bandos:
+todos entraban en desacuerdos en
+ambos bandos:
 
 324
 00:30:55,659 --> 00:30:59,960
-de un lado tenías al equipo de publicidad, y
+de un lado tenías al equipo de
+publicidad, y
 del otro al equipo de infraestructura.
 
 325
 00:30:59,960 --> 00:31:04,130
-Envíamos a Jing a que hablara con los ingenieros,
+Envíamos a Jing a que hablara con los
+ingenieros,
 y salieron motivados,
 
 326
 00:31:04,130 --> 00:31:08,539
-todos llegaron a acuerdos, con un plan para seguir adelante.
+todos llegaron a acuerdos, con un plan
+para seguir adelante.
 Ella es muy buena
 
 327
 00:31:08,539 --> 00:31:14,430
-construyendo consensos, porque es capaz de llegar
+construyendo consensos, porque es capaz
+de llegar
 hasta los detalles técnicos más importantes,
 
 328
 00:31:14,430 --> 00:31:18,520
-los identifica rápidamente, y logra que todos hablen
+los identifica rápidamente, y logra que
+todos hablen
 del mismo punto. Obviamente
 
 329
 00:31:18,520 --> 00:31:23,330
-ella ayudó a ambos equipos a construir el producto, pero se
-aseguró que cada vez que encontraban un bug en
+ella ayudó a ambos equipos a construir el
+producto, pero se
+aseguró que cada vez que encontraban un
+bug en
 
 330
 00:31:23,330 --> 00:31:28,380
-React, o había algo que todavía no soportábamos,
+React, o había algo que todavía no
+soportábamos,
 simplemente iba al framework y lo arreglaba.
 
 331
 00:31:28,380 --> 00:31:32,269
-O iba con el equipo de React y les decía:
+O iba con el equipo de React y les
+decía:
 necesitamos dos o tres ingenieros trabajando
 
 332
 00:31:32,269 --> 00:31:36,340
-en esto por un mes para desbloquear al equipo de publicidad.
+en esto por un mes para desbloquear al
+equipo de publicidad.
 
 333
 00:31:36,340 --> 00:31:40,580
-El administrador de publicidad era tan complicado
+El administrador de publicidad era tan
+complicado
 que terminó siendo una gran fuente
 
 334
 00:31:40,580 --> 00:31:48,020
-para lograr mejoras en el desempeño de React, y también
-para encontrar puntos donde no escalaba bien.
+para lograr mejoras en el desempeño de
+React, y también
+para encontrar puntos donde no escalaba
+bien.
 
 335
 00:31:48,020 --> 00:31:53,039
-Fue bastante acerca de usar estas piezas que teníamos
-of using the building blocks that we had and
+Fue bastante acerca de usar estas piezas
+que teníamos
 
 336
 00:31:53,039 --> 00:31:56,110
-y que conforme las ensamblaba en lo que parecía una
-aplicación compleja, emergían nuevos problemas
+y que conforme las ensamblaba en lo
+que parecía una aplicación compleja,
 
 337
 00:31:56,110 --> 00:31:59,410
-que teníamos que solucionar. Y definitivamente
+emergían nuevos problemas que teníamos
+que solucionar. Y definitivamente
 
 338
 00:31:59,410 --> 00:32:04,500
-había mucho de eso. Este fue uno de los períodos más
-divertidos e intensos de mi carrera.
+había mucho de eso. Este fue uno de los
+períodos más divertidos e intensos de mi carrera.
 
 339
 00:32:04,500 --> 00:32:08,289
-Ibamos a conocer al equipo y teníamos que
-ayudarles a crear un feature
+Ibamos a conocer al equipo y teníamos
+que ayudarles a crear un feature
 
 340
 00:32:08,289 --> 00:32:14,380
-y primero lo programaríamos nosotros mismos en React
-para asegurarnos que ellos no
+y primero lo programaríamos nosotros mismos
+en React para asegurarnos que ellos no
 
 341
 00:32:14,380 --> 00:32:18,740
-llegaran a un caso difícil. O algo así como encontrar
-todos los casos difíciles que pudieran enfrentar
+llegaran a un caso difícil. O algo así
+como encontrar todos los casos difíciles
 
 342
 00:32:18,740 --> 00:32:24,100
-y descubrir soluciones para eso.
-Así que fue muy emocionante porque
+que pudieran enfrentar y descubrir
+soluciones para eso. Así que fue muy emocionante
 
 343
 00:32:24,100 --> 00:32:28,279
-estábamos trabajando en dos cosas al mismo tiempo.
-Una era entregar esto, que era un proyecto complicado
-working on two things at the same time. One
-was delivering this really complicated, really
+estábamos trabajando en dos cosas al
+mismo tiempo. Una era entregar esto,
 
 344
 00:32:28,279 --> 00:32:33,110
-y muy importante para Facebook: el administrador de publicidad.
-Y lo otro era refinar este framework
+que era un proyecto complicado y muy
+importante para Facebook: el administrador
 
 345
 00:32:33,110 --> 00:32:40,330
-en el cual todos confíabamos, que era React.
-Por aquel entonces tuvimos que rehacer
+de publicidad. Y lo otro era refinar este
+framework en el cual todos confíabamos,
 
 346
 00:32:40,330 --> 00:32:44,460
-el flujo de creación de publicidad,
-que creo que nos tomo 4 meses. Habíamos probado
+que era React. Por aquel entonces tuvimos
+que rehacer el flujo de creación de publicidad,
 
 347
 00:32:44,460 --> 00:32:49,880
-básicamente todo: el soporte a navegadores, todos los campos
-del formulario y problemas de desempeño
+que creo que nos tomo 4 meses. Habíamos
+probado básicamente todo: el soporte a
 
 348
 00:32:49,880 --> 00:32:55,950
-habían sido resueltos, así que estábamos
-en un punto en que se sentía que esto
+navegadores, todos los campos del
+formulario y problemas de desempeño
 
 349
 00:32:55,950 --> 00:33:01,710
-estaba listo para ser liberado como código abierto,
-porque sabes? Lo usamos en múltiples tipos
+habían sido resueltos, así que estábamos
+en un punto en que se sentía que esto
 
 350
 00:33:01,710 --> 00:33:10,190
-de contextos, y sabíamos que iba a ser muy útil
-para el público. [Música]
+estaba listo para ser liberado como código
+abierto, porque sabes? Lo usamos en múltiples
 
 351
 00:33:10,190 --> 00:33:19,610
-Qué dijiste, Evan?
+tipos de contextos, y sabíamos que iba
+a ser muy útil para el público. [Música]
 
 352
 00:33:19,610 --> 00:33:29,130
-No hay, lo siento. Para mí, publicar el código de React
-nunca estuvo en duda. Esa era la meta
+Qué dijiste, Evan? No hay, lo siento.
+Para mí, publicar el código de React
 
 353
 00:33:29,130 --> 00:33:35,370
-desde el principio. Tom tenía esta idea que llamaba
-percepción de proyecto,
+nunca estuvo en duda. Esa era la meta
+desde el principio. Tom tenía esta idea
 
 354
 00:33:35,370 --> 00:33:40,580
-creo que "furioso" es la mejor palabra para describirlo.
-El estaba furioso de que Facebook
+creo que "furioso" es la mejor palabra para
+describirlo. El estaba furioso de que Facebook
 
 355
 00:33:40,580 --> 00:33:46,279
 estuviera contratando a todas estás estrellas del mundo
-de JavaScript. Ellos llegaban a Facebook
+de JavaScript. Ellos llegaban a Facebook y
 
 356
 00:33:46,279 --> 00:33:50,360
-y sabías, porque estaban en contra de escribir JavaScript
-para el lado del cliente, y porque
+sabías, porque estaban en contra de escribir JavaScript
+para el lado del cliente, y porque era un
 
 357
 00:33:50,360 --> 00:33:54,900
-era un ambiente difícil de maniobrar, que ellos elegirían
-el desarrollo móvil porque
+ambiente difícil de maniobrar, que ellos elegirían
+el desarrollo móvil porque había muchos desarrollos
 
 358
 00:33:54,900 --> 00:33:58,970
-había muchos desarrollos interesantes ocurriendo del lado del cliente.
-Y Tom estaba determinado
+interesantes ocurriendo del lado del cliente.
+Y Tom estaba determinado a cambiar esto.
 
 359
 00:33:58,970 --> 00:34:05,389
-a cambiar esto. Recuerdo haber ido a esta conferencia y yo
-estaba platicando con alguien
+Recuerdo haber ido a esta conferencia y yo estaba
+platicando con alguien y le dije que trabajaba en
 
 360
 00:34:05,389 --> 00:34:09,169
-y le dije que trabajaba en Facebook usando JavaScript, y
-el respondió: pero porque harías eso?
+Facebook usando JavaScript, y el respondió: pero
+porque harías eso? Odio lo que Facebook le está
 
 361
 00:34:09,169 --> 00:34:13,040
-Odio lo que Facebook le está haciendo a la industria de JavaScript.
-Han contratado a todas estas personas
+haciendo a la industria de JavaScript. Han contratado
+a todas estas personas de estos grandes proyectos,
 
 362
 00:34:13,040 --> 00:34:17,050
-de estos grandes proyectos, y ahora no tenemos idea
-de lo que están trabajando.
+y ahora no tenemos idea de lo que están trabajando.
+No han dado nada de vuelta. Creo que cuando
 
 363
 00:34:17,050 --> 00:34:23,159
-No han dado nada de vuelta. Creo que
-cuando React llegó, yo recién había comenzado
-when React came along I started very early
+React llegó, yo recién había comenzado when React
+came along I started very early a hablar de que,
 
 364
 00:34:23,159 --> 00:34:28,770
-a hablar de que, si esto realmente nos funciona, teníamos
-que encontrar un camino para publicarlo como código abierto.
+si esto realmente nos funciona, teníamos que encontrar
+un camino para publicarlo como código abierto.
 
 365
 00:34:28,770 --> 00:34:33,859
-Y estaba comunicando esto a la administración desde el inicio,
-para que cuando llegara el momento de hacerlo código abierto,
+Y estaba comunicando esto a la administración desde
+el inicio, para que cuando llegara el 
+momento de hacerlo
 
 366
 00:34:33,859 --> 00:34:45,020
-hubieran algunas juntas, fuera controversial, pero ya tuvieramos
+código abierto, hubieran algunas juntas, 
+fuera controversial, pero ya tuvieramos 
 todo el apoyo que necesitáramos.
 
 367
@@ -1998,33 +2105,35 @@ Primero hay un problema técnico por resolver.
 
 368
 00:34:52,220 --> 00:34:55,609
-Tienes que descubrir como extraerlo de tu infraestructura
-y hacerlo funcionar como código abierto,
+Tienes que descubrir como extraerlo de tu 
+infraestructura y hacerlo funcionar 
+como código abierto,
 
 369
 00:34:55,609 --> 00:35:01,180
 que fue toda la tarea que hicimos para Instagram.
+Tuvimos esta iniciativa de que no ibamos a impactar
 
 370
 00:35:01,180 --> 00:35:05,849
-Tuvimos esta iniciativa de que no ibamos a impactar
 la productividad de los desarrolladores en lo absoluto,
-at all, it's going to be entirely on the open
 
 371
 00:35:05,849 --> 00:35:10,660
-esto va a recaer totalmente en el equipo de código abierto,
-que eran solamente un montón de personas que querían publicarlo,
+esto va a recaer totalmente en el equipo de código
+abierto, que eran solamente un montón de personas
+que querían publicarlo,
 
 372
 00:35:10,660 --> 00:35:17,120
-querían que ocurriera. Y para realmente hacerlo código abierto,
-teníamos que escribir mucha documentación.
+querían que ocurriera. Y para realmente hacerlo
+código abierto, teníamos que escribir mucha
+documentación.
 
 373
 00:35:17,120 --> 00:35:21,710
-Pasamos mucho tiempo con la documentación para explicar:
-esto es React, esto son los conceptos,
+Pasamos mucho tiempo con la documentación para
+explicar: esto es React, esto son los conceptos,
 
 374
 00:35:21,710 --> 00:35:27,170
@@ -2045,22 +2154,24 @@ la experiencia de lo que el ecosistema necesitaba
 00:35:37,630 --> 00:35:46,240
 en aquel entonces hacerlo funcionar.
 Paul O'Shannessy fue una gran fuerza para
-was a huge force on open sourcing. As was
 
 378
 00:35:46,240 --> 00:35:51,770
-lograrlo publicar como código abierto, al igual que lo fue James Pearce,
-quien era el líder del la división de código libre en Facebook.
+lograrlo publicar como código abierto, al igual
+que lo fue James Pearce, quien era el líder del la
+división de código libre en Facebook.
 
 379
 00:35:51,770 --> 00:35:57,720
-James se había unido a la compañía y realmente quería
-cambiar la imagen de Facebook en el mundo del código abierto.
+James se había unido a la compañía y realmente
+quería cambiar la imagen de Facebook en el mundo
+del código abierto.
 
 380
 00:35:57,720 --> 00:36:02,080
-Recientemente habíamos liberado muchas cosas, pero los abandonamos.
-Podíamos decir: somos una empresa que apoya el código abierto
+Recientemente habíamos liberado muchas cosas,
+pero los abandonamos. Podíamos decir: somos una
+empresa que apoya el código abierto
 
 381
 00:36:02,080 --> 00:36:06,160
@@ -2069,8 +2180,8 @@ darle mantenimiento. James y Paul
 
 382
 00:36:06,160 --> 00:36:09,970
-en lo particular fueron muy específicos
-en mencionar que si ibamos a publicar React
+en lo particular fueron muy específicos en
+mencionar que si ibamos a publicar React
 
 383
 00:36:09,970 --> 00:36:15,990
@@ -2084,25 +2195,24 @@ y nos estaba funcionando, y nos emocionaba eso.
 
 385
 00:36:20,520 --> 00:36:27,450
-Elegimos la JSConf US, que era algo así
-como los Oscars de JavaScript
+Elegimos la JSConf US, que era algo así como los
+Oscars de JavaScript
 
 386
 00:36:27,450 --> 00:36:31,750
 tal vez es una comparación justa?
 Todas las celebridades estaban aquí
-all the celebrities are there and everyone's
 
 387
 00:36:31,750 --> 00:36:36,340
-y todos ponían atención y lo miraban en vivo por YouTube.
-Tom y Jordan crearon una presentación.
+y todos ponían atención y lo miraban en vivo 
+por YouTube. Tom y Jordan crearon 
+una presentación.
 
 388
 00:36:36,340 --> 00:36:40,490
 Tom es un gran orador,
 y Jordan es un ingeniero brillante
-and Jordan is a brilliant engineer, it was
 
 389
 00:36:40,490 --> 00:36:46,359
@@ -2127,7 +2237,6 @@ Estaba totalmente vacío, y estábamos listos
 00:37:05,050 --> 00:37:09,241
 para presionar el botón para exponer el repositorio
 como código libre. Jordan y yo estábamos emocionados
-source it. Jordan and I were all excited we
 
 394
 00:37:09,241 --> 00:37:13,140
@@ -2136,14 +2245,13 @@ de como hacíamos desarrollabamos con JavaScript
 
 395
 00:37:13,140 --> 00:37:17,560
-en Facebook. Era poco convencional. Hice un poco de esto,
-el hizo un poco de aquello.
+en Facebook. Era poco convencional. Hice un 
+poco de esto, el hizo un poco de aquello.
 
 396
 00:37:17,560 --> 00:37:23,750
 Junto con React estamos lanzando una sintaxis de XML
 que llamamos JSX.
-XML syntax and we're calling that JSX. And
 
 397
 00:37:23,750 --> 00:37:29,301
@@ -2157,7 +2265,8 @@ Y las personas estaban escépticas.
 
 399
 00:37:36,570 --> 00:37:43,329
-Todos lo odiaron. Todos pensaron que era horrible.
+Todos lo odiaron. Todos pensaron
+que era horrible.
 
 400
 00:37:43,329 --> 00:37:47,770
@@ -2165,33 +2274,39 @@ Todos lo odiaron. Todos pensaron que era horrible.
 
 401
 00:37:47,770 --> 00:37:53,080
-Internamente estabamos esperando una mejor recepción.
-O al menos un "oh, eso suena interesante"
+Internamente estabamos esperando
+una mejor recepción. O al menos
+un "oh, eso suena interesante"
 
 402
 00:37:53,080 --> 00:37:57,500
-Pensamos que habría algunos nerds de algún
-lenguaje de programación que pensarían
+Pensamos que habría algunos nerds
+de algún lenguaje de programación
+que pensarían
 
 403
 00:37:57,500 --> 00:38:01,020
-"oh, podría hacer programación funcional en la UI,
-al menos eso es interesante".
+"oh, podría hacer programación
+funcional en la UI, al menos eso
+es interesante".
 
 404
 00:38:01,020 --> 00:38:05,260
-Fue una lección de humildad, fue una decepción para nosotros
-porque trabajamos varias noches
+Fue una lección de humildad, fue
+una decepción para nosotros porque
+trabajamos varias noches
 
 405
 00:38:05,260 --> 00:38:09,369
-y fines de semana para tener esto listo para ser open source,
-y entonces cuando lo lanzamos, todos lo odiaron.
+y fines de semana para tener esto
+listo para ser open source, y
+entonces cuando lo lanzamos,
 
 406
 00:38:09,369 --> 00:38:13,900
-El detalle en donde todos se enfocaron fue que las personas
-realmente odiaron JSX.
+todos lo odiaron. El detalle en
+donde todos se enfocaron fue que
+las personas realmente odiaron JSX.
 
 407
 00:38:13,900 --> 00:38:24,680
@@ -2199,230 +2314,237 @@ No he visto este video hace tiempo.
 
 408
 00:38:24,680 --> 00:38:30,720
-Estos divs no son exactamente a lo que estas acostumbrado.
-No son nodos del DOM.
+Estos divs no son exactamente a
+lo que estas acostumbrado. No son
+nodos del DOM.
 
 409
 00:38:30,720 --> 00:38:35,620
-Son especialmente reactions, y te diré porque eso es importante.
-No recuerdo haber pensado en que lo odiarían.
+Son especialmente reactions, y
+te diré porque eso es importante.
+No recuerdo haber pensado en
 
 410
 00:38:35,620 --> 00:38:43,240
-No recuerdo en lo en lo absoluto haber pensado que tuitearían
-tantas cosas acerca de eso.
+que lo odiarían. No recuerdo en lo
+en lo absoluto haber pensado que
+tuitearían tantas cosas acerca
 
 411
 00:38:43,240 --> 00:38:46,650
-Esta es la diapositiva. Aún no habíamos hablado
-de los problemas que intentábamos solucionar.
+de eso. Esta es la diapositiva.
+Aún no habíamos hablado de los
+problemas que intentábamos solucionar.
 
 412
 00:38:46,650 --> 00:38:50,630
-Tampoco habíamos hablado de porque esto funcionaba
-para nosotros, o cuales eran los principios de diseño.
+Tampoco habíamos hablado de porque
+esto funcionaba para nosotros, o
+cuales eran los principios de diseño.
 
 413
 00:38:50,630 --> 00:38:56,849
-Estamos como boom, aquí hay algo de XML con
-JavaScript y la gente dice hey, ¿qué esta pasando?
+Estamos como boom, aquí hay algo
+de XML con JavaScript y la gente
+dice hey, ¿qué esta pasando?
 
 414
 00:38:56,849 --> 00:39:03,000
-Pobre de Jordan. Lo que no sabiamos era
-cuanta tanta diferencia habia
+Pobre de Jordan. Lo que no sabiamos
+era cuanta tanta diferencia habia
+entre el resto del mundo de la
 
 415
 00:39:03,000 --> 00:39:07,560
-entre el resto del mundo de la comunidad
-de Javascript y donde
+comunidad de Javascript y donde
+Facebook se encontraba. No los culpo.
+No creo que cualquiera que tuiteó
 
 416
 00:39:07,560 --> 00:39:13,060
-Facebook se encontraba. No los culpo. No
-creo que cualquiera que tuiteó Facebook está loco
+Facebook está loco estaba loco en
+si. Creo que tenian la razon,
+estabamos un poco locos.
 
 417
 00:39:13,060 --> 00:39:20,069
-estaba loco en si. Creo que tenian la razon, 
-estabamos un poco locos.
+estaba loco en si. Creo que tenian la
+razon, estabamos un poco locos.
 
 418
 00:39:20,069 --> 00:39:25,589
-Hubo un momento donde personalmente senti
-que mi meta con el mundo de open
+Hubo un momento donde personalmente
+senti que mi meta con el mundo de open
 
 419
 00:39:25,589 --> 00:39:30,740
-source era cerrar la brecha con la comunidad,
-pero puede que nos haya hecho retroceder un paso.
+source era cerrar la brecha con la
+comunidad, pero puede que nos haya
 
 420
 00:39:30,740 --> 00:39:35,430
-Puede que haya demostrado que en realidad tenemos
-ni idea de lo que estamos haciendo porque
+hecho retroceder un paso. Puede que haya
+demostrado que en realidad tenemos ni
 
 421
 00:39:35,430 --> 00:39:39,300
-en realidad lo que estabamos haciendo es diferente
-a lo que el resto de la comunindad estaba haciendo.
-E internamente
+idea de lo que estamos haciendo porque en
+realidad lo que estabamos haciendo es
 
 422
 00:39:39,300 --> 00:39:47,230
-habia un sentimiendo de 'metimos la pata.' Tomamos
-la decision equivocada. Creo que la metrica
+diferente a lo que el resto de la comunindad
+estaba haciendo. E internamente habia un
 
 423
 00:39:47,230 --> 00:39:51,950
-de exito hubiera sido 'wow el equipo de ingeneria
-de Facebook esta haciendo cosas cool' en vez de
+sentimiendo de 'metimos la pata.' Tomamos
+la decision equivocada. Creo que la
 
 424
 00:39:51,950 --> 00:39:57,940
-de 'el equipo de ingenieria de Facebook tiene ni idea
-de lo que hacen.' Creo que en esa sede de JSConf
+metrica de exito hubiera sido 'wow el
+equipo de ingeneria de Facebook esta
 
 425
 00:39:57,940 --> 00:40:02,480
-fue la ultima aparicion de Jordan dentro de mucho años.
-Tambien creo que para Tom Occhino fue
+haciendo cosas cool' en vez de de 'el equipo
+de ingenieria de Facebook tiene ni idea
 
 426
 00:40:02,480 --> 00:40:06,650
-de la ultima veces que fue por mucho tiempo. Con
-el tiempo se volvio un festival de burla por ninguna razon.
-
+de lo que hacen.' Creo que en esa sede de
+JSConf fue la ultima aparicion de Jordan
 
 427
 00:40:06,650 --> 00:40:12,589
-Y particularmente por algo que era tan
-innovador y útil, simplemente fantástico
+dentro de mucho años. Tambien creo que para
+Tom Occhino fue de la ultima veces que fue
 
 428
 00:40:12,589 --> 00:40:16,319
-para la productividad de los desarrolladores, y
-literalmente un regalo para todos. Era un 'miren
+por mucho tiempo. Con el tiempo se volvio un
+festival de burla por ninguna razon.
 
 429
 00:40:16,319 --> 00:40:21,160
-puede trabajar rapido de forma gratuita.' Pero el que
-la gente malinterprete y diga todas estas cosas malas
-al respecto,
+Y particularmente por algo que era tan
+innovador y útil, simplemente
 
 430
 00:40:21,160 --> 00:40:24,960
-esas fueron simples reacciones impulsivas
-dichas sin pensar.
+fantástico para la productividad de los
+desarrolladores, y literalmente un regalo
 
 431
 00:40:24,960 --> 00:40:30,130
-Para Tom y Jordan estos debieron a ver sido momentos
-terribles, 
+para todos. Era un 'miren puede trabajar
+rapido de forma gratuita.' Pero el que la
 
 432
 00:40:30,130 --> 00:40:33,600
-ambos ya habian pasado por momentos similares en Facebook
-en los ultimos dos años. Pero adento de Facebook
+gente malinterprete y diga todas estas
+cosas malas al respecto, esas fueron
 
 433
 00:40:33,600 --> 00:40:36,930
-era un escala mucho mas pequeña donde puedes reunirte
-con todo el equipo en un cuarto y charlar pero no puedes
+simples reacciones impulsivas dichas sin
+pensar. Para Tom y Jordan estos debieron
 
 434
 00:40:36,930 --> 00:40:41,690
-hacer esto con el resto del mundo. Hubo algunas decisiones
-tecnicas que fueron
+a ver sido momentos terribles, ambos ya
+habian pasado por momentos similares
 
 435
 00:40:41,690 --> 00:40:49,230
-hechas dentro de React que eran evidentes dentro de Facebook,
-pero parecian una locura cuando estan se presentan
+hechas dentro de React que eran evidentes
+dentro de Facebook, pero parecian una
 
 436
 00:40:49,230 --> 00:40:53,550
-enfrente de otra audiencia. En la comunidad hay esta nocion
-de separacion de intereses.
+locura cuando estan se presentan enfrente
+de otra audiencia. En la comunidad hay
 
 437
 00:40:53,550 --> 00:41:01,700
-En aquel entonces, no podias poner tus archivos de HTML,
-CSS, y Javascript dentro de un solo archivo.
+esta nocion de separacion de intereses. En
+aquel entonces, no podias poner tus archivos
 
 438
 00:41:01,700 --> 00:41:06,550
-Lo correcto era extraerlos y separarlos,
-eso se consideraba como un tipo de
+de HTML, CSS, y Javascript dentro de un
+solo archivo. Lo correcto era extraerlos y
 
 439
 00:41:06,550 --> 00:41:12,620
-buena practica en su momento. Lo que es interesante
-acera de esta metodologia de separarcion de
+separarlos, eso se consideraba como un tipo
+de buena practica en su momento. Lo que es
 
 440
 00:41:12,620 --> 00:41:16,810
-intereses en React es que tu separacion de intereses
-se traducia a componentes.
+interesante acera de esta metodologia de
+separarcion de intereses en React es que tu
 
 441
 00:41:16,810 --> 00:41:22,060
-En vez de decir, 'aqui estan mis vistas y aca tengo
-mis modelos,' ahora esto cambiaba a
+separacion de intereses se traducia a
+componentes. En vez de decir, 'aqui estan
 
 442
 00:41:22,060 --> 00:41:26,910
-decir, 'aqui tengo mi newsfeed, por aca hay
-que poner el componente de fotos, y
+mis vistas y aca tengo mis modelos,' ahora
+esto cambiaba a decir, 'aqui tengo mi
 
 443
 00:41:26,910 --> 00:41:31,040
-aca colocamos el panel de admin,' Era una forma
-diferente de separar intereses y esto
+newsfeed, por aca hay que poner el componente
+de fotos, y aca colocamos el panel de
 
 444
 00:41:31,040 --> 00:41:35,750
-recibio mucha critica con comentarios diciendo,
-'esos de Facebook son unos payasos, no
+admin,' Era una forma diferente de separar
+intereses y esto recibio mucha critica con
 
 445
 00:41:35,750 --> 00:41:40,330
-saben escribir software.' Nosotros pensamos
-que React probablemente no tenia futuo afuera
+comentarios diciendo, 'esos de Facebook son
+unos payasos, no saben escribir software.'
 
 446
 00:41:40,330 --> 00:41:48,960
-de Facebook. [Music]
+Nosotros pensamos que React probablemente no
+tenia futuo afuera de Facebook. [Music]
 
 447
 00:41:48,960 --> 00:41:59,340
 Toda esperanza parecia perdida para nuestros
-amigos en Facebook. Afortunadamente,
+amigos en Facebook. Afortunadamente, alguien
 
 448
 00:41:59,340 --> 00:42:11,750
-alguien afuera de Facebook estaba dispuesto
-a darle una oportunidad. [Music]
+afuera de Facebook estaba dispuesto a darle
+una oportunidad. [Music]
 
 449
 00:42:11,750 --> 00:42:18,069
-Empecé a usar React en 2013. No era
-popular en la comunidad, apenas se habia
+Empecé a usar React en 2013. No era popular
+en la comunidad, apenas se habia anunciado
 
 450
 00:42:18,069 --> 00:42:27,829
-anunciado en JSConf. Vi el anuncio a travez
-de Hacker News e imediatamente pense
+en JSConf. Vi el anuncio a travez de Hacker
+News e imediatamente pense que seria de buen
 
 451
 00:42:27,829 --> 00:42:32,800
-que seria de buen uso para un proyecto
-en el que trabajaba entonces. Construia
+uso para un proyecto en el que trabajaba
+entonces. Construia un editor interactivo
 
 452
 00:42:32,800 --> 00:42:38,720
-un editor interactivo para preguntas de
-matematicas en Khan Academy, el cual tenia
+para preguntas de matemáticas en Khan
+Academy, el cual tenía una arquitectura
 
 453
 00:42:38,720 --> 00:42:45,220
@@ -2431,7 +2553,7 @@ Intente usar Backbone.js y descrubri
 
 454
 00:42:45,220 --> 00:42:49,800
-que el manejo de estado se esta volviendo 
+que el manejo de estado se esta volviendo
 dificil, y cuando vi React me dije
 
 455
@@ -2480,18 +2602,18 @@ abrir 'pull requests' a React. Todo lo que
 
 464
 00:43:47,609 --> 00:43:53,040
-he visto hasta ahorita parece muy bien pensado.
-Y es un orgullo ser el primer usuario 
+he visto hasta ahorita parece muy bien
+pensado. Y es un orgullo ser el primer
 
 465
 00:43:53,040 --> 00:43:59,750
-fuera de Facebook." Despues hable un poco mas
-sobre algunos detalles tecnicos y de como
+usuario fuera de Facebook." Despues hable un
+poco mas sobre algunos detalles tecnicos y
 
 466
 00:43:59,750 --> 00:44:05,200
-me ha ayudado. Es cool mirar atras, es asi
-como una capsula de tiempo. Ver
+de como me ha ayudado. Es cool mirar atras,
+es asi como una capsula de tiempo. Ver
 
 467
 00:44:05,200 --> 00:44:14,530
@@ -2501,106 +2623,121 @@ sale a la luz, ya estaba emocionda de usarla.
 468
 00:44:14,530 --> 00:44:20,079
 Creo que se esa emocion a durado por mucho
-tiempo. Converti todo el repositorio de codigo
+tiempo. Converti todo el repositorio de
 
 469
 00:44:20,079 --> 00:44:24,920
-en el que trabajaba a React. Creo que termine
-escribiendo menos codigo y se volvio mas facil
+codigo en el que trabajaba a React. Creo que
+termine escribiendo menos codigo y se volvio
 
 470
 00:44:24,920 --> 00:44:30,460
-de leer y mucho mas eficiente. Muy pronto me
-encontre diciendo, "okay, quiero continuar
+mas facil de leer y mucho mas eficiente.
+Muy pronto me encontre diciendo, "okay,
 
 471
 00:44:30,460 --> 00:44:38,170
-usando React," y termine desplegando mi codigo
+usando React," y termine desplegando mi código
 a producción, el codigo que reescribi, y
 
 472
 00:44:38,170 --> 00:44:49,320
-eso creo que fue mi primer codigo corriendo
-en producción usando React fuera de Facebook.
+eso creo que fue mi primer código
+corriendo en producción usando React
+fuera de Facebook.
 
 473
 00:44:49,320 --> 00:44:53,579
-Era un proyecto nuevo que apenas habia salido
-a la comunida de open source, y no tantos
+Era un proyecto nuevo que apenas
+habia salido a la comunida de open
+source, y no tantos lo habian usado,
 
 474
 00:44:53,579 --> 00:44:58,619
-lo habian usado, y tenia mucho por mejorar.
-Parecia que nadie habia intentado
+y tenia mucho por mejorar. Parecia que
+nadie habia intentado usarlo de algun
+modo en particular. O parecia como si
 
 475
 00:44:58,619 --> 00:45:03,180
-usarlo de algun modo en particular. O parecia
-como si nada estuviera bien docuemntado
+nada estuviera bien docuemntado y el
+momento que usaba algo fuera de su
+intencion original, comenzaba a notar
 
 476
 00:45:03,180 --> 00:45:07,990
-y el momento que usaba algo fuera de su
-intencion original, comenzaba a notar estos
+estos defectos o problemas donde no
+funcionaban como me lo imaginaba.
+Para algunos de estos problemas
 
 477
 00:45:07,990 --> 00:45:13,980
-defectos o problemas donde no funcionaban
-como me lo imaginaba. Para algunos de estos
+comenze a leer el codigo de fuente e
+intente averiguar: ¿por qué esto no
+funciona? ¿hay algo que pueda hacer
 
 478
 00:45:13,980 --> 00:45:19,180
-problemas comenze a leer el codigo de fuente e
-intente averiguar: ¿por qué esto no funciona?
+diferente en mi codigo para que
+funcione? Asi fue como me uni al canal
+IRC de chat donde varios miembros
 
 479
 00:45:19,180 --> 00:45:26,440
-¿hay algo que pueda hacer diferente en mi codigo
-para que funcione? Asi fue como me uni al canal
+de equipos 'core' se estaban reuniendo
+despues de a verlo lanzado al open
+source. Me ayudaron a no solo como
 
 480
 00:45:26,440 --> 00:45:32,660
-IRC de chat donde varios miembros de equipos
-'core' se estaban reuniendo despues de a verlo
+usar React pero tambien como contribuir
+al proyecto al como iniciaba abriendo
+issues y ayudaba personas que estaban
 
 481
 00:45:32,660 --> 00:45:40,381
-lanzado al open source. Me ayudaron a no solo
-como usar React pero tambien como contribuir
+en el chat room, y con el transcurso
+del tiempo comenze a contribuir al
+codigo de React poco a poco.
 
 482
 00:45:40,381 --> 00:45:45,870
-al proyecto al como iniciaba abriendo issues y
-ayudaba personas que estaban en el chat room,
+Su perspectiva de Khan Academy, y como
+alguien que no venia de Facebook,
+trajo muchas ideas!
 
 483
 00:45:45,870 --> 00:45:52,650
-y con el transcurso del tiempo comenze a
-contribuir al codigo de React poco a poco.
+Sophie comenzo como un usuario externo
+de React quien lentamente fue avanzando
+a contribuir a React core de forma
 
 484
 00:45:52,650 --> 00:45:59,559
-Su perspectiva de Khan Academy, y como alguien
-que no venia de Facebook, trajo muchas ideas!
+externa, y asi convirtiendose en la
+mayor contribuidora de React core.
+Nuestro equipo comenzo a invitar a
 
 485
 00:45:59,559 --> 00:46:05,280
-Sophie comenzo como un usuario externo de React
-quien lentamente fue avanzando a
+Sophie a las juntas semanales. De ahy
+Sophie hizo un arreglo con su jefe para
+que la dejaran venir los Viernes por
 
 486
 00:46:05,280 --> 00:46:11,069
-contribuir a React core de forma externa, y asi
-convirtiendose en la mayor contribuidora de
+la tarde a las oficinas de Facebook.
+Y determinados a no hacer lo que
+hicimos antes donde contratamos
 
 487
 00:46:11,069 --> 00:46:17,119
-React core. Nuestro equipo comenzo a invitar
-a Sophie a las juntas semanales.
+personas de la comunidad open source
+y jamás contribuyen de vuelta
 
 488
 00:46:17,119 --> 00:46:22,410
-De ahy Sophie hizo un arreglo con su jefe para
+De ahí Sophie hizo un arreglo con su jefe para
 que la dejaran venir los Viernes por la tarde
 
 489
@@ -2670,88 +2807,105 @@ arreglar todos los problemas, asegurarnos que
 
 502
 00:47:45,320 --> 00:47:50,980
-esto resuelve los problemas de la gente. Y
-aqui es donde el viaje por fin comienza.
+esto resuelve los problemas de la
+gente. Y aqui es donde el
+viaje por fin comienza.
 
 503
 00:47:50,980 --> 00:47:58,190
-Nos pusimos el cinturon. Y nos dimos cuenta
-que cuando tienes un proyecto como este
+Nos pusimos el cinturon. Y nos
+dimos cuenta que cuando tienes
+un proyecto como este
 
 504
 00:47:58,190 --> 00:48:03,200
-tienes que convencera a la gente uno por uno.
-Asi, que nos enfocamos en esto.
+tienes que convencera a la gente
+uno por uno. Asi, que nos
+enfocamos en esto.
 
 505
 00:48:03,200 --> 00:48:10,859
-Aprendimos mucho de esto. Descubrimos que las
-ideas en React son buenas, pero el problema
+Aprendimos mucho de esto.
+Descubrimos que las ideas en
+React son buenas, pero el
 
 506
 00:48:10,859 --> 00:48:14,790
-no son las ideas cuando adoptas un framework.
+problema no son las ideas
+cuando adoptas un framework.
 El reto tiende a ser
 
 507
 00:48:14,790 --> 00:48:20,280
-la documentación y los mensajes de error. Lo
-que necesitan mas que nada al comienzo
+la documentación y los mensajes
+de error. Lo que necesitan
+mas que nada al comienzo
 
 508
 00:48:20,280 --> 00:48:26,030
-es encontar una forma de adoptarlo poco a
-poco. El equipo comenzo a trabajar en esto.
+es encontar una forma de adoptarlo
+poco a poco. El equipo
+comenzo a trabajar en esto.
 
 509
 00:48:26,030 --> 00:48:32,859
-Se enfocaron en difundir React un concepto a
-la vez, una persona a la vez.
+Se enfocaron en difundir React
+un concepto a la vez, una
+persona a la vez.
 
 510
 00:48:32,859 --> 00:48:40,850
-Luego una oportunidad surgio: una conferencia.
-Despues, gracias a dios, ese mismo año, Pete
+Luego una oportunidad surgio:
+una conferencia. Despues,
+gracias a dios, ese mismo
 
 511
 00:48:40,850 --> 00:48:46,020
-dio una charla en JSConf EU. Tenia mi escritorio
-a lado del equipo de infraestructura de producto.
+año, Pete dio una charla en
+JSConf EU. Tenia mi escritorio
+a lado del equipo de
 
 512
 00:48:46,020 --> 00:48:53,780
-Estaba sentado a lado de Tomo y me dice,
-'patrocinaremos JSConf EU y tenemos que dar
+infraestructura de producto.
+Estaba sentado a lado de Tomo
+y me dice, 'patrocinaremos
 
 513
 00:48:53,780 --> 00:48:57,970
-el discurso de apertura pero no quiero ser yo
-quien lo de.' Creo que no queria pasar por el
+JSConf EU y tenemos que dar el
+discurso de apertura pero no
+quiero ser yo quien lo de.'
 
 514
 00:48:57,970 --> 00:49:01,470
-proceso. No queria lidiar con bucheos o gente
-gritando cuando sales de la plataforma.
+Creo que no queria pasar por el
+proceso. No queria lidiar con
+bucheos o gente gritando
 
 515
 00:49:01,470 --> 00:49:06,359
-o cuando vas a platicar con la gente en los
-happy hours. No es lo mas placentero del mundo.
+cuando sales de la plataforma.
+o cuando vas a platicar con la
+gente en los happy hours. No
 
 516
 00:49:06,359 --> 00:49:11,109
-Y despues lo vi y le dije, yo lo hago! Yo
-tomo el viaje gratis a Berlin y doy
+es lo mas placentero del mundo.
+Y despues lo vi y le dije, yo
+lo hago! Yo tomo el viaje
 
 517
 00:49:11,109 --> 00:49:16,970
-la charla en la conferencia. 'Hola me llamo
-Pete, y les hablare sobre una libreria
+gratis a Berlin y doy la charla
+en la conferencia. 'Hola me
+llamo Pete, y les hablare
 
 518
 00:49:16,970 --> 00:49:23,630
-que permite crear interfaces de usuario que
-llamamos React. La lanzamos al open source
+sobre una libreria que permite
+crear interfaces de usuario que
+llamamos React. La lanzamos
 
 519
 00:49:23,630 --> 00:49:28,880
@@ -2807,11 +2961,11 @@ rezagagos, y justo en medio esta tu
 00:50:13,150 --> 00:50:17,700
 empresa promedio. Esa platica logro que los
 pioneros se emocionaran y evangelizaran React
-dentro de sus empresas. Despues que Pete hablo,
+dentro de sus empresas.
 
 531
 00:50:23,160 --> 00:50:26,311
-el interes comenzo a surgir. La gente empezo
+El interes comenzo a surgir. La gente empezo
 a poner atención. La gente queria ver si
 
 532
@@ -2822,65 +2976,72 @@ fue este proceso lento de adopción de React.
 533
 00:50:31,530 --> 00:50:36,230
 Y esto abrio varias conversaciones intesantes.
+Estas lograron atraer a Brandon Bloom a la
 
 534
 00:50:36,230 --> 00:50:41,230
-Estas lograron atraer a Brandon Bloom a la comunidad
-quien venia del mundo de programacion functional.
+comunidad quien venia del mundo de programacion
+functional. Luego, el hablo con sus amigos
 
 535
 00:50:41,230 --> 00:50:46,870
-Luego, el hablo con sus amigos a quien les dijo,
-'Creo que que vale la pena darle un ojo a React'
+a quien les dijo, 'Creo que que vale la pena
+darle un ojo a React' Y luego va y habla con
 
 536
 00:50:46,870 --> 00:50:51,099
-Y luego va y habla con su amigo David Nolen,
+su amigo David Nolen, quien esta muy conocido,
+espetado, y tambien gran musico y desarrollador
 
 537
 00:50:51,099 --> 00:50:58,150
-quien esta muy conocido, espetado, y tambien
-gran musico y desarollador de Javascript.
+quien esta muy conocido, espetado, y
+tambien gran musico y desarollador de
+Javascript.
 
 538
 00:50:58,150 --> 00:51:03,040
-En ese entonces el trabajaba en el New York Times
-y yo visitaba New York para algo
+En ese entonces el trabajaba en el New York
+Times y yo visitaba New York para algo
 
 539
 00:51:03,040 --> 00:51:10,710
-y tomamos un cafe. Y le hize preguntas a Pete, tambien
-Brandon Bloom quien es mi amigo, me habia dicho
+y tomamos un cafe. Y le hize preguntas a
+Pete, tambien Brandon Bloom quien es mi
+amigo, me habia dicho
 
 540
 00:51:10,710 --> 00:51:16,890
-cosas buenas sobre React. Y la razon 
+cosas buenas sobre React. Y la razon
 por la cual yo estaba emocionado por ello,
 
 541
 00:51:16,890 --> 00:51:21,540
-más de lo que creo que podrías si
-fueras desarrollador de JavaScript,
+más de lo que creo que podrías si fueras
+desarrollador de JavaScript,
 
 542
 00:51:21,540 --> 00:51:25,119
-Javascript es multiparadigma, puedes usarlo para
-programacion orientada objetos, puedes usarlo
+Javascript es multiparadigma, puedes usarlo
+para programacion orientada objetos, puedes
+usarlo
 
 543
 00:51:25,119 --> 00:51:31,980
-para programción funcional pero no es requerido.
-Pero en Clojure y Clojurescript, funcional es
+para programción funcional pero no es
+requerido. Pero en Clojure y Clojurescript,
+funcional es
 
 544
 00:51:31,980 --> 00:51:37,349
-lo mas idiomatico lo cual no existia. Logramamos
-hacerlo funcionar pero siempre habia fricción.
+lo mas idiomatico lo cual no existia.
+Logramamos hacerlo funcionar pero siempre
+habia fricción.
 
 545
 00:51:37,349 --> 00:51:42,730
-Estaba en una etapa temprana en mi carrera
-y este
+Estaba en una etapa temprana en mi
+carrera y este
 
 546
 00:51:42,730 --> 00:51:48,040
@@ -2889,152 +3050,166 @@ tipo de persona quien te puede
 
 547
 00:51:48,040 --> 00:51:53,109
-hacer preguntas y en algun momento me quedaba
-sin respuestas o lo explicaba de forma pesima.
+hacer preguntas y en algun momento me
+quedaba sin respuestas o lo explicaba de
+forma pesima.
 
 548
 00:51:53,109 --> 00:51:58,930
-Y despues el repetiria lo que le dije pero
-de una forma supe eloquente que yo estaba
+Y despues el repetiria lo que le dije
+pero de una forma supe eloquente que yo
+estaba como sí, ¡voy a robar eso!
 
 549
 00:51:58,930 --> 00:52:04,520
-como sí, ¡voy a robar eso! Y así cuando me
-senté con Brandon y Pete, fue como si se
-encendiera una bombilla.
+Y así cuando me senté con Brandon y
+Pete, fue como si se encendiera una
+bombilla.
 
 550
 00:52:04,520 --> 00:52:11,430
-En eso yo dije, esto es tan aleatorio, Facebook
-hizo que este framework funcional para armar
+En eso yo dije, esto es tan aleatorio,
+Facebook hizo que este framework
+funcional para armar
 
 551
 00:52:11,430 --> 00:52:18,700
-interfazes de usuario. ¡Eureka! Quiero decir,
-definitivamente fue un momento eureka. Permitió
-a los programadores de ClojureScript
+interfazes de usuario. ¡Eureka!
+Quiero decir, definitivamente fue un
+momento eureka. Permitió a los
 
 552
 00:52:18,700 --> 00:52:25,020
-escribir finalmente interfaces de usuario
+programadores de ClojureScript escribir
+finalmente interfaces de usuario
 funcionales con rendimiento razonable.
 
 553
 00:52:25,020 --> 00:52:29,490
-Y fue muy natural, fue una combinación muy,
-muy buena. Como una semana o dos después,
-escribió esta publicación en un blog
+Y fue muy natural, fue una combinación
+muy, muy buena. Como una semana o dos
+después,
 
 554
 00:52:29,490 --> 00:52:35,030
-titulado 'El futuro de los MVCs de JavaScript'
-que simplemente cambió la trayectoria del proyecto.
+titulado 'El futuro de los MVCs de
+JavaScript' que simplemente cambió la
+trayectoria del proyecto.
 
 555
 00:52:35,030 --> 00:52:39,849
-De muchas maneras, cuando miras React, piensas
-que no hay manera de que esto pueda ser rápido,
+De muchas maneras, cuando miras React,
+piensas que no hay manera de que esto
+pueda ser rápido,
 
 556
 00:52:39,849 --> 00:52:46,400
-no hay forma en que pueda ser eficiente. Y luego
-mostré estos diagramas de cómo Backbone y React/Om
+no hay forma en que pueda ser eficiente.
+Y luego mostré estos diagramas de cómo
+Backbone y React/Om
 
 557
 00:52:46,400 --> 00:52:52,119
-se comparan y React es mucho mejor. Especialmente
-cuando se usan estructuras de datos persistentes.
+se comparan y React es mucho mejor.
+Especialmente cuando se usan estructuras
+de datos persistentes.
 
 558
 00:52:52,119 --> 00:52:59,570
 Creo que mi artículo se enfocaba puramente
-en los beneficios técnicos del diseño. Eliminó
+en los beneficios técnicos del diseño.
+Eliminó la consideración superficial y creo
 
 559
 00:52:59,570 --> 00:53:05,109
-la consideración superficial y creo que la
-gente empezó a decir: "Bueno, lo intentaré".
-No "lo usaré",
+que la gente empezó a decir: "Bueno,
+lo intentaré". No "lo usaré",
 
 560
 00:53:05,109 --> 00:53:12,109
-pero eliminó ese "nunca voy a usar eso" a
+pero eliminó ese "nunca voy a usar eso"
+a "oh, voy a probarlo, esto es
+interesante".
 
 561
 00:53:12,109 --> 00:53:17,660
-"oh, voy a probarlo, esto es interesante".
 Una vez que ese artículo salió, diría que
-en unos tres meses
+en unos tres meses éramos uno de los
+principales contendientes si estabas
 
 562
 00:53:17,660 --> 00:53:21,690
-éramos uno de los principales contendientes
-si estabas eligiendo un framework de JavaScript.
+eligiendo un framework de JavaScript.
 
 563
 00:53:21,690 --> 00:53:25,849
-Si quieres difundir una idea, debes convencer
-realmente a unas pocas personas 
+Si quieres difundir una idea, debes
+convencer realmente a unas pocas personas
+y hacer que esas personas compartan tu
 
 564
 00:53:25,849 --> 00:53:31,731
-y hacer que esas personas compartan tu mensaje,
-no puedes estar gritándolo tú mismo.
+mensaje, no puedes estar gritándolo tú
+mismo.
 
 565
 00:53:31,731 --> 00:53:40,750
-Cada vez más personas comenzaron a darse cuenta
-de que React tenía algunas buenas ideas y hacía
-que el desarrollo de UI fuera más simple
+Cada vez más personas comenzaron a darse
+cuenta de que React tenía algunas buenas
+ideas y hacía que el desarrollo de UI
 
 566
 00:53:40,750 --> 00:53:47,010
-de muchas maneras. Durante los próximos años,
-digamos dos o tres, seguimos
+fuera más simple de muchas maneras.
+Durante los próximos años, digamos dos o
+tres, seguimos
 
 567
 00:53:47,010 --> 00:53:53,070
-rastreando cosas como Google Alerts para ver
-cuántas veces se menciona, quién está escribiendo
+rastreando cosas como Google Alerts para
+ver cuántas veces se menciona, quién está
+escribiendo
 
 568
 00:53:53,070 --> 00:53:58,420
-sobre él, qué proyectos están surgiendo. Debido
-a que React era muy poco dogmático acerca de
+sobre él, qué proyectos están surgiendo.
+Debido a que React era muy poco dogmático
+acerca de
 
 569
 00:53:58,420 --> 00:54:04,559
-un montón de cosas que necesitas para construir
-una aplicación web de front-end y la gente
+un montón de cosas que necesitas para
+construir una aplicación web de front-end
+y la gente
 
 570
 00:54:04,559 --> 00:54:08,790
-llenaría los vacíos. Surgieron un montón de
-bibliotecas de gestión de estado y de enrutamiento,
+llenaría los vacíos. Surgieron un montón
+de bibliotecas de gestión de estado y de
+enrutamiento,
 
 571
 00:54:08,790 --> 00:54:13,590
-y estrategias de renderizado en el servidor.
-Así que hubo una especie de lenta adopción durante
+Y estrategias de renderizado en el servidor.
+Así que hubo una especie de
 
 572
 00:54:13,590 --> 00:54:18,280
-el siguiente año o dos.
+lenta adopción durante el siguiente año o dos.
 
 573
 00:54:18,280 --> 00:54:24,040
 React es una pequeña biblioteca de UI enfocada,
-pero demostró ser capaz de enfrentar los
-problemas más difíciles de Facebook
+pero demostró ser capaz de enfrentar los problemas
 
 574
 00:54:24,040 --> 00:54:30,840
-y otras grandes empresas se dieron cuenta.
-Pero hubo una empresa especialmente ansiosa
+más difíciles de Facebook y otras grandes empresas.
+Pero hubo una empresa especialmente ansiosa por
 
 575
 00:54:30,840 --> 00:54:39,490
-por repensar las mejores prácticas.
+repensar las mejores prácticas.
 
 576
 00:54:39,490 --> 00:54:46,880
@@ -3042,28 +3217,28 @@ por repensar las mejores prácticas.
 
 577
 00:54:46,880 --> 00:54:51,340
-Primero escuchamos sobre React en 2014. El
-sitio web de Netflix había sido construido en Java
+Primero escuchamos sobre React en 2014.
+El sitio web de Netflix había sido
 
 578
 00:54:51,340 --> 00:54:57,380
-Web. Era muy lento, tardaba alrededor de 15 minutos
-en construir y decidimos pasar a un marco de trabajo
+construido en Java Web. Era muy lento,
+tardaba alrededor de 15 minutos en construir y
 
 579
 00:54:57,380 --> 00:55:03,160
-más moderno. Ahí vamos. En ese momento no
-estábamos muy seguros si, ya sabes,
+decidimos pasar a un marco de trabajo más moderno.
+Ahí vamos. En ese momento no estábamos muy seguros
 
 580
 00:55:03,160 --> 00:55:07,240
-esto de React iba a funcionar. Era algo nuevo
-y estábamos muy aprensivos,
+si, ya sabes, esto de React iba a funcionar.
+Era algo nuevo y estábamos muy aprensivos,
 
 581
 00:55:07,240 --> 00:55:12,530
-especialmente porque estábamos construyendo
-el futuro de los próximos 10 años del sitio web.
+especialmente porque estábamos construyendo el futuro
+de los próximos 10 años del sitio web.
 
 582
 00:55:12,530 --> 00:55:18,030
@@ -3072,87 +3247,89 @@ retroceder años de trabajo. Y así que muy cautelosos
 
 583
 00:55:18,030 --> 00:55:22,670
-de no saltar a algo que fuera demasiado de
-vanguardia. Y así que lo que hicieron fue
+de no saltar a algo que fuera demasiado de 
+vanguardia. Y así que lo que hicieron 
+fue crear a dos equipos.
 
 584
 00:55:22,670 --> 00:55:26,869
-crear a dos equipos. A cada uno
-se le dio 30 días para construir un prototipo
+A cada uno se le dio 30 días para construir 
+un prototipo con uno siendo React 
+y el otro Backbone y después de
 
 585
 00:55:26,869 --> 00:55:31,430
-con uno siendo React y el otro Backbone y
-después de 30 días la elección era clara.
+30 días la elección era clara.
 
 587
 00:55:32,430 --> 00:55:37,950
-Así que gracias a todos por venir esta noche. 
+Así que gracias a todos por venir esta noche.
 Estamos realmente emocionados de tenerlos aquí
-y compartir
 
 588
 00:55:37,950 --> 00:55:42,220
-las lecciones que hemos aprendido construyendo
-la nueva interfaz de usuario en React durante
-el último año. Era
+y compartir las lecciones que hemos 
+aprendido construyendo la nueva 
+interfaz de usuario en React
 
 589
 00:55:42,220 --> 00:55:46,580
-no en esta etapa, era nuestra próxima etapa,
-donde di mi presentación de React, supongo
+durante el último año. Era no en esta etapa,
+era nuestra próxima etapa, donde 
+di mi presentación
 
 590
 00:55:46,580 --> 00:55:53,220
-que en 2015. La misma sensación de "oh dios mío,
-tengo que convencer a todas estas personas de
+que en 2015. La misma sensación de "oh Dios 
+mío, tengo que convencer a todas 
+estas personas de
 
 591
 00:55:53,220 --> 00:55:56,890
-que React es asombroso".
+Que React es asombroso".
 
 592
 00:55:56,890 --> 00:56:01,390
-Pero supongo que funcionó. Así que fui parte
-del equipo que construyó el nuevo sitio
+Pero supongo que funcionó. Así que fui
+parte del equipo que construyó el nuevo sitio
 usando React.
 
 593
 00:56:01,390 --> 00:56:05,820
-Al principio era muy torpe, como cuando escribes
-componentes y no están del todo, ¿sabes?,
+Al principio era muy torpe, como cuando
+escribes componentes y no están del todo,
+¿sabes?,
 
 594
 00:56:05,820 --> 00:56:10,450
 estás poniendo demasiada lógica en ellos o
-estás pensando en algo demasiado grande.
-No está claro
+estás pensando en algo demasiado grande. No
+está claro la diferencia en el paradigma.
 
 595
 00:56:10,450 --> 00:56:14,100
-la diferencia en el paradigma. Y luego comienzonzas
-a usarlo y piensas: "espera, espera, estoy
+Y luego comienzonzas a usarlo y piensas:
+"espera, espera, estoy pensando mucho más
+atómicamente". De ahí el símbolo de React.
 
 596
 00:56:14,100 --> 00:56:19,579
-pensando mucho más atómicamente". De ahí el
-símbolo de React. Estoy pensando en
-esta reutilización
+Estoy pensando en esta reutilización individual,
+ahora estoy pensando en la testabilidad de
+estos componentes, estoy viendo que beneficios
+surgen de ello.
 
 597
 00:56:19,579 --> 00:56:23,450
-individual, ahora estoy pensando en la
-testabilidad de estos componentes, estoy viendo
+Puedo reutilizar esto aquí, podemos probar
+esto aquí, podemos agregar props aquí.
+Y se vuelve muy emocionante ver ese nuevo
 
 598
 00:56:23,450 --> 00:56:27,830
-que beneficios surgen de ello. Puedo
-reutilizar esto aquí, podemos probar esto aquí,
-
-599
-00:56:27,830 --> 00:56:32,460
-podemos agregar props aquí.
-Y se vuelve muy emocionante ver
+paradigma en juego y pensar: esto va a ser
+revolucionario, esto va a cambiar la forma
+en que construimos aplicaciones.
 
 600
 00:56:32,460 --> 00:56:37,120
