@@ -81,22 +81,21 @@ tenía pocas posibilidad de ganar.
 [Música]
 
 16
-00:01:46,320 --> 00:01:51,480
+00:01:56,000 --> 00:01:59,000
 Veo que esta cámara tiene una luz roja,
 pero está otra no lo tiene.
 
 17
-00:01:51,480 --> 00:01:52,480
+00:02:00,000 --> 00:02:02,000
 [Música]
 
 18
-00:01:52,480 --> 00:01:55,840
+00:02:03,000 --> 00:02:05,000
 Solo sujétalo con esto.
 
 19
-00:01:55,840 --> 00:02:10,819
+00:02:07,000 --> 00:02:09,000
 Probando uno dos, probando.
-Testing one two, testing.
 
 20
 00:02:10,819 --> 00:02:17,200
