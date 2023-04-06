@@ -28,7 +28,7 @@ tipo de historia.
 6
 00:00:52,719 --> 00:00:58,290
 De hecho, hubieron muchas ocasiones en la
-historia de React donde parecia que no iba a
+historia de React donde parecía que no iba a
 tener éxito en lo absoluto.
 
 7
@@ -74,7 +74,7 @@ habilita el modo de "no molestar",
 14
 00:01:42,500 --> 00:01:45,320
 porque está es la historia de algo que
-tenía pocas posibilidad de ganar.
+tenía poca posibilidad de ganar.
 
 15
 00:01:45,320 --> 00:01:46,320
@@ -187,7 +187,7 @@ tratando de llegar a la mente del público.
 37
 00:03:53,459 --> 00:03:57,390
 Y había muchas similitudes entre ellos, pero cada
-una tenía sútiles diferencias
+una tenía sutiles diferencias
 
 38
 00:03:57,390 --> 00:04:02,780
@@ -203,7 +203,7 @@ aplicaciones sofisticadas.
 40
 00:04:07,220 --> 00:04:13,230
 que hacían más cosas, y en Facebook todavía
-priorizabamos la tecnología para
+priorizábamos la tecnología para
 hacer render en el server,
 
 41
@@ -215,7 +215,7 @@ estuvimos en contra por un largo tiempo
 00:04:18,299 --> 00:04:22,930
 fue simplemente incrementar el tamaño de
 los paquetes de JavaScript, así que conforme
-moviamos más y más cosas al lado del cliente,
+movíamos más y más cosas al lado del cliente,
 
 43
 00:04:22,930 --> 00:04:27,370
@@ -225,7 +225,7 @@ el render del lado del servidor
 
 44
 00:04:27,370 --> 00:04:32,270
-y hacia pequeñas pedazos de JavaScript
+y hacia pequeños pedazos de JavaScript
 por un tiempo. Y había esta sensación de que
 
 45
@@ -352,7 +352,7 @@ para construir
 67
 00:06:42,389 --> 00:06:48,580
 aplicaciones complejas y altamente 
-interactivas, y estaba siendo usando para 
+interactivas, y estaba siendo usado para 
 construir productos realmente complejos
 
 68
@@ -399,20 +399,20 @@ topamos con la pared, pero si comenzó a ser
 
 75
 00:07:23,690 --> 00:07:28,460
-muy, muy díficil hacer cambios.
+muy, muy difícil hacer cambios.
 Fue justo por aquellas fechas
 
 76
 00:07:28,460 --> 00:07:42,949
 que Jordan estaba en el equipo de anuncios,
-y el se comenzó
+y él se comenzó
 a preguntar si había una mejor forma.
 
 77
 00:07:42,949 --> 00:07:48,320
 Jordan es una figura enigmática. 
-El es un poco privado, así que no hay 
-mucho que sepa de el.
+Él es un poco privado, así que no hay 
+mucho que sepa de él.
 
 78
 00:07:48,320 --> 00:07:54,699
@@ -438,7 +438,7 @@ se topaban constantemente
 
 82
 00:08:12,830 --> 00:08:18,310
-con los límmites de lo que se 
+con los límites de lo que se 
 podía lograr sin React,
 hablando de complejidad.
 
@@ -452,7 +452,7 @@ de código que alguien más había hecho
 00:08:22,560 --> 00:08:27,370
 mientras miran el monitor y piensan: 
 "ok, entonces este código
-hace esto y necesito saber porqué".
+hace esto y necesito saber por qué".
 
 85
 00:08:27,370 --> 00:08:32,560
@@ -477,7 +477,7 @@ iba y venía con nosotros con varias ideas
 
 89
 00:08:44,990 --> 00:08:49,720
-acerca de como cambiarlo. Creo que uno de
+acerca de cómo cambiarlo. Creo que uno de
 los nombres originales para React era FBolt,
 
 90
@@ -505,7 +505,7 @@ de la API, el usuario escribió algo...
 94
 00:09:15,060 --> 00:09:19,670
 solamente destruyéramos toda la UI y
-volvieramos a recrear todo?"
+volviéramos a recrear todo?"
 
 95
 00:09:19,670 --> 00:09:25,300
@@ -515,7 +515,7 @@ hacía entonces se llamaba
 
 96
 00:09:25,300 --> 00:09:30,940
-y esto no era eso. Era alg así como:
+y esto no era eso. Era algo así como:
 olvídate del enlace de datos
 
 97
@@ -526,7 +526,7 @@ repintar todo
 
 98
 00:09:35,459 --> 00:09:38,380
-pero hay un gran asterico que dice 
+pero hay un gran asterisco que dice 
 "en realidad no vamos a repintar todo, 
 vamos a repintar lo menos posible"
 
