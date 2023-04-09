@@ -1559,11 +1559,10 @@ y más inversión, y se volvió claro
 00:26:15,510 --> 00:26:22,110
 que esto era lo que queríamos usar.
 Realmente el equipo de publicidad eran
-quienes usaban más Bolt. that was
+quienes usaban más Bolt.
 
 271
 00:26:22,110 --> 00:26:28,230
-kind of using Bolt more. It had a
 Tenían un nivel más alto de inversión
 en el, más personas trabajando
 
@@ -1613,12 +1612,12 @@ cuando los dos eran muy similares.
 00:27:09,360 --> 00:27:12,919
 Suficientemente similares como para
 confundir a la gente. Si mirabas el
-código, Like if you looked at the code,
+código,
 
 280
 00:27:12,919 --> 00:27:17,029
-their code parecían prácticamente
-idénticos, pero funcionaban totalmente
+parecían prácticamente idénticos,
+pero funcionaban totalmente
 diferente. Sería una pesadilla
 
 281
@@ -1699,13 +1698,13 @@ manejar el estado en controles
 00:28:17,970 --> 00:28:22,610
 de un formulario, como los botones
 de radio, y otras cosas que se
-complicaban. so on that it messed up.
+complicaban.
 
 295
 00:28:22,610 --> 00:28:27,679
-Just performance Problemas de
-desempeño donde intentaba repintar
-largos bloques para que no tuvieran
+Problemas de desempeño donde
+intentaba repintar largos
+bloques para que no tuvieran
 
 296
 00:28:27,679 --> 00:28:32,830
@@ -2088,13 +2087,13 @@ un camino para publicarlo como código abierto.
 365
 00:34:28,770 --> 00:34:33,859
 Y estaba comunicando esto a la administración desde
-el inicio, para que cuando llegara el 
+el inicio, para que cuando llegara el
 momento de hacerlo
 
 366
 00:34:33,859 --> 00:34:45,020
-código abierto, hubieran algunas juntas, 
-fuera controversial, pero ya tuvieramos 
+código abierto, hubieran algunas juntas,
+fuera controversial, pero ya tuvieramos
 todo el apoyo que necesitáramos.
 
 367
@@ -2104,8 +2103,8 @@ Primero hay un problema técnico por resolver.
 
 368
 00:34:52,220 --> 00:34:55,609
-Tienes que descubrir como extraerlo de tu 
-infraestructura y hacerlo funcionar 
+Tienes que descubrir como extraerlo de tu
+infraestructura y hacerlo funcionar
 como código abierto,
 
 369
@@ -2204,8 +2203,8 @@ Todas las celebridades estaban aquí
 
 387
 00:36:31,750 --> 00:36:36,340
-y todos ponían atención y lo miraban en vivo 
-por YouTube. Tom y Jordan crearon 
+y todos ponían atención y lo miraban en vivo
+por YouTube. Tom y Jordan crearon
 una presentación.
 
 388
@@ -2244,7 +2243,7 @@ de como hacíamos desarrollabamos con JavaScript
 
 395
 00:37:13,140 --> 00:37:17,560
-en Facebook. Era poco convencional. Hice un 
+en Facebook. Era poco convencional. Hice un
 poco de esto, el hizo un poco de aquello.
 
 396
@@ -2255,7 +2254,6 @@ que llamamos JSX.
 397
 00:37:23,750 --> 00:37:29,301
 Mostramos algo de código y ese código se veía raro.
-code looked different, it looked weird. Here
 
 398
 00:37:29,301 --> 00:37:36,570
@@ -2392,12 +2390,12 @@ realidad lo que estabamos haciendo es
 
 422
 00:39:39,300 --> 00:39:47,230
-diferente a lo que el resto de la comunindad
+diferente a lo que el resto de la comunidad
 estaba haciendo. E internamente habia un
 
 423
 00:39:47,230 --> 00:39:51,950
-sentimiendo de 'metimos la pata.' Tomamos
+sentimiento de 'metimos la pata.' Tomamos
 la decision equivocada. Creo que la
 
 424
@@ -2467,7 +2465,7 @@ de otra audiencia. En la comunidad hay
 
 437
 00:40:53,550 --> 00:41:01,700
-esta nocion de separacion de intereses. En
+esta noción de separacion de intereses. En
 aquel entonces, no podias poner tus archivos
 
 438
@@ -2482,12 +2480,12 @@ de buena practica en su momento. Lo que es
 
 440
 00:41:12,620 --> 00:41:16,810
-interesante acera de esta metodologia de
-separarcion de intereses en React es que tu
+interesante acera de esta metodología de
+separación de intereses en React es que tu
 
 441
 00:41:16,810 --> 00:41:22,060
-separacion de intereses se traducia a
+separación de intereses se traducía a
 componentes. En vez de decir, 'aqui estan
 
 442
@@ -2577,7 +2575,7 @@ inicie a usarlo y alguien me pregunto, "¿Qué
 459
 00:43:13,339 --> 00:43:21,170
 te parece la libreria React de Facebook?" Solo
-llevaba unos dias usandola asi que decidi
+llevaba unos dias usandola asi que decidí
 
 460
 00:43:21,170 --> 00:43:29,030
@@ -3246,14 +3244,14 @@ retroceder años de trabajo. Y así que muy cautelosos
 
 583
 00:55:18,030 --> 00:55:22,670
-de no saltar a algo que fuera demasiado de 
-vanguardia. Y así que lo que hicieron 
+de no saltar a algo que fuera demasiado de
+vanguardia. Y así que lo que hicieron
 fue crear a dos equipos.
 
 584
 00:55:22,670 --> 00:55:26,869
-A cada uno se le dio 30 días para construir 
-un prototipo con uno siendo React 
+A cada uno se le dio 30 días para construir
+un prototipo con uno siendo React
 y el otro Backbone y después de
 
 585
@@ -3267,20 +3265,20 @@ Estamos realmente emocionados de tenerlos aquí
 
 588
 00:55:37,950 --> 00:55:42,220
-y compartir las lecciones que hemos 
-aprendido construyendo la nueva 
+y compartir las lecciones que hemos
+aprendido construyendo la nueva
 interfaz de usuario en React
 
 589
 00:55:42,220 --> 00:55:46,580
 durante el último año. Era no en esta etapa,
-era nuestra próxima etapa, donde 
+era nuestra próxima etapa, donde
 di mi presentación
 
 590
 00:55:46,580 --> 00:55:53,220
-que en 2015. La misma sensación de "oh Dios 
-mío, tengo que convencer a todas 
+que en 2015. La misma sensación de "oh Dios
+mío, tengo que convencer a todas
 estas personas de
 
 591
@@ -3314,7 +3312,7 @@ atómicamente". De ahí el símbolo de React.
 596
 00:56:14,100 --> 00:56:19,579
 Estoy pensando en esta reutilización individual,
-ahora estoy pensando en la testabilidad de
+ahora estoy pensando en la testeabilidad de
 estos componentes, estoy viendo que beneficios
 surgen de ello.
 
@@ -3353,7 +3351,7 @@ las viejas cajas de DVD,
 603
 00:56:45,690 --> 00:56:49,850
 Y así que quiero mostrarles uno de los primeros
-prototipos de lo que pensábamos que se 
+prototipos de lo que pensábamos que se
 
 604
 00:56:49,850 --> 00:56:55,960
@@ -3515,7 +3513,7 @@ manejaba el sistema de pagos.
 633
 00:59:34,349 --> 00:59:42,559
 Schrep, el CTO de Facebook, me contactó
-diciendo: tengo un 
+diciendo: tengo un
 
 634
 00:59:42,559 --> 00:59:48,630
@@ -3582,7 +3580,7 @@ Así que sí, fue un éxito masivo.
 646
 01:01:00,930 --> 01:01:09,230
 Hay este momento en el que vas y ves el escenario
-y hay un gran corte de 
+y hay un gran corte de
 
 647
 01:01:09,230 --> 01:01:15,940
@@ -3600,7 +3598,7 @@ y yo le dije a Maykel que hiciera algo rápidamente.
 
 650
 01:01:22,589 --> 01:01:27,730
-Y ahora es esta cosa que alguien ha construido con 
+Y ahora es esta cosa que alguien ha construido con
 un gran letrero con esto.
 
 651
@@ -3703,7 +3701,7 @@ importaba y fue una sensación realmente muy buena.
 
 670
 01:03:05,230 --> 01:03:10,320
-Ya se usaba más ampliamente dentro de la empresa, 
+Ya se usaba más ampliamente dentro de la empresa,
 pero ahora era como, bien,
 
 671
@@ -3931,7 +3929,7 @@ bueno, entonces eso no sería
 715
 01:07:42,040 --> 01:07:46,210
 interesante porque la gente ya lo había visto,
-lo cual, en retrospectiva, no creo 
+lo cual, en retrospectiva, no creo
 
 716
 01:07:46,210 --> 01:07:50,359
@@ -3966,12 +3964,12 @@ si la propuesta tenia exito entonces vere que hago.
 722
 01:08:16,810 --> 01:08:20,540
 Y resultó que la propuesta fue más exitosa de lo
-que pensé que sería, 
+que pensé que sería,
 
 723
 01:08:20,540 --> 01:08:25,600
-así que hice una prueba de concepto 
-y esa prueba de concepto se 
+así que hice una prueba de concepto
+y esa prueba de concepto se
 
 724
 01:08:25,600 --> 01:08:33,270
@@ -4061,7 +4059,7 @@ y estamos jugando con ello.
 741
 01:10:05,929 --> 01:10:11,850
 Eso también es donde conocí a Jing Chen. Le había pedido
-consejo antes porque es una de 
+consejo antes porque es una de
 
 742
 01:10:11,850 --> 01:10:17,400
@@ -4198,7 +4196,7 @@ mejores para unirme. El inicio de la fase dos,
 768
 01:12:38,739 --> 01:12:45,850
 sí, es genial. [Música] ¡Impresionante! Siento
-que lo hicimos muy bien al 
+que lo hicimos muy bien al
 
 769
 01:12:45,850 --> 01:12:47,730
