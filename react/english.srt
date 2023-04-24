@@ -1,0 +1,4213 @@
+1
+00:00:04,520 --> 00:00:23,913
+[Music]
+
+2
+00:00:23,913 --> 00:00:33,189
+Check, one two, one two. 1, 2, 3, 4.
+The quick brown fox jumps over the lazy dog.
+
+3
+00:00:33,189 --> 00:00:41,200
+This is React Podcast, I'm Chantastic. Today
+we're going back, way back. Back to the beginning
+
+4
+00:00:41,200 --> 00:00:47,380
+of React. 10 years in the rear view mirror
+it may feel like React was always going to
+
+5
+00:00:47,380 --> 00:00:52,719
+succeed. That a framework by Facebook was
+too big to fail. But this isn't that kind
+
+6
+00:00:52,719 --> 00:00:58,290
+of story. In fact there were many times in
+React's history where it seemed like it wasn't
+
+7
+00:00:58,290 --> 00:01:05,610
+going to succeed at all. So what happened?
+How did react go, in 10 years, from looking
+
+8
+00:01:05,610 --> 00:01:12,200
+dead on arrival to becoming the dominant front-end
+JavaScript framework that it is today.
+
+9
+00:01:12,200 --> 00:01:18,820
+It starts at Facebook in 2011. jQuery and backbone
+are dominating front-end JavaScript but more
+
+10
+00:01:18,820 --> 00:01:24,710
+opinionated tools like Ember, Angular and
+Knockout are already on the scene. In the
+
+11
+00:01:24,710 --> 00:01:30,070
+outside world, Gangnam Style has just been
+uploaded to YouTube, Call Me Maybe is topping
+
+12
+00:01:30,070 --> 00:01:35,790
+the charts, and the freshest meme is the Overly
+Attached Girlfriend. In Internet years it's
+
+13
+00:01:35,790 --> 00:01:42,500
+basically been an eternity. So strap in, set
+yourself away, enable that do not disturb
+
+14
+00:01:42,500 --> 00:01:45,320
+because this is quite the underdog story.
+
+15
+00:01:45,320 --> 00:01:56,200
+[Music]
+
+16
+00:01:56,200 --> 00:01:58,640
+I see this camera has a red light on but this
+one doesn't.
+
+17
+00:01:58,640 --> 00:02:03,600
+[Music]
+
+18
+00:02:03,600 --> 00:02:05,838
+Just clip it on with this.
+
+19
+00:02:06,480 --> 00:02:08,680
+Testing one two, testing.
+
+20
+00:02:08,680 --> 00:02:21,160
+[Music]
+
+21
+00:02:23,599 --> 00:02:36,349
+[Computer turning on]
+
+22
+00:02:36,349 --> 00:02:40,050
+When I got the offer to work at Facebook,
+I told my mom, I was like really excited.
+
+23
+00:02:40,050 --> 00:02:44,840
+The Social Network the movie had just come
+out and she had you know seen it recently
+
+24
+00:02:44,840 --> 00:02:48,970
+and she was actively discouraging me from
+joining because she was like Mark Zuckerberg
+
+25
+00:02:48,970 --> 00:02:54,769
+doesn't seem like a very nice boy. Facebook
+in the time I was there was, I don't think
+
+26
+00:02:54,769 --> 00:02:59,170
+there'll be anything like it ever again. It
+was certainly not like anything that I had
+
+27
+00:02:59,170 --> 00:03:04,129
+experienced before. In fact just a couple
+months after I joined Kanye West came to visit
+
+28
+00:03:04,129 --> 00:03:11,049
+Facebook's campus and he got up on a table
+in the cafe and you know rapped a few bars
+
+29
+00:03:11,049 --> 00:03:15,321
+and I was working mostly with this guy who
+had just graduated from college and I was
+
+30
+00:03:15,321 --> 00:03:20,299
+trying to explain to him you know I've worked
+these crap jobs in software, at that point
+
+31
+00:03:20,299 --> 00:03:26,410
+had been like 10 or 15 years, nothing like
+this ever happens, not to software engineers.
+
+32
+00:03:26,410 --> 00:03:32,319
+"You're my stressing, you're my masseuse,
+mama say mama sa mama dandeson". JavaScript at
+
+33
+00:03:32,319 --> 00:03:37,159
+the time, I think, was going through this
+little bit of an existential crisis as to
+
+34
+00:03:37,159 --> 00:03:44,189
+whether it was like a real programming language
+or a toy programming language. And so there
+
+35
+00:03:44,189 --> 00:03:49,040
+was a lot of churn. So you had jQuery was
+popular and MooTools was popular and there
+
+36
+00:03:49,040 --> 00:03:53,459
+was so many different like warring frameworks
+to try to get the mind share. And there's
+
+37
+00:03:53,459 --> 00:03:57,390
+a lot of similarities between them but each
+one had its kind of bespoke differences and
+
+38
+00:03:57,390 --> 00:04:02,780
+none of them were actually really fantastic
+for building really kind of complicated user
+
+39
+00:04:02,780 --> 00:04:07,220
+interfaces and apps. There was this trend
+towards more sophisticated applications that
+
+40
+00:04:07,220 --> 00:04:13,230
+do more stuff and at Facebook we still had
+a primarily sort of server rendered technology
+
+41
+00:04:13,230 --> 00:04:18,299
+stack which you know, one of the things that
+we fought against for a really long time was
+
+42
+00:04:18,299 --> 00:04:22,930
+just growing JavaScript bundle sizes so as
+we moved more and more stuff to the client,
+
+43
+00:04:22,930 --> 00:04:27,370
+the client got slower and slower so we actually
+swung the pendulum towards server-side rendering
+
+44
+00:04:27,370 --> 00:04:32,270
+and towards you know minimal amounts of JavaScript
+for a while. And there was this feeling that
+
+45
+00:04:32,270 --> 00:04:37,590
+we knew that what we were doing for client-side
+development wasn't working but also that server
+
+46
+00:04:37,590 --> 00:04:43,770
+side wasn't going to get us all the way there.
+So I think that was the kind of environment
+
+47
+00:04:43,770 --> 00:04:45,720
+that React came out of.
+
+48
+00:04:45,720 --> 00:04:57,620
+[Music]
+
+49
+00:04:57,620 --> 00:05:03,260
+I joined Facebook back in 2010. I've been
+doing a lot of open source work particularly
+
+50
+00:05:03,260 --> 00:05:08,229
+in the JavaScript world. I was a committer
+on the Dojo.js toolkit back in the day, which
+
+51
+00:05:08,229 --> 00:05:14,210
+is one of the the granddaddies of the JavaScript
+movement along with prototype and jQuery.
+
+52
+00:05:14,210 --> 00:05:20,270
+I spent my first two years at Facebook on
+the mobile team. We had started off a big
+
+53
+00:05:20,270 --> 00:05:25,289
+push to compete with Apple and Google and
+we thought that our best chance of success
+
+54
+00:05:25,289 --> 00:05:32,419
+as a company was to go directly to the web
+and really push to build out the HTML5 ecosystem.
+
+55
+00:05:32,419 --> 00:05:38,819
+So as part of that we developed, myself and
+two other engineers called Vladimir Kolesnikov
+
+56
+00:05:38,819 --> 00:05:43,970
+and Will Bailey, built a framework called
+Bolt.js so named because we bolted together
+
+57
+00:05:43,970 --> 00:05:45,640
+a bunch of things that each of us liked.
+
+58
+00:05:45,640 --> 00:05:50,630
+Bolt was basically more or less Facebook's implementation 
+
+59
+00:05:50,630 --> 00:05:55,699
+of a client-side MVC. I think it was like
+a pretty good version, maybe a better version,
+
+60
+00:05:55,699 --> 00:06:01,148
+of things like Backbone and a couple of other
+Frameworks that had existed at the time.
+
+61
+00:06:01,148 --> 00:06:08,510
+But it was born from a place of the specific constraints
+of Facebook. It's the heart of your Facebook
+
+62
+00:06:08,510 --> 00:06:14,190
+experience. Completely rethought from the
+ground up. We've been working on it all year
+
+63
+00:06:14,190 --> 00:06:20,400
+and we're calling it Timeline. Facebook was
+one of the first big products that was really
+
+64
+00:06:20,400 --> 00:06:25,759
+an experience more than anything else. You're
+not trying to buy groceries or get tickets
+
+65
+00:06:25,759 --> 00:06:30,259
+or anything like that on Facebook, you really
+just want to be entertained. And as such you
+
+66
+00:06:30,259 --> 00:06:35,960
+know the user interface itself needs to be
+really pleasing. Bolt was not a tool belt,
+
+67
+00:06:35,960 --> 00:06:42,389
+it was truly an application development framework.
+Something designed and meant to build complicated
+
+68
+00:06:42,389 --> 00:06:48,580
+interactive rich apps and was being used to
+build pretty complicated very real products
+
+69
+00:06:48,580 --> 00:06:53,330
+at Facebook at the time. We ended up having
+to essentially replicate most of Facebook,
+
+70
+00:06:53,330 --> 00:06:59,111
+all the various apps, be it timeline, chat,
+newsfeed. We had a whole photos app that we
+
+71
+00:06:59,111 --> 00:07:04,440
+built and so obviously the team had to expand
+greatly. Like that so I think at some point
+
+72
+00:07:04,440 --> 00:07:09,270
+we probably had maybe 25 engineers working
+on all this between building Bolt and building
+
+73
+00:07:09,270 --> 00:07:13,420
+apps built on Bolt and that's just on the
+mobile team. Bolt was never the problem, it
+
+74
+00:07:13,420 --> 00:07:18,460
+was the architecture that would eventually
+break down for us. As the product itself got
+
+75
+00:07:18,460 --> 00:07:23,690
+more complex and as we added more engineers
+to the team, we didn't hit a wall but it started
+
+76
+00:07:23,690 --> 00:07:28,460
+to get really, really hard to make changes.
+And so you know that was around the time that
+
+77
+00:07:28,460 --> 00:07:32,301
+Jordan was on the ads team and he's like I
+wonder, there's got to be a better way.
+
+78
+00:07:42,599 --> 00:07:48,320
+Jordan is an enigmatic figure. He uh he's
+a little secretive so there's not much that
+
+79
+00:07:48,320 --> 00:07:54,699
+I know about him. Jordan and I aren't necessarily..
+we haven't necessarily been in the spotlight
+
+80
+00:07:54,699 --> 00:07:59,111
+much. Especially Jordan kind of shied away
+from spotlights since the early days. Jordan
+
+81
+00:07:59,111 --> 00:08:05,979
+was a product engineer at the time, working
+on ads and ads has one of the most complicated
+
+82
+00:08:05,979 --> 00:08:12,830
+pieces of UI across all of Facebook at the
+moment. On the ads team they were hitting much
+
+83
+00:08:12,830 --> 00:08:17,880
+you know really hitting the limits of what
+you can do without React complexity wise.
+
+84
+00:08:17,880 --> 00:08:22,560
+And just the developers ability to hold in
+their head and understand a bit of code that
+
+85
+00:08:22,560 --> 00:08:27,370
+somebody else wrote and you know look at the
+screen and say okay this code is doing that
+
+86
+00:08:27,370 --> 00:08:32,560
+and I need to know why. And Jordan had a lot
+of very interesting ideas around how you could
+
+87
+00:08:32,560 --> 00:08:36,550
+take what we had done in Bolt and make it
+much more functional and make it more ability..
+
+88
+00:08:36,550 --> 00:08:41,269
+make it easier for it to scale with people's
+ability to understand large applications.
+
+89
+00:08:41,269 --> 00:08:44,990
+And so we had a lot of ongoing dialogue and
+he would come back and forth to us with various
+
+90
+00:08:44,990 --> 00:08:49,720
+ideas how to change it. I think one of the
+original names for react was FBolt which is
+
+91
+00:08:49,720 --> 00:08:53,450
+Functional Bolt.
+
+92
+00:08:53,450 --> 00:08:59,310
+He saw that there was an opportunity to do
+it.. to solve some of the tricky parts in
+
+93
+00:08:59,310 --> 00:09:06,500
+Bolt in an easier way. So what Jordan decided
+to do, or at least the story that he had told
+
+94
+00:09:06,500 --> 00:09:14,710
+me, was: "hey wouldn't it be easier if, any
+time anything happened, in the app: API state
+
+95
+00:09:14,710 --> 00:09:19,840
+changes, user type something, we just blow
+away the entire UI and we re-render all of it".
+
+96
+00:09:21,960 --> 00:09:25,300
+If you look at what every other framework
+was doing at the time, it was called two-way
+
+97
+00:09:25,300 --> 00:09:30,940
+data binding and this was not that. It was
+like: forget about data binding we're not
+
+98
+00:09:30,940 --> 00:09:35,459
+going to do that at all. Anytime anything
+changes we're just going to re-render and
+
+99
+00:09:35,459 --> 00:09:38,380
+then there's an asterisk which says well we're
+not going to re-render everything, we're going
+
+100
+00:09:38,380 --> 00:09:43,690
+to try to render as little as possible but
+conceptually we're not going to manage these
+
+101
+00:09:43,690 --> 00:09:48,589
+relationships between views and models, we're
+just gonna.. Honestly I thought it was completely
+
+102
+00:09:48,589 --> 00:09:53,880
+crazy. At the time I was really down on frameworks
+in general and I thought there was no way
+
+103
+00:09:53,880 --> 00:09:58,190
+that was going to work. To many people that
+seemed like magic, it was so far outside of
+
+104
+00:09:58,190 --> 00:10:05,311
+everybody's idea of how things should work
+and do work that yeah it took a lot of convincing.
+
+105
+00:10:05,311 --> 00:10:32,937
+[Music]
+
+106
+00:10:32,937 --> 00:10:39,240
+I've been working at Facebook for 10 years
+now. I met this person called Jordan Walke.
+
+107
+00:10:39,240 --> 00:10:43,770
+Some people told me he had an interesting
+project about JavaScript and I may be interested.
+
+108
+00:10:43,770 --> 00:10:49,149
+And so I had this meeting with him and one
+thing he asked me at the beginning of the
+
+109
+00:10:49,149 --> 00:10:57,760
+meeting was: what is the most difficult thing
+to do in the front-end right now? And I mean,
+
+110
+00:10:57,760 --> 00:11:03,230
+I was six months out of school, I was like
+I don't know and the thing he told me is:
+
+111
+00:11:03,230 --> 00:11:09,470
+updates. You need to find the DOM node that
+is going to change, you need to change the
+
+112
+00:11:09,470 --> 00:11:16,110
+listener to the click event and remove it
+and do all of this, which is pretty complicated.
+
+113
+00:11:16,110 --> 00:11:20,560
+And this was also a massive source of bugs
+within the Facebook codebase.
+
+114
+00:11:22,040 --> 00:11:26,610
+I was like, yeah you're right, this is probably the hardest
+thing. 
+
+115
+00:11:26,610 --> 00:11:28,840
+And he was like: I have a solution for this.
+
+116
+00:11:29,760 --> 00:11:33,310
+I was like, okay this guy is crazy,
+like this is never going to work, it's never
+
+117
+00:11:33,310 --> 00:11:38,800
+going to be performant. The meeting ended
+and for a few weeks I forgot about the idea.
+
+118
+00:11:38,800 --> 00:11:44,450
+But one weekend I was like, okay maybe I should
+try this, maybe there's something to it.
+
+119
+00:11:46,900 --> 00:11:53,920
+Before joining Facebook, I worked on a way to find
+your guild in World of Warcraft and we basically
+
+120
+00:11:53,920 --> 00:12:01,320
+needed to search through like 20.000 guilds.
+And I did a lot of performance work to be
+
+121
+00:12:01,320 --> 00:12:05,700
+the fastest way possible to display when you
+change all of those filters in real time.
+
+122
+00:12:05,700 --> 00:12:12,829
+And I was like: okay I spent months, full
+time, working on making this super performant,
+
+123
+00:12:12,829 --> 00:12:19,240
+let's try it with React. And in practice it
+took me like half an hour to write it and
+
+124
+00:12:19,240 --> 00:12:25,130
+it was actually not as performant but around
+the same order of magnitude at performance.
+
+125
+00:12:25,130 --> 00:12:30,600
+And I was like mind blown and to this day
+I became the biggest React fan in the world.
+
+126
+00:12:30,600 --> 00:12:35,839
+I was in the photos team and spending all
+of my working hours like trying to use React
+
+127
+00:12:35,839 --> 00:12:40,290
+on my own projects in the photos team, evangelizing.
+I felt like it could change the world
+
+128
+00:12:40,290 --> 00:12:41,211
+which it did.
+
+129
+00:12:42,360 --> 00:12:50,440
+[Music]
+
+130
+00:12:50,440 --> 00:12:55,880
+[Chantastic] Jordan is making headway on his
+project. He's gotten others involved and they're
+
+131
+00:12:55,880 --> 00:13:03,329
+seeing the value. But not everyone is impressed.
+One manager started to take notice but saw
+
+132
+00:13:03,329 --> 00:13:09,790
+Jordan's project as a distraction. So they
+asked Lee Byron to meet with Jordan and put
+
+133
+00:13:09,790 --> 00:13:13,600
+a stop to it (to focus efforts on Bolt). We
+get into a room. Instantly I knew that this
+
+134
+00:13:13,600 --> 00:13:17,300
+was going to be weird because we showed up
+with very different energies. I'm showing
+
+135
+00:13:17,300 --> 00:13:23,950
+up with this like, okay Jordan I want to understand
+what's going on with your project but I also
+
+136
+00:13:23,950 --> 00:13:28,870
+want to help make sure that we are spending
+our time well and we're working on things
+
+137
+00:13:28,870 --> 00:13:33,100
+that are gonna have longevity and solving
+problems we want to have. And Jordan came
+
+138
+00:13:33,100 --> 00:13:36,860
+in with like, can I show you a demo of what
+I've been working on like this is so exciting
+
+139
+00:13:36,860 --> 00:13:40,740
+and it does this and it does that. And eventually
+like towards the end of this meeting with
+
+140
+00:13:40,740 --> 00:13:46,709
+him I had to kind of admit like he had something
+really compelling. Like I was now really interested
+
+141
+00:13:46,709 --> 00:13:51,670
+in learning more about what he was doing.
+So Jordan's pitch to me was like I only want
+
+142
+00:13:51,670 --> 00:13:55,810
+to invest in this and work on it if it's going
+to be something that people will use and if
+
+143
+00:13:55,810 --> 00:13:59,199
+that's not going to be the case, sure we're
+not going to do this. He's like but I feel
+
+144
+00:13:59,199 --> 00:14:04,290
+really strongly that all the ways we've been
+doing UI development up until now have been
+
+145
+00:14:04,290 --> 00:14:08,230
+flawed. Whether they're a JavaScript library
+that doesn't quite work for us or whether
+
+146
+00:14:08,230 --> 00:14:14,000
+it's like a 30 year old tried and true model
+for doing UI application development. They
+
+147
+00:14:14,000 --> 00:14:21,260
+all suffer from the same base problem: a state
+management and I think this is the way forward,
+
+148
+00:14:21,260 --> 00:14:27,759
+and Lee if you could just dig into the code
+and learn more and try it and then come back
+
+149
+00:14:27,759 --> 00:14:32,120
+and we'll talk about this again, then we can
+figure this out. I was like all right all
+
+150
+00:14:32,120 --> 00:14:38,690
+right and so I did I dug around the code and
+it was um a little hard to understand, but
+
+151
+00:14:38,690 --> 00:14:43,339
+I eventually got to play with it and got to
+build a couple of things and had to admit,
+
+152
+00:14:43,339 --> 00:14:48,060
+coming away, that like yes there was something
+incredibly interesting there. And that was
+
+153
+00:14:48,060 --> 00:14:53,730
+how I got sucked into the project and I ended
+up working on it quite a bit for the the next couple of months.
+
+154
+00:14:53,730 --> 00:14:59,209
+Lee brings this rigor and sort of design 
+mentality to these things that
+
+155
+00:14:59,209 --> 00:15:03,940
+really helped with the initial versions of
+React in terms of standardizing it and turning
+
+156
+00:15:03,940 --> 00:15:08,459
+it from something that was kind of like an
+ugly baby that had just grown up at Facebook
+
+157
+00:15:08,459 --> 00:15:10,918
+to something that really people could approach
+from around the world.
+
+158
+00:15:10,918 --> 00:15:12,810
+[Music]
+
+159
+00:15:12,810 --> 00:15:21,000
+There were a couple of problems that I faced right away
+when trying to understand the code base and
+
+160
+00:15:21,000 --> 00:15:26,990
+build something. Not only was the the set
+of tools and the mental models really different
+
+161
+00:15:26,990 --> 00:15:35,220
+from what I was used to as a UI engineer.
+The syntax and the programming concepts involved,
+
+162
+00:15:35,220 --> 00:15:39,850
+just the terminology, was also really different.
+My takeaway was, you know, okay the whole
+
+163
+00:15:39,850 --> 00:15:44,790
+bid here was that this would be simpler but
+I can't help but feel like this is really
+
+164
+00:15:44,790 --> 00:15:51,790
+complicated. Mostly as a desire for me to
+understand the model but also with a hope
+
+165
+00:15:51,790 --> 00:15:58,800
+that it would kind of end up helping resolve
+some things, I wanted to build a glossary.
+
+166
+00:15:58,800 --> 00:16:06,300
+Like what are all the things the concepts
+and then what are all the actions or verbs
+
+167
+00:16:06,300 --> 00:16:10,649
+that are going on here. And so I literally
+just listed them all out. And then I would
+
+168
+00:16:10,649 --> 00:16:13,610
+go back to Jordan, I'd go back to other people
+working on it, and ask questions like did
+
+169
+00:16:13,610 --> 00:16:17,199
+I get this right? Are these definitions right?
+And they go yeah okay, no you should really
+
+170
+00:16:17,199 --> 00:16:20,380
+think about it that way, and be like okay,
+well that's not how this.. And it would go
+
+171
+00:16:20,380 --> 00:16:24,700
+back and forth and back and forth and I'd
+be honing these definitions and along the
+
+172
+00:16:24,700 --> 00:16:30,040
+way we'd realize like, oh this concept and
+that concept are the same, we're going to
+
+173
+00:16:30,040 --> 00:16:35,080
+name them one thing instead of two things.
+So unwinding all of this and essentially writing
+
+174
+00:16:35,080 --> 00:16:41,100
+up what ended up being like a reimagining
+of the component life cycle and therefore
+
+175
+00:16:41,100 --> 00:16:46,899
+sort of the entire front-facing API for React.
+And I was very happy to see like incredible
+
+176
+00:16:46,899 --> 00:16:50,610
+enthusiasm around that. Jordan was like "ah
+this is amazing, this really clarifies the
+
+177
+00:16:50,610 --> 00:16:56,050
+ideas". At that point a handful of other folks
+had gotten involved with the project too and
+
+178
+00:16:56,050 --> 00:17:02,060
+then I spent sort of the next month or so,
+sort of piece by piece folding those into
+
+179
+00:17:02,060 --> 00:17:08,560
+place and pretty significantly changing the
+surface API of React in the process. That
+
+180
+00:17:08,560 --> 00:17:14,400
+was I think the first shift from this being
+a thing that existed mostly in Jordan's head,
+
+181
+00:17:14,400 --> 00:17:18,630
+that other people were playing with, to a
+thing that all of a sudden felt owned by the
+
+182
+00:17:18,630 --> 00:17:23,280
+whole team. Where team here is like a collection
+of UI Engineers scattered across Facebook
+
+183
+00:17:23,280 --> 00:17:28,270
+who were sort of bought in on this vision,
+who now felt that we now have the same terminology
+
+184
+00:17:28,270 --> 00:17:32,380
+we can use when someone has a question, anyone
+can jump in and answer it rather than only
+
+185
+00:17:32,380 --> 00:17:34,480
+Jordan. That was the first big shift.
+
+186
+00:17:34,480 --> 00:17:38,080
+[Music] 
+
+187
+00:17:38,580 --> 00:17:40,320
+[Dog snoring] 
+
+188
+00:17:40,929 --> 00:17:49,410
+One of the first projects that React was used
+for was the UFI, the Universal Feedback Interface,
+
+189
+00:17:49,410 --> 00:17:54,250
+which is basically the likes, comments and
+shares at the bottom of each post. This was
+
+190
+00:17:54,250 --> 00:17:59,450
+still during Facebook's kind of web era, when
+Facebook on the web was like the sort of big
+
+191
+00:17:59,450 --> 00:18:05,690
+driver of engagement. Newsfeed had a billion
+people hitting it every day and was massively
+
+192
+00:18:05,690 --> 00:18:11,030
+tuned for performance. Heavily interactive
+surface both on the input side of course you're
+
+193
+00:18:11,030 --> 00:18:15,090
+like clicking it to add likes, you're typing
+into it to add comments, but also on the receiving
+
+194
+00:18:15,090 --> 00:18:18,970
+side we want comments to come in live, so
+as you're looking at it as a comment comes
+
+195
+00:18:18,970 --> 00:18:24,650
+in we want it to just pop up right there.
+And there was this product desire for that
+
+196
+00:18:24,650 --> 00:18:31,540
+interface to feel almost like a one-off chat
+thread, and that was so cool at that time.
+
+197
+00:18:31,540 --> 00:18:36,150
+And as that started to work the second thread
+was well okay if this can work for this really
+
+198
+00:18:36,150 --> 00:18:41,710
+isolated sense of messaging then what if it
+could work for messaging as a whole and this
+
+199
+00:18:41,710 --> 00:18:47,740
+was another really complicated and fraught
+with bug surface area. That was when a lot
+
+200
+00:18:47,740 --> 00:18:54,780
+of the ideas in React congealed, the JSX syntax
+was introduced and some of the ideas about
+
+201
+00:18:54,780 --> 00:19:00,000
+how to work with data and React sort of were
+clarified. A couple of our UI Engineers, along
+
+202
+00:19:00,000 --> 00:19:05,280
+with the messaging team, if I remember correctly
+Jing Chen was sort of the champion of this
+
+203
+00:19:05,280 --> 00:19:08,960
+project, realized that we needed a completely
+new way to think about state too.
+
+204
+00:19:08,960 --> 00:19:12,320
+[People clapping]
+
+205
+00:19:12,320 --> 00:19:17,669
+So my name is Jing and I'm a software engineer
+in the product infrastructure team at Facebook.
+
+206
+00:19:17,669 --> 00:19:23,520
+[Chantastic] Flux is an application architecture designed
+around React's principle of unidirectional
+
+207
+00:19:23,520 --> 00:19:30,250
+data flow. Paired with Flux, React could go
+beyond the view layer to model entire applications.
+
+208
+00:19:30,250 --> 00:19:34,700
+This shift in how to think about state paired
+very well with how React was thinking about
+
+209
+00:19:34,700 --> 00:19:39,860
+updating UI and ended up being sort of the
+next chapter for how to think about React
+
+210
+00:19:39,860 --> 00:19:46,909
+being more than just how do you model complicated
+UI but how do you model sufficiently complicated
+
+211
+00:19:46,909 --> 00:19:50,340
+applications. Like this was something that
+expanded the full screen and multiple touch
+
+212
+00:19:50,340 --> 00:19:55,240
+points and had navigation to it and it allowed
+us to step into that next chapter. I remember
+
+213
+00:19:55,240 --> 00:20:00,419
+asking Jing like hey how's it going with this
+React stuff? Do you think this is going to
+
+214
+00:20:00,419 --> 00:20:04,340
+work? She was like, yeah this is pretty good,
+I'm pretty sure it's gonna work. That was
+
+215
+00:20:04,340 --> 00:20:06,702
+when I became more convinced.
+
+216
+00:20:06,702 --> 00:20:21,830
+[Music]
+
+217
+00:20:21,830 --> 00:20:27,530
+Instagram joined Facebook in 2012. I think
+we had started calling it React by then and
+
+218
+00:20:27,530 --> 00:20:32,330
+there was a couple of engineers from Facebook
+that went to join Instagram to help them expand
+
+219
+00:20:32,330 --> 00:20:37,860
+the product offering. At the time Instagram
+was just an iOS and an Android app and they
+
+220
+00:20:37,860 --> 00:20:40,100
+wanted to have a web presence as well.
+
+221
+00:20:40,100 --> 00:20:45,980
+[Music]
+
+222
+00:20:45,980 --> 00:20:49,986
+I spent 11 years in San Francisco, it was really fun
+
+223
+00:20:49,986 --> 00:20:56,600
+I made a lot of great friends
+but the change of pace out in the countryside is great.
+
+224
+00:20:56,600 --> 00:20:58,800
+It's just very peaceful
+and nice.
+
+225
+00:20:59,384 --> 00:21:00,680
+I went to Facebook straight out of school.
+
+226
+00:21:00,680 --> 00:21:05,780
+I studied computer science undergrad
+and I got a master's degree. Facebook was,
+
+227
+00:21:05,780 --> 00:21:12,750
+believe it or not, the cool place to work
+back in 2010. It was this great product, that
+
+228
+00:21:12,750 --> 00:21:18,420
+everybody used. It was super cool on college
+campuses and I was really excited to work there.
+
+229
+00:21:18,420 --> 00:21:23,350
+[Music]
+
+230
+00:21:23,350 --> 00:21:30,000
+I joined Facebook video. The pitch was, we're
+the third largest video site in the world,
+
+231
+00:21:30,000 --> 00:21:36,280
+after YouTube and Dailymotion I think, and
+there was like one engineer working on it
+
+232
+00:21:36,280 --> 00:21:39,970
+and like you get to be engineer number two
+and I was like that sounds pretty cool. We
+
+233
+00:21:39,970 --> 00:21:42,861
+worked really closely with the iOS photos
+team in the Android Photos team and we were
+
+234
+00:21:42,861 --> 00:21:47,609
+building an Instagram killer and nobody remembers
+this but it was called Facebook Camera.
+
+235
+00:21:48,109 --> 00:21:54,410
+One morning the photo's team got called into the
+office early. They said like be at HQ at 8am
+
+236
+00:21:54,410 --> 00:21:57,789
+and then the VP of engineering was like hey
+we bought Instagram, they're your new co-workers now.
+
+237
+00:21:57,789 --> 00:22:02,980
+And these were like the people that were
+like our fierce competitors you know. We looked
+
+238
+00:22:02,980 --> 00:22:06,200
+at them a little bit as the enemy, I'm sure
+they looked at us a little bit as the enemy.
+
+239
+00:22:06,730 --> 00:22:10,950
+They were a really small team at the time,
+they had their core fundamentals really nailed
+
+240
+00:22:10,950 --> 00:22:15,370
+but there was a lot of stuff they needed to
+figure out, that they did not have the team
+
+241
+00:22:15,370 --> 00:22:19,730
+to figure out on their own and a big one of
+those was what does it mean for Instagram
+
+242
+00:22:19,730 --> 00:22:23,140
+to be on the web. The web experience is really
+important for driving growth and so this was
+
+243
+00:22:23,140 --> 00:22:28,100
+a pretty important priority and so me and
+this designer, Maykel Loomans, started building
+
+244
+00:22:28,100 --> 00:22:34,370
+all the web stuff. And that's kind of where
+React enters the picture, when we started
+
+245
+00:22:34,370 --> 00:22:35,408
+developing this website.
+
+246
+00:22:35,408 --> 00:22:42,407
+[Music]
+
+247
+00:22:42,407 --> 00:22:49,270
+We were given this mandate to use client rendering
+so I went to the product infrastructure team
+
+248
+00:22:49,270 --> 00:22:56,830
+at Facebook, which was run by Tom Occhino.
+Product infrastructure's role was to support
+
+249
+00:22:56,830 --> 00:23:03,830
+any team that needed help and do it in a way
+that your key indicators of success are going
+
+250
+00:23:03,830 --> 00:23:08,380
+to be other teams saying "yeah that really
+helped us". You go to them and you kind of
+
+251
+00:23:08,380 --> 00:23:15,060
+consult the Council of Elders and they give
+you their recommendation and I said, hey we
+
+252
+00:23:15,060 --> 00:23:19,900
+need to do client rendering, what do we do?
+And the recommendation at the time was yeah
+
+253
+00:23:19,900 --> 00:23:22,420
+we don't know. We've got like three different
+things that we're working on, you should go
+
+254
+00:23:22,420 --> 00:23:33,809
+try one. We had something called Bolt.js,
+there was a second thing called JS.HTML and
+
+255
+00:23:33,809 --> 00:23:36,554
+then there was this this thing called React.
+
+256
+00:23:38,053 --> 00:23:39,850
+Pete went and spoke to Jordan about using
+
+257
+00:23:39,850 --> 00:23:44,620
+React and he came and talked to me about potentially
+using Bolt for it but I think he really, really
+
+258
+00:23:44,620 --> 00:23:50,559
+liked Jordan's ideas around functional programming.
+The conceptual model of react was like crazy
+
+259
+00:23:50,559 --> 00:23:55,830
+innovative and it really, really spoke to
+me. My background was in distributed systems.
+
+260
+00:23:55,830 --> 00:24:01,610
+I was not somebody that loved front-end or
+thought front-end was doing things well, so
+
+261
+00:24:01,610 --> 00:24:06,070
+the fact that React came in with like a totally
+fresh approach and didn't really care too
+
+262
+00:24:06,070 --> 00:24:11,070
+much about existing best practices, like I
+was I was on board with that. So while I had
+
+263
+00:24:11,070 --> 00:24:16,289
+evaluated all three I really just dove in
+on React to build a prototype first and that
+
+264
+00:24:16,289 --> 00:24:22,870
+ended up shipping on Instagram.com which was
+the second use of React in production ever
+
+265
+00:24:22,870 --> 00:24:30,590
+and the first use of building a full application
+end to end in React.
+
+266
+00:24:30,590 --> 00:24:34,979
+When I chose React for Instagram it was not
+well known within Facebook and it was this
+
+267
+00:24:34,979 --> 00:24:37,000
+kind of crazy science experiment.
+
+268
+00:24:40,050 --> 00:24:45,520
+Not even close. By the time Instagram was,
+and you know Pete started playing with it,
+
+269
+00:24:45,520 --> 00:24:50,909
+it was significantly better than it was in
+the early, early stage but it still needed
+
+270
+00:24:50,909 --> 00:24:55,200
+a ton of iteration. We had to take this thing
+that was very much tied to Facebook's infrastructure
+
+271
+00:24:55,200 --> 00:25:01,720
+which back then was a big giant PHP application
+and I had to go get that working in a Django
+
+272
+00:25:01,720 --> 00:25:07,440
+application which is a totally different system.
+And what was key was not doing that once but
+
+273
+00:25:07,440 --> 00:25:12,049
+making that a repeatable process and making
+sure that that pipeline didn't break. I think
+
+274
+00:25:12,049 --> 00:25:17,059
+he hit a number of really interesting problems
+along the way which quite proved the fact
+
+275
+00:25:17,059 --> 00:25:22,130
+that React was not quite ready for that scale
+and along the way Pete, and the team that
+
+276
+00:25:22,130 --> 00:25:24,980
+he was working with, built a lot of really
+interesting things.
+
+277
+00:25:25,380 --> 00:25:35,524
+[Music]
+
+278
+00:25:50,240 --> 00:25:56,190
+Some of these products ended up being fairly
+successful. There were relatively short time
+
+279
+00:25:56,190 --> 00:26:03,800
+to deliver a relatively high quality product.
+That showed that this model could work and
+
+280
+00:26:03,800 --> 00:26:10,010
+it was not just that, but people liked developing
+using it. And so that kind of spread and took
+
+281
+00:26:10,010 --> 00:26:15,510
+off and especially is it got more and more
+investment, it became clear that this was
+
+282
+00:26:15,510 --> 00:26:22,110
+what we wanted to use and it was really ads
+that was kind of using Bolt more. It had a
+
+283
+00:26:22,110 --> 00:26:28,230
+higher level of investment, more people working
+in that code base, that already knew it and
+
+284
+00:26:28,230 --> 00:26:32,930
+more components so it was a harder shift to
+make.
+
+285
+00:26:35,929 --> 00:26:40,340
+The ads team just before I joined ads from
+the mobile team had done a full rewrite of
+
+286
+00:26:40,340 --> 00:26:45,820
+the ads creation flow into Bolt. Which took
+them I think upwards of six months replacing
+
+287
+00:26:45,820 --> 00:26:52,340
+a very old PHP application with what time
+was considered a very modern JavaScript application.
+
+288
+00:26:52,340 --> 00:26:58,679
+But at the same time React was also now actually
+deployed for real on Facebook and had a team
+
+289
+00:26:58,679 --> 00:27:03,000
+that was forming around it. So we now had
+two viable frameworks that were both live
+
+290
+00:27:03,000 --> 00:27:09,360
+on Facebook, both solving real problems. We
+shouldn't have two. Especially two that were
+
+291
+00:27:09,360 --> 00:27:12,919
+similar. Similar enough to confuse people.
+Like if you looked at the code, their code
+
+292
+00:27:12,919 --> 00:27:17,029
+almost looked identical but that worked really
+differently. It would actually be an absolute
+
+293
+00:27:17,029 --> 00:27:22,420
+nightmare if you had to work in both. So we
+had to decide which to use.
+
+294
+00:27:22,420 --> 00:27:26,890
+[Music]
+
+295
+00:27:26,890 --> 00:27:31,580
+A lot of this ended up being a conversation
+between myself and Jordan. We did an evaluation
+
+296
+00:27:31,580 --> 00:27:36,660
+of both of them. A lot of performance-based
+stuff and trying to figure out where the edge
+
+297
+00:27:36,660 --> 00:27:42,030
+cases were. On the pro side of React, obviously
+there's all the things that we know now: it
+
+298
+00:27:42,030 --> 00:27:46,890
+handles complexity way, way more. Even when
+writing the ads creation flow in Bolt we had
+
+299
+00:27:46,890 --> 00:27:51,760
+already hit one place that you just could
+not do in Bolt without writing spaghetti code,
+
+300
+00:27:51,760 --> 00:27:56,940
+and you can do in React. So we knew in the
+future even if it was only 10% of the experience
+
+301
+00:27:56,940 --> 00:28:01,230
+we were building, we're going to run into
+this problem again. Now it might only be 10%
+
+302
+00:28:01,230 --> 00:28:05,169
+unmaintainable but as you scale that across
+a company that is growing rapidly, this becomes
+
+303
+00:28:05,169 --> 00:28:10,140
+an absolute mess. The cons of it on the other
+hand were that React in a lot of ways was
+
+304
+00:28:10,140 --> 00:28:13,860
+not battle tested yet. There's a lot of things
+that simply didn't work in React. It couldn't
+
+305
+00:28:13,860 --> 00:28:17,970
+handle forms, they'd never done a text box
+and there's a lot of complexities around handing
+
+306
+00:28:17,970 --> 00:28:22,610
+awkward form controls like radio buttons and
+so on that it messed up. Just performance
+
+307
+00:28:22,610 --> 00:28:27,679
+issues where it would try and re-render large
+blocks so they hadn't had to do all of the
+
+308
+00:28:27,679 --> 00:28:32,830
+performance improvements that obviously exist
+now. On the organizational side the other
+
+309
+00:28:32,830 --> 00:28:39,590
+con was that we had just done the six-month
+rewrite in Bolt. Facebook had done an IPO
+
+310
+00:28:39,590 --> 00:28:45,750
+recently and the stock had halved since IPO.
+Facebook wasn't making enough money and so
+
+311
+00:28:45,750 --> 00:28:49,870
+the ads team is the team that makes, you know,
+that's where the money starts. If we stop
+
+312
+00:28:49,870 --> 00:28:55,679
+for four months we're gonna have to tell everybody
+sorry no money for you so there was a lot
+
+313
+00:28:55,679 --> 00:28:59,150
+of conversation back and forth about all this.
+It got very difficult. Initially a lot of
+
+314
+00:28:59,150 --> 00:29:03,620
+the engineers that used Bolt, including Shane,
+realized just what you said. Like look we've
+
+315
+00:29:03,620 --> 00:29:07,760
+invested so much in this thing and it's really
+worked for all this stuff, certainly we can
+
+316
+00:29:07,760 --> 00:29:12,100
+work through the next set of challenges we're
+having. So initially there was opposition
+
+317
+00:29:12,100 --> 00:29:16,299
+to React coming in and saying like how are
+you gonna, you know, this new thing that's
+
+318
+00:29:16,299 --> 00:29:20,750
+not even proven yet. This is our business,
+this is really important. When Jordan and
+
+319
+00:29:20,750 --> 00:29:25,890
+I were working through it, there was definitely
+uh some emotions uh there um and mostly I
+
+320
+00:29:25,890 --> 00:29:29,640
+think it came from uh each of us having a
+lack of context of where the other one was
+
+321
+00:29:29,640 --> 00:29:34,510
+coming from. So I think there was a lot of
+talking past each other. In the end Mike Schroepfer
+
+322
+00:29:34,510 --> 00:29:41,360
+stepped in and said, look make the right technical
+decision, make the right long-term decision
+
+323
+00:29:41,360 --> 00:29:47,159
+and whatever it is I'll back you up. But if
+you need to pause product development for
+
+324
+00:29:47,159 --> 00:29:53,070
+four months you can. We all kind of just got
+in rooms and you know worked through all these
+
+325
+00:29:53,070 --> 00:29:57,320
+things and got everything out in the air of
+what's a technical problem, what's an organization
+
+326
+00:29:57,320 --> 00:30:03,390
+problem, what's a financial problem and kind
+of a came to the understanding eventually
+
+327
+00:30:03,390 --> 00:30:09,220
+through uh with lots and lots of coffee that
+React was the right way to go, but um it was
+
+328
+00:30:09,220 --> 00:30:10,420
+not a straight line at all.
+
+329
+00:30:11,680 --> 00:30:14,799
+He ultimately was one of the biggest proponents or decision
+
+330
+00:30:14,799 --> 00:30:21,330
+makers in ads switching everything over to
+React and that doesn't happen in most companies.
+
+331
+00:30:21,330 --> 00:30:27,289
+In most companies if that's your baby project
+you try to undermine the other, the upstart,
+
+332
+00:30:27,289 --> 00:30:31,860
+because you're you know you're really defensive
+over your own thing. That was not the vibe
+
+333
+00:30:31,860 --> 00:30:37,705
+at Facebook at the time and I think that Shane
+in particular really exemplified that.
+
+334
+00:30:38,816 --> 00:30:45,070
+There was still a lot of work to do on the ads creation
+flow. Tensions were mounting and the team
+
+335
+00:30:45,070 --> 00:30:50,232
+was stuck. Here again to get them unstuck,
+is Jing Chen.
+
+336
+00:30:50,676 --> 00:30:54,271
+We'd have this thorny management issue and a lot of people disagreeing with each other,
+
+337
+00:30:54,271 --> 00:30:55,660
+up and down the management chain
+
+338
+00:30:55,660 --> 00:30:59,960
+on both sides of you know in ads and in this
+product infrastructure group, that was building
+
+339
+00:30:59,960 --> 00:31:04,130
+React, and we'd send Jing in to talk to the engineers and everyone would come out, like
+
+340
+00:31:04,130 --> 00:31:08,539
+patting each other on the back, full agreement,
+a plan to move forward. So she's great at
+
+341
+00:31:08,539 --> 00:31:14,430
+building a consensus because she's able to
+drill into the important technical details,
+
+342
+00:31:14,430 --> 00:31:18,520
+identify them really quickly and get everyone
+talking about the same thing. She obviously
+
+343
+00:31:18,520 --> 00:31:23,330
+helped both build the product but she also
+made sure that every time we found a bug in
+
+344
+00:31:23,330 --> 00:31:28,380
+React or just something that it didn't handle
+yet, she either stepped back from product
+
+345
+00:31:28,380 --> 00:31:32,269
+and then just fixed the framework. Or she
+went back to the team and said look we need
+
+346
+00:31:32,269 --> 00:31:36,340
+two or three engineers working on this stuff
+for the next month to unblock the ads team.
+
+347
+00:31:36,340 --> 00:31:40,580
+The ads manager was complicated enough that
+it actually ended up being a really great
+
+348
+00:31:40,580 --> 00:31:48,020
+source of performance improvements and finding
+like, where are the true points where it just
+
+349
+00:31:48,020 --> 00:31:53,039
+doesn't quite scale. So I think it was a lot
+of using the building blocks that we had and
+
+350
+00:31:53,039 --> 00:31:56,110
+as you start to assemble them into a really
+complicated looking application, what are
+
+351
+00:31:56,110 --> 00:31:59,410
+the new problems that come out of that, that
+we need to solve. And there was definitely
+
+352
+00:31:59,410 --> 00:32:04,500
+a lot of those. This is one of the most fun
+intense periods of my career as I remember
+
+353
+00:32:04,500 --> 00:32:08,289
+it. We would be going to meet with the team
+and we would have to help them put some feature
+
+354
+00:32:08,289 --> 00:32:14,380
+in and we would code it up ourselves first
+in React just to make sure that the that they
+
+355
+00:32:14,380 --> 00:32:18,740
+wouldn't hit any rough edges. Or more like
+to find all the rough edges that we knew they'd
+
+356
+00:32:18,740 --> 00:32:24,100
+hit and figure out what the solutions would
+be. So it was really exciting because we were
+
+357
+00:32:24,100 --> 00:32:28,279
+working on two things at the same time. One
+was delivering this really complicated, really
+
+358
+00:32:28,279 --> 00:32:33,110
+important software project for Facebook: the
+ads manager. And the other was refining this
+
+359
+00:32:33,110 --> 00:32:40,330
+framework that we really believed in which
+was React. By the time we had rebuilt the
+
+360
+00:32:40,330 --> 00:32:44,460
+ads creation flow, which I think took about
+four months, it had been battle tested with
+
+361
+00:32:44,460 --> 00:32:49,880
+basically everything about the browser supports,
+all the form fields and everything, and also
+
+362
+00:32:49,880 --> 00:32:55,950
+massive performance issues that had been resolved,
+so at that point it was kind of felt that
+
+363
+00:32:55,950 --> 00:33:01,710
+it was ready to be open sourced because you
+know we we used it in multiple different types
+
+364
+00:33:01,710 --> 00:33:06,821
+of contexts and that you know it would actually
+be generally useful to the public.
+
+365
+00:33:06,821 --> 00:33:17,634
+[Music]
+
+366
+00:33:17,634 --> 00:33:20,666
+[Mumbled question]
+What did you say, Evan?
+
+367
+00:33:21,832 --> 00:33:25,680
+Uh there is not, sorry.
+
+368
+00:33:26,186 --> 00:33:29,348
+Open sourcing React was never 
+a question for me. That was the
+
+369
+00:33:29,348 --> 00:33:35,370
+goal from the very beginning. Tom had this
+idea, he called it project perception, and
+
+370
+00:33:35,370 --> 00:33:40,580
+he was really angry I think it's probably
+the best word for it. He was angry that Facebook
+
+371
+00:33:40,580 --> 00:33:46,001
+was hiring all these luminaries from the JavaScript
+world. They would come to Facebook and
+
+372
+00:33:46,001 --> 00:33:50,360
+because we discouraged people from writing
+client-side JavaScript and because it was
+
+373
+00:33:50,360 --> 00:33:54,900
+a hard environment to maneuver in, they would
+actually go pick up mobile because that was
+
+374
+00:33:54,900 --> 00:33:58,970
+where a lot of the interesting client-side
+development was happening. And Tom was determined
+
+375
+00:33:58,970 --> 00:34:05,389
+to change this around. I remember going to
+this conference and I was talking to someone
+
+376
+00:34:05,389 --> 00:34:09,169
+and I told them I worked at Facebook on JavaScript
+and they're like why would you do that? I
+
+377
+00:34:09,169 --> 00:34:13,040
+hate what Facebook does to the JavaScript
+industry. You have hired all these really
+
+378
+00:34:13,040 --> 00:34:17,050
+great people from these really great projects
+and we have no idea what they're working on
+
+379
+00:34:17,050 --> 00:34:23,159
+now. They've given nothing back. So I think
+when React came along I started very early
+
+380
+00:34:23,159 --> 00:34:28,770
+on talking about if this thing works for us
+I really want us to find a path to open source.
+
+381
+00:34:28,770 --> 00:34:33,859
+And I was running that up the management chain
+very early so when the time came to open source
+
+382
+00:34:33,859 --> 00:34:40,520
+it, there were some meetings, it was controversial
+but we had all the support we needed already.
+
+383
+00:34:45,020 --> 00:34:52,220
+The process of open sourcing is interesting.
+There's first a technical problem to solve.
+
+384
+00:34:52,220 --> 00:34:55,609
+You have to figure out how to extract it out
+of your infrastructure and make it work in
+
+385
+00:34:55,609 --> 00:35:01,180
+the open source, which is all the homework
+that we did for Instagram. We made this call
+
+386
+00:35:01,180 --> 00:35:05,849
+that like we will not impact developer productivity
+at all, it's going to be entirely on the open
+
+387
+00:35:05,849 --> 00:35:10,660
+source team, which was just a bunch of people
+that wanted to open source it, to make it
+
+388
+00:35:10,660 --> 00:35:17,120
+work. Then actually pulling the trigger on
+open source, we had to write a lot of documentation.
+
+389
+00:35:17,120 --> 00:35:21,710
+We spent actually a lot of time with the documentation
+to explain like, hey what is React, what are
+
+390
+00:35:21,710 --> 00:35:27,170
+all the concepts and we tried to put ourselves
+in the shoes of somebody that want to build
+
+391
+00:35:27,170 --> 00:35:33,220
+an app. How do we give the documentation in
+a way it helps them do that. Paul O'Shannessy
+
+392
+00:35:33,220 --> 00:35:37,630
+did a lot of this because he really had the
+experience with what the ecosystem needed
+
+393
+00:35:37,630 --> 00:35:46,240
+to make this work at the time. Paul O'Shannessy
+was a huge force on open sourcing. As was
+
+394
+00:35:46,240 --> 00:35:51,770
+James Pearce who was the head of Facebook
+open source. James had joined the company
+
+395
+00:35:51,770 --> 00:35:57,720
+and he really wanted to change Facebook's
+open source image. We had previously open
+
+396
+00:35:57,720 --> 00:36:02,080
+sourced a lot of stuff but we let it rot.
+We would say, hey we're an open source company,
+
+397
+00:36:02,080 --> 00:36:06,160
+here's our great framework and then we would
+just never maintain it. And James and Paul
+
+398
+00:36:06,160 --> 00:36:09,970
+in particular were pretty instrumental in
+saying, hey if we're going to open source
+
+399
+00:36:09,970 --> 00:36:15,990
+React, we're going to do it right. Internally
+there was a lot of excitement because we had
+
+400
+00:36:15,990 --> 00:36:21,409
+already been using this thing for a while and it 
+was working for us, we were excited about it. 
+
+401
+00:36:21,853 --> 00:36:27,450
+We chose JSconf US which was kind
+of the, I don't know, the Oscars of JavaScript
+
+402
+00:36:27,450 --> 00:36:31,750
+- is that fair representation maybe? You know
+all the celebrities are there and everyone's
+
+403
+00:36:31,750 --> 00:36:36,340
+paying attention and everybody watches it
+live on YouTube. Tom and Jordan put together
+
+404
+00:36:36,340 --> 00:36:40,490
+this presentation. Tom is a great speaker
+and Jordan is a brilliant engineer, it was
+
+405
+00:36:40,490 --> 00:36:43,720
+like a Lennon and McCartney type of situation.
+
+406
+00:36:43,720 --> 00:36:46,720
+There was no way that this thing could possibly fail.
+
+407
+00:36:48,240 --> 00:36:54,684
+[Music]
+
+408
+00:36:54,684 --> 00:37:00,669
+It was in Florida, at like 9 00 a.m.
+We were in Menlo Park and we woke up early,
+
+409
+00:37:00,669 --> 00:37:05,050
+we took the first bus into the office. It
+was completely empty and we're getting ready
+
+410
+00:37:05,050 --> 00:37:09,241
+to like press the button on the repo to open
+source it. Jordan and I were all excited we
+
+411
+00:37:09,241 --> 00:37:13,140
+got up on stage. I'm going to talk a bit about
+how we do JavaScript application development
+
+412
+00:37:13,140 --> 00:37:17,560
+at Facebook. It was a little unconventional,
+I did a little bit of it, he did more of it.
+
+413
+00:37:17,560 --> 00:37:23,750
+So along with react we are shipping an embeddable
+XML syntax and we're calling that JSX. And
+
+414
+00:37:23,750 --> 00:37:29,301
+we jumped into showing some code and that
+code looked different, it looked weird. Here
+
+415
+00:37:29,301 --> 00:37:36,120
+we have React used with JSX. And people were
+rightfully skeptical we'll call it.
+
+416
+00:37:36,120 --> 00:37:39,935
+Everyone hated it, everyone thought it was awful!
+
+417
+00:37:39,935 --> 00:37:47,492
+[Music]
+
+418
+00:37:47,492 --> 00:37:53,080
+Internally we were expecting a much better
+reception. Or at least an "oh that's interesting
+
+419
+00:37:53,080 --> 00:37:57,500
+reception". We thought there'd be some language
+nerds in there who would think "oh I can
+
+420
+00:37:57,500 --> 00:38:01,020
+do fully functional programming in the UI,
+oh at least that's interesting". It was a
+
+421
+00:38:01,020 --> 00:38:05,260
+really humbling experience, it was kind of
+a letdown for us because we had worked nights
+
+422
+00:38:05,260 --> 00:38:09,314
+and weekends on getting this thing open sourceable
+and then when we go to launch it, everyone
+
+423
+00:38:09,314 --> 00:38:13,360
+hated it. The thing that everyone focuses
+on is that people really hated JSX.
+
+424
+00:38:17,955 --> 00:38:20,514
+I haven't watched this video in a while.
+
+425
+00:38:24,736 --> 00:38:30,720
+See these divs are not exactly what you're
+used to they're not DOM nodes, they're special
+
+426
+00:38:30,720 --> 00:38:35,620
+reactives and I'll get to why that's important.
+I don't remember thinking that they were hating
+
+427
+00:38:35,620 --> 00:38:42,962
+it. I don't remember at all thinking that
+they were like tweeting a bunch of stuff.
+
+428
+00:38:42,962 --> 00:38:46,650
+This is the slide for sure. We haven't talked
+about any problems we're trying to solve,
+
+429
+00:38:46,650 --> 00:38:50,630
+we haven't talked about why this is working
+for us or what were the principles of design.
+
+430
+00:38:50,630 --> 00:38:56,849
+We're just like boom here's some XML in your
+JavaScript and people are like hey what is
+
+431
+00:38:56,849 --> 00:38:58,791
+happening. Uh poor Jordan..
+
+432
+00:38:59,200 --> 00:39:03,000
+What we didn't really fully understand
+was how big of a delta
+
+433
+00:39:03,000 --> 00:39:07,560
+there was between where the rest of the world
+was in the JavaScript community and where
+
+434
+00:39:07,560 --> 00:39:13,060
+Facebook was. I don't blame them. I don't
+think anybody who tweeted Facebook is crazy
+
+435
+00:39:13,060 --> 00:39:18,070
+was crazy themselves. I think they were kind
+of right, we were a little crazy.
+
+436
+00:39:19,459 --> 00:39:25,589
+I think there was a moment for me personally where
+I felt like, you know, my goal with the open
+
+437
+00:39:25,589 --> 00:39:30,740
+sourcing of this was to get us closer to the
+community and I may have set us back a step.
+
+438
+00:39:30,740 --> 00:39:35,430
+I may have demonstrated that we actually have
+no idea what we're doing because what we're
+
+439
+00:39:35,430 --> 00:39:39,295
+doing is so much different than what the rest
+of the community was doing. And internally
+
+440
+00:39:39,295 --> 00:39:45,280
+there was a "well we messed that up". We made
+the wrong call.
+
+441
+00:39:45,280 --> 00:39:47,389
+Because I think the measure
+
+442
+00:39:47,389 --> 00:39:51,950
+of success would have been "wow Facebook engineering
+is doing some really cool stuff" and instead
+
+443
+00:39:51,950 --> 00:39:54,401
+it was "Facebook engineering has no idea what
+they're doing".
+
+444
+00:39:54,401 --> 00:39:57,940
+I think that JSconf appearance
+
+445
+00:39:57,940 --> 00:40:02,480
+might have been Jordan's last conference for
+a good few years. I think Tom Occhino also
+
+446
+00:40:02,480 --> 00:40:06,650
+didn't go back for a while as well. It turned
+into a bit of a troll fest for no good reason.
+
+447
+00:40:06,650 --> 00:40:12,589
+And particularly for something that was as
+innovative and useful and you know just fantastic
+
+448
+00:40:12,589 --> 00:40:16,319
+for developer productivity and just, it's
+literally a gift to everybody. Here, move
+
+449
+00:40:16,319 --> 00:40:21,160
+faster for free. To have people misunderstand
+it and say all these bad things about it,
+
+450
+00:40:21,160 --> 00:40:24,960
+that were just you know knee-jerk reactions
+without actually having taken time to think
+
+451
+00:40:24,960 --> 00:40:30,130
+about it, can only.. Must have felt very bad.
+Especially because both Jordan and Tom had
+
+452
+00:40:30,130 --> 00:40:33,600
+already gone through all this internally in
+Facebook for two years. But inside in Facebook
+
+453
+00:40:33,600 --> 00:40:36,930
+it's a smaller scale you can just get in a
+meeting room and talk about it but you can't
+
+454
+00:40:36,930 --> 00:40:41,690
+really do that with the whole world can you.
+There were some technical decisions that were
+
+455
+00:40:41,690 --> 00:40:49,230
+made as part of React that were self-evident
+within Facebook but were like crazy when given
+
+456
+00:40:49,230 --> 00:40:53,550
+to a different audience in the community.
+There was this notion of separation of concerns.
+
+457
+00:40:53,550 --> 00:41:01,700
+At the time you shouldn't put your HTML, CSS
+and JavaScript into the same file. You should
+
+458
+00:41:01,700 --> 00:41:06,550
+really extract them out and you should have
+this separation. And so this was like very
+
+459
+00:41:06,550 --> 00:41:12,620
+like the best practice at the time. What was
+interesting about the approach to separation
+
+460
+00:41:12,620 --> 00:41:16,810
+of concerns in React is that you separate
+your concerns into different components. So
+
+461
+00:41:16,810 --> 00:41:22,060
+rather than saying: I have my view concerns
+over here and my model concerns over here,
+
+462
+00:41:22,060 --> 00:41:26,910
+you say you have your newsfeed concerns over
+here, your photo concerns over here, your
+
+463
+00:41:26,910 --> 00:41:31,040
+admin panel concerns over here. So it's a
+different way of separating concerns and so
+
+464
+00:41:31,040 --> 00:41:35,750
+there was a lot of backlash around like oh
+those people at Facebook are clowns, they
+
+465
+00:41:35,750 --> 00:41:40,330
+don't know how to write software. We thought
+that React probably had no future outside
+
+466
+00:41:40,330 --> 00:41:40,974
+of Facebook.
+
+467
+00:41:40,974 --> 00:41:52,362
+[Music]
+
+468
+00:41:52,362 --> 00:41:59,000
+It looked like all hope was lost for our friends
+at the Facebook office. But fortunately someone
+
+469
+00:41:59,000 --> 00:42:02,444
+outside of Facebook was willing to give it
+a chance.
+
+470
+00:42:02,888 --> 00:42:11,520
+[Music]
+
+471
+00:42:11,520 --> 00:42:18,069
+When I first started using React in 2013, it was not
+popular in the community. It had just been
+
+472
+00:42:18,069 --> 00:42:20,313
+announced at JSconf.
+
+473
+00:42:20,924 --> 00:42:27,273
+I saw the announcement
+post on Hacker News and immediately thought
+
+474
+00:42:27,273 --> 00:42:32,578
+that it would be helpful for one of the projects
+that I was working on at the time. I was building
+
+475
+00:42:32,578 --> 00:42:38,498
+an interactive math question editor at Khan
+Academy and it was something that had a very
+
+476
+00:42:38,498 --> 00:42:44,998
+component oriented architecture. I was trying
+to use Backbone.js at the time and found that
+
+477
+00:42:44,998 --> 00:42:49,578
+the state management was getting a little
+bit hard and when I looked at React I thought
+
+478
+00:42:49,578 --> 00:42:55,338
+to myself, wow this actually looks like it
+solves a lot of the problems that I have right now.
+
+479
+00:42:57,560 --> 00:43:05,380
+I'm looking at this post from 2013 that I
+guess I wrote a week after I learned about
+
+480
+00:43:05,380 --> 00:43:13,339
+React and it was right after I had started
+trying to use it and somebody had asked "how
+
+481
+00:43:13,339 --> 00:43:20,948
+is Facebook's React JavaScript library". And
+I was a few days into using it and so I decided
+
+482
+00:43:20,948 --> 00:43:25,337
+to write an answer to that question based
+on my experience.
+
+483
+00:43:27,336 --> 00:43:30,000
+The answer I wrote is very
+
+484
+00:43:30,000 --> 00:43:37,810
+positive. I think I was having a really good
+time using it and it was solving my needs
+
+485
+00:43:37,810 --> 00:43:43,240
+really well. One line from the post says,
+I just rewrote a 2000 line project in React
+
+486
+00:43:43,240 --> 00:43:47,609
+and have now made a handful of pull requests
+to React. Everything about React I've seen
+
+487
+00:43:47,609 --> 00:43:53,040
+so far seems really well thought out and I
+am proud to be the first non-facebook production
+
+488
+00:43:53,040 --> 00:43:59,750
+user of React. And I talked a little bit more
+about some of the technical details and how
+
+489
+00:43:59,750 --> 00:44:05,200
+it was helping me. It's cool to look back
+and it's almost a bit of a time capsule to
+
+490
+00:44:05,200 --> 00:44:14,530
+see how even one week into React being released,
+I was already pretty excited about it and
+
+491
+00:44:14,530 --> 00:44:20,079
+I think that excitement lasted for a long
+time. I converted my entire code base that
+
+492
+00:44:20,079 --> 00:44:24,920
+I was working on at the time over to React.
+I think it ended up being less code and it
+
+493
+00:44:24,920 --> 00:44:30,460
+was easier to understand and it was faster.
+Pretty quickly I said "okay I want to keep
+
+494
+00:44:30,460 --> 00:44:38,170
+using React" and I ended up deploying that
+to production, my rewritten code, and that
+
+495
+00:44:38,170 --> 00:44:42,987
+was I think the first production code using
+React outside of Facebook.
+
+496
+00:44:48,987 --> 00:44:53,246
+It was a brand new project that had just been
+open sourced and not many people had used
+
+497
+00:44:53,246 --> 00:44:58,286
+it before, and so there were a bunch of rough
+edges. It seemed like maybe nobody had tried
+
+498
+00:44:58,286 --> 00:45:02,847
+to use it in a particular way before. Or if
+something just wasn't documented well enough
+
+499
+00:45:02,847 --> 00:45:07,657
+and I was trying to use it a slightly different
+way than it was intended I ran into these
+
+500
+00:45:07,657 --> 00:45:13,647
+little bugs or issues where it didn't work
+quite as I was expecting it to. For some of
+
+501
+00:45:13,647 --> 00:45:18,847
+those I read through the source code and tried
+to figure out: okay why isn't this working,
+
+502
+00:45:18,847 --> 00:45:26,107
+is there anything that I can be doing differently
+for other cases? I ended up joining the IRC
+
+503
+00:45:26,107 --> 00:45:32,327
+chat channel where a lot of the core team
+members were hanging out after it had been
+
+504
+00:45:32,327 --> 00:45:40,048
+open sourced. They helped me get started not
+just using React but also starting to contribute
+
+505
+00:45:40,048 --> 00:45:45,537
+to it as I started filing issues and helping
+other people who were in that chat room, as
+
+506
+00:45:45,537 --> 00:45:51,928
+well as starting to make small code changes
+and starting to improve React over time.
+
+507
+00:45:52,428 --> 00:45:59,559
+Her perspective from Khan Academy and just being
+outside of Facebook was so valuable, so helpful!
+
+508
+00:45:59,559 --> 00:46:05,280
+Sophie started as someone using React externally
+then sort of like moved on to being someone
+
+509
+00:46:05,280 --> 00:46:11,069
+who contributed to React core externally then
+became the most significant contributor to
+
+510
+00:46:11,069 --> 00:46:17,119
+React core then we would have these like weekly
+team meetings and invite Sophie to come and
+
+511
+00:46:17,119 --> 00:46:22,410
+so Sophie like worked out with her local manager
+at her company to like carve out Friday afternoons
+
+512
+00:46:22,410 --> 00:46:28,700
+to come to Facebook and hang out with us.
+And so determined not to do what we had done
+
+513
+00:46:28,700 --> 00:46:34,001
+previously where we hired folks from the open
+source community and then they never contributed
+
+514
+00:46:34,001 --> 00:46:42,063
+anything back, she became the first ever open
+source recruited member of the team.
+
+515
+00:46:44,174 --> 00:46:48,940
+Sophie's involvement lifted the spirits of
+the React team. It also got them thinking
+
+516
+00:46:48,940 --> 00:46:56,930
+that maybe, just maybe, the rest of the ecosystem
+had dismissed React unfairly. They had something
+
+517
+00:46:56,930 --> 00:47:02,419
+special, they knew it. What they didn't know
+was how to convince everyone else.
+
+518
+00:47:02,419 --> 00:47:10,869
+I think there are people on the team like me and Jordan
+and Tom and Chedeau who like the challenge
+
+519
+00:47:10,869 --> 00:47:17,390
+and the competitive nature of it. We knew
+that this was good technology and I was so
+
+520
+00:47:17,390 --> 00:47:25,450
+sure of that, I viewed it as just a a messaging
+problem, you know, okay we gotta crack how
+
+521
+00:47:25,450 --> 00:47:30,000
+we message this to people because they don't
+get it and we have to figure out how to bring them there.
+
+522
+00:47:31,040 --> 00:47:35,790
+The open source feels like a milestone
+and it feels like this is the end. But in
+
+523
+00:47:35,790 --> 00:47:39,760
+practice it is just the beginning. Because
+when you open source you actually have zero
+
+524
+00:47:39,760 --> 00:47:45,320
+users, now you need to actually build a community,
+get all of the bugs fixed, make sure it actually
+
+525
+00:47:45,320 --> 00:47:50,980
+solves the use case for the people. And so
+this is like when the journey begins. We buckled
+
+526
+00:47:50,980 --> 00:47:58,190
+down. And we also realized I think that really
+when you have a project like this that's um
+
+527
+00:47:58,190 --> 00:48:03,978
+different you have to convince people one
+by one. So I think that's really what we focused on.
+
+528
+00:48:04,422 --> 00:48:10,859
+And we learned a lot doing that. We learned
+that the ideas in React are solid, but really
+
+529
+00:48:10,859 --> 00:48:14,790
+the ideas are not what people encounter when
+they adopt a framework. What they encounter
+
+530
+00:48:14,790 --> 00:48:20,280
+are the docs and the error messages. What
+they need more than anything else when they
+
+531
+00:48:20,280 --> 00:48:23,138
+adopt something is an incremental way of doing that.
+
+532
+00:48:23,747 --> 00:48:26,030
+So the team got to work. They focused
+
+533
+00:48:26,030 --> 00:48:31,120
+on spreading the knowledge of React one concept
+at a time, one person at a time.
+
+534
+00:48:31,120 --> 00:48:35,065
+Then an opportunity arose: another conference.
+
+535
+00:48:35,962 --> 00:48:41,560
+Later the same year, thank goodness, 
+Pete gave a talk at JSconf EU.
+
+536
+00:48:41,560 --> 00:48:46,020
+I had my desk over by the product
+infrastructure team. I was sitting next to
+
+537
+00:48:46,020 --> 00:48:53,280
+Tomo and he's like, oh we're just like sponsoring
+this JSconf EU conference and we have to give
+
+538
+00:48:53,280 --> 00:48:57,970
+a keynote and I don't want to give it. Because
+I think he was like he didn't want to go through
+
+539
+00:48:57,970 --> 00:49:01,470
+all that stuff. Because you know after you
+give the talk like people go and yell at you
+
+540
+00:49:01,470 --> 00:49:06,359
+after you get off stage and when you go to
+the happy hour and stuff. It's not the most
+
+541
+00:49:06,359 --> 00:49:11,109
+pleasant thing in the world. And I was like,
+I'll do it! I'll take the free trip to Berlin
+
+542
+00:49:11,109 --> 00:49:16,970
+and go give a talk at a conference. Hey I'm
+Pete, I'm gonna talk to you about a library
+
+543
+00:49:16,970 --> 00:49:23,630
+for creating user interfaces that we call
+React. We open sourced this at JSconf US a
+
+544
+00:49:23,630 --> 00:49:28,880
+couple months ago. And we got some kind of
+sarcastic responses on Twitter, a little bit
+
+545
+00:49:28,880 --> 00:49:34,930
+of snickering, that kind of thing. We weren't
+really communicating what we were doing so
+
+546
+00:49:34,930 --> 00:49:39,980
+I'd like to talk to you today about the design
+decisions around React, what we're doing differently
+
+547
+00:49:39,980 --> 00:49:45,404
+than other Frameworks and kind of the implementation
+that lets us make these decisions and make them really fast.
+
+548
+00:49:45,960 --> 00:49:49,079
+For this talk it was like,
+here's what makes React different. 
+
+549
+00:49:49,079 --> 00:49:52,839
+I'm not even trying to say it's good, I'm not even
+trying to say you should use it, I'm trying
+
+550
+00:49:52,839 --> 00:49:56,780
+to say that this is interesting and there's
+a lot of interesting stuff about how this
+
+551
+00:49:56,780 --> 00:50:03,319
+thing works that you should pay attention
+to. And that really resonated with people.
+
+552
+00:50:03,319 --> 00:50:07,350
+And so we got these kind of early innovators
+you know if you think of the crossing the
+
+553
+00:50:07,350 --> 00:50:13,150
+chasm diagram, where you've got your your
+early adopters and then you've got your laggards
+
+554
+00:50:13,150 --> 00:50:17,700
+and in the middle you have your kind of normal
+companies. That talk really got those early
+
+555
+00:50:17,700 --> 00:50:23,160
+adopters fired up and evangelizing React inside
+of their own companies. After Pete's talk,
+
+556
+00:50:23,160 --> 00:50:26,311
+interest started to pick up. People started
+paying attention. They just wanted to, you
+
+557
+00:50:26,311 --> 00:50:31,530
+know, let me just see if there's something
+there. And so we got this kind of like slow
+
+558
+00:50:31,530 --> 00:50:36,230
+burn of adoption of React. And it prompted
+some really interesting conversations. It
+
+559
+00:50:36,230 --> 00:50:41,230
+recruited Brandon Bloom into the community
+who came from the functional programming world,
+
+560
+00:50:41,230 --> 00:50:46,870
+somewhere. He started talking to his friends
+and said, hey I think this React thing is
+
+561
+00:50:46,870 --> 00:50:51,099
+actually worth paying attention to. And then
+he goes and talks to his friend David Nolen
+
+562
+00:50:51,099 --> 00:50:58,150
+who is this very well known, very well respected,
+really great musician and JavaScript developer.
+
+563
+00:50:58,150 --> 00:51:03,040
+I think he was working at the New York Times
+at the time and I was passing through New
+
+564
+00:51:03,040 --> 00:51:10,710
+York to do something and we grabbed coffee.
+And I asked Pete some questions and Brandon
+
+565
+00:51:10,710 --> 00:51:16,890
+Bloom, that was my friend that said you should
+really look at React. And the reason I was
+
+566
+00:51:16,890 --> 00:51:21,160
+excited about it, more than I think you could
+have been if you were JavaScript developer,
+
+567
+00:51:21,160 --> 00:51:25,119
+JavaScript is kind of multi-paradigm you can
+do object oriented you can do functional if
+
+568
+00:51:25,119 --> 00:51:31,980
+you want but it's not required but in Clojure
+and ClojureScript functional is the most idiomatic
+
+569
+00:51:31,980 --> 00:51:37,349
+thing and nothing existed. Like we were sort
+of like always trying to get things to work
+
+570
+00:51:37,349 --> 00:51:39,110
+but it always felt like there was friction.
+
+571
+00:51:39,320 --> 00:51:42,730
+I was still early in my career right and this
+
+572
+00:51:42,730 --> 00:51:48,040
+is like really senior super smart engineer
+and it was the type of thing where he would
+
+573
+00:51:48,040 --> 00:51:53,109
+ask me questions about it and I would stumble
+to explain it and I would explain it poorly
+
+574
+00:51:53,109 --> 00:51:58,930
+and then he would repeat it back to me in
+like a super eloquent great way and I was
+
+575
+00:51:58,930 --> 00:52:04,520
+like yes, I'm gonna steal that! And so when
+I sat with Brandon and Pete it was like this
+
+576
+00:52:04,520 --> 00:52:11,430
+huge light bulb went off, I was like: finally
+this is so random, Facebook made this functional
+
+577
+00:52:11,430 --> 00:52:18,700
+UI framework. Eureka! I mean it was definitely
+a eureka moment. It it did allow ClojureScript
+
+578
+00:52:18,700 --> 00:52:25,020
+programmers to finally write a reasonably
+performant functional UIs. And it was very
+
+579
+00:52:25,020 --> 00:52:27,467
+natural, it was a very, very good fit.
+
+580
+00:52:27,467 --> 00:52:29,435
+Like a week or two later he wrote this blog post
+
+581
+00:52:29,490 --> 00:52:34,363
+called the Future of JavaScript MVCs that
+just like changed the trajectory of the project.
+
+582
+00:52:35,030 --> 00:52:39,849
+In many ways you look at React and you're
+like there's no way this could be fast, there's
+
+583
+00:52:39,849 --> 00:52:46,122
+no way it could be efficient. And then I showed
+these diagrams of what Backbone and React/Om
+
+584
+00:52:46,122 --> 00:52:52,119
+look like and React is much better. Especially
+when you're using persistent data structures.
+
+585
+00:52:52,119 --> 00:52:59,570
+So my article I think was focusing purely
+on the technical benefits of the design. It
+
+586
+00:52:59,570 --> 00:53:05,109
+removed the superficial consideration and
+I think people started saying, okay I will
+
+587
+00:53:05,109 --> 00:53:12,109
+try it. Not I'm going to use it but it removed
+that "I'm never going to use that" to "oh
+
+588
+00:53:12,109 --> 00:53:17,660
+I'll give it a shot, this is interesting".
+Once that post came out like within three
+
+589
+00:53:17,660 --> 00:53:21,690
+months after that I would say that we were
+one of the big contenders if you were picking
+
+590
+00:53:21,690 --> 00:53:22,830
+a JavaScript framework.
+
+591
+00:53:23,386 --> 00:53:25,294
+If you want to spread
+an idea you need to really convince a few
+
+592
+00:53:25,849 --> 00:53:31,731
+people and have those people share your message,
+you can't just be shouting it yourself.
+
+593
+00:53:31,731 --> 00:53:40,750
+More people started to realize that React had some
+good ideas and made UI development simpler
+
+594
+00:53:40,750 --> 00:53:47,010
+in a lot of ways. Over the course of the next
+I would say like year or two, we're kind of
+
+595
+00:53:47,010 --> 00:53:53,070
+just tracking things like Google Alerts of
+how many times is it being mentioned, who's
+
+596
+00:53:53,070 --> 00:53:58,420
+writing about it, what projects are cropping
+up. Because React was very unopinionated about
+
+597
+00:53:58,420 --> 00:54:04,559
+a lot of stuff that you need in order to build
+a front-end web application and you know people
+
+598
+00:54:04,559 --> 00:54:08,790
+would fill in the blanks. And there was a
+bunch of state management libraries that cropped
+
+599
+00:54:08,790 --> 00:54:13,590
+up and there was a bunch of router libraries
+that cropped up and server-side rendering
+
+600
+00:54:13,590 --> 00:54:18,836
+strategies. And so there was this sort of
+slow burn of adoption over the next year or two.
+
+601
+00:54:18,836 --> 00:54:24,040
+React is a small focused UI library but
+it proved capable when tackling Facebook's
+
+602
+00:54:24,040 --> 00:54:30,840
+hardest problems and other big companies noticed.
+But there was one company especially eager
+
+603
+00:54:30,840 --> 00:54:33,546
+to rethink best practices.
+
+604
+00:54:33,546 --> 00:54:46,880
+[Music]
+
+605
+00:54:46,880 --> 00:54:51,729
+We first heard about React back in 2014. The
+Netflix website had been built using Java Web.
+
+606
+00:54:51,729 --> 00:54:57,380
+It was very slow, it took about 15 minutes
+to get up a build and we decided to move to
+
+607
+00:54:57,380 --> 00:55:03,160
+a more modern framework. There we go. Now
+at the time we weren't quite sure if you know
+
+608
+00:55:03,160 --> 00:55:07,240
+this React thing was going to work out. It
+was kind of new and so we were very apprehensive,
+
+609
+00:55:07,240 --> 00:55:12,530
+especially since we were building the future
+of the next 10 years of the website, right,
+
+610
+00:55:12,530 --> 00:55:18,030
+we make a bad choice now we got to backtrack
+years worth of work. And so we were very careful
+
+611
+00:55:18,030 --> 00:55:22,670
+about not jumping into something that was
+too bleeding edge. And so what they did was
+
+612
+00:55:22,670 --> 00:55:26,869
+they actually pitted two teams against each
+other. Each was given 30 days to build a prototype
+
+613
+00:55:26,869 --> 00:55:31,986
+with one being React and the other one being
+Backbone and after 30 days the choice was clear.
+
+614
+00:55:34,819 --> 00:55:37,950
+So thank you all for coming out tonight. We're
+really excited to have you here and share
+
+615
+00:55:37,950 --> 00:55:42,220
+the learnings that we've had, building the
+new UI in React for the past year. It was
+
+616
+00:55:42,220 --> 00:55:46,580
+not this stage, it was our next stage over,
+where I gave my React presentation back I
+
+617
+00:55:46,580 --> 00:55:53,220
+guess in 2015. Same feeling like oh my goodness
+I've got to convince all these people that
+
+618
+00:55:53,220 --> 00:55:56,890
+React is amazing.
+
+619
+00:55:56,890 --> 00:56:01,390
+But I guess it worked. So I was part of the
+team that built the new site using React.
+
+620
+00:56:01,390 --> 00:56:05,820
+At first it was very clunky, like you're writing
+components and they're not quite, you know,
+
+621
+00:56:05,820 --> 00:56:10,450
+you're putting too much logic into them or
+you're thinking too big. It's not clear the
+
+622
+00:56:10,450 --> 00:56:14,100
+difference in the paradigm. And then you start
+to use it and you go okay wait wait wait I'm
+
+623
+00:56:14,100 --> 00:56:19,579
+thinking much more atomic. Hence the symbol
+of react. I'm thinking about this individual
+
+624
+00:56:19,579 --> 00:56:23,450
+reusability, okay now I'm thinking about the
+testability of these components, I'm seeing
+
+625
+00:56:23,450 --> 00:56:27,830
+the benefits now come out of it. I can reuse
+this over here, we can test this over here,
+
+626
+00:56:27,830 --> 00:56:32,460
+we can change this here, we can add props
+in here. And it becomes very exciting to see
+
+627
+00:56:32,460 --> 00:56:37,120
+that new paradigm come to play and go: this
+is going to be revolutionary, this is going
+
+628
+00:56:37,120 --> 00:56:41,180
+to change the world. Let's go back in time
+one year to the old Netflix UI, you guys might
+
+629
+00:56:41,180 --> 00:56:45,690
+remember this one. The overall look and feel
+is kind of like this old DVD kind of box art
+
+630
+00:56:45,690 --> 00:56:49,850
+feel and so I actually want to show you one
+of the early prototypes of what we thought
+
+631
+00:56:49,850 --> 00:56:55,960
+the new UI would look like. We knew that going
+forward the world was changing, web was changing,
+
+632
+00:56:55,960 --> 00:57:00,059
+things were moving faster, and our competition
+was moving faster as well. So choosing React
+
+633
+00:57:00,059 --> 00:57:04,260
+and going with a more modern framework really
+helped us accelerate how fast we could build
+
+634
+00:57:04,260 --> 00:57:08,089
+the website, how fast we could get new changes
+out the door, how fast we could try improvements
+
+635
+00:57:08,089 --> 00:57:13,619
+for our customers to make the best possible
+experience.
+
+636
+00:57:13,619 --> 00:57:18,240
+And because of that we've been at the forefront
+of leading what UI design looks like in terms
+
+637
+00:57:18,240 --> 00:57:23,720
+of web development. We've had a lot of companies
+copy us, which we take is a great compliment,
+
+638
+00:57:23,720 --> 00:57:27,750
+but we were there first because of react and
+its ability to move so quickly in terms of
+
+639
+00:57:27,750 --> 00:57:33,170
+design. This is how it ended up turning out
+and this is a UI that's big and immersive
+
+640
+00:57:33,170 --> 00:57:36,225
+and completely built in React. So we're very
+very proud of it and the result.
+
+641
+00:57:36,225 --> 00:57:42,138
+[Music]
+
+642
+00:57:42,138 --> 00:57:47,804
+Netflix was now praising React publicly and with a
+second big company betting big on React,
+
+643
+00:57:47,804 --> 00:57:54,740
+the framework grew in popularity. In fact it kind
+of took on a life of its own and the community
+
+644
+00:57:54,740 --> 00:57:56,993
+started to take off.
+
+645
+00:57:56,993 --> 00:58:08,160
+[Music]
+
+646
+00:58:08,160 --> 00:58:11,932
+React at this point was getting more
+popular
+
+647
+00:58:11,932 --> 00:58:17,145
+and somebody on Twitter mentioned "hey it would be cool to have a React conference"
+
+648
+00:58:17,145 --> 00:58:19,820
+and a lot of people started commenting and
+
+649
+00:58:19,820 --> 00:58:24,770
+tweeting about this. And I went to my manager
+Tom Occhino. And he was like: there's like
+
+650
+00:58:24,770 --> 00:58:31,020
+50 tweets about React today, like people are
+talking about organizing conferences, should
+
+651
+00:58:31,020 --> 00:58:34,200
+we organize a conference? And I was like,
+I don't know what that means, I don't know
+
+652
+00:58:34,200 --> 00:58:38,680
+how to do that, but like maybe. I was very
+opposed to doing a conference. I thought it
+
+653
+00:58:38,680 --> 00:58:47,079
+was very cool that we got so much traction
+without really pouring marketing money into it.
+
+654
+00:58:47,079 --> 00:58:51,920
+Even though React came from big tech company
+juggernaut Facebook, it was a small group
+
+655
+00:58:51,920 --> 00:58:56,099
+of people that were like really dedicated
+to seeing this thing succeed, so it felt like
+
+656
+00:58:56,099 --> 00:59:03,079
+this very indie you know Rebel Alliance type
+of project. And so I was like we don't need
+
+657
+00:59:03,079 --> 00:59:07,869
+a user conference, like we got this cool vibe
+going on, let's see how far we can push it.
+
+658
+00:59:07,869 --> 00:59:09,202
+I was totally wrong.
+
+659
+00:59:09,202 --> 00:59:12,630
+We had said to ourselves,
+I think it would be fun to host a React conference
+
+660
+00:59:12,630 --> 00:59:18,210
+but are there even enough people using React
+who would want to go to that, and eventually
+
+661
+00:59:18,210 --> 00:59:22,959
+we decided: Well let's try it, let's try to
+host the conference, and see how it goes.
+
+662
+00:59:24,237 --> 00:59:30,390
+Within a minute, all of the tickets were sold
+out and we actually crashed the website that
+
+663
+00:59:30,390 --> 00:59:34,349
+were handling the actual payment system.
+
+664
+00:59:36,737 --> 00:59:42,559
+Schrep, the CTO of Facebook, actually reached
+out to me saying like: hey I have this very
+
+665
+00:59:42,559 --> 00:59:48,630
+important like VP or CTO of some company that
+wants in that couldn't get in. Like hey can
+
+666
+00:59:48,630 --> 00:59:56,010
+you do us a favor and I was like I would love
+to, it's the CTO and everything, but like
+
+667
+00:59:56,010 --> 01:00:00,900
+you know we're completely booked. Certainly
+we were very surprised about how quickly the
+
+668
+01:00:00,900 --> 01:00:05,740
+tickets had sold out. We didn't realize just
+how much the React ecosystem had grown and
+
+669
+01:00:05,740 --> 01:00:10,302
+just how much enthusiasm had been created
+by early adopters.
+
+670
+01:00:12,618 --> 01:00:23,690
+[Music]
+
+671
+01:00:23,690 --> 01:00:26,780
+We put it together pretty quickly as far as
+
+672
+01:00:26,780 --> 01:00:31,910
+conference planning goes and we just had it
+on campus in one of our cafes and we bussed
+
+673
+01:00:31,910 --> 01:00:38,349
+people from the nearest hotel. And it was
+very, very under produced but it worked out
+
+674
+01:00:38,349 --> 01:00:40,120
+really, really well.
+
+675
+01:00:40,120 --> 01:00:44,510
+Good morning everyone
+and welcome to React.js conf!
+
+676
+01:00:46,360 --> 01:00:50,920
+The conference went like extremely, extremely
+well. As the organizer of the conference,
+
+677
+01:00:50,920 --> 01:00:56,940
+I'm so excited to be here. And we open sourced
+a bunch of our projects like React Native
+
+678
+01:00:56,940 --> 01:01:00,930
+and we started talking about GraphQL, about
+Relay. And so yeah it was a massive success.
+
+679
+01:01:00,930 --> 01:01:09,230
+There is this moment where you go and you
+see the stage and there's a giant wood cut
+
+680
+01:01:09,230 --> 01:01:15,940
+out like logo of the React atom. And I was
+like, my friend Maykel, the designer at Instagram,
+
+681
+01:01:15,940 --> 01:01:19,750
+drew that in front of me like in the middle
+of the night before we were going to open
+
+682
+01:01:19,750 --> 01:01:22,589
+source this thing, because we needed a logo,
+and I was like: Maykel just like throw something
+
+683
+01:01:22,589 --> 01:01:27,730
+together real quick. And now it's this thing
+that somebody has built a giant sign with
+
+684
+01:01:27,730 --> 01:01:32,230
+this on it and there's something about the
+physical impact of that, that's really cool.
+
+685
+01:01:32,230 --> 01:01:37,490
+That was the moment when it dawned on me that
+React was becoming something different, you know.
+
+686
+01:01:37,490 --> 01:01:43,350
+So for a long time what React was to
+me was a software project and the reason why
+
+687
+01:01:43,350 --> 01:01:46,819
+I wanted people to adopt it was because I
+really thought it would make their software
+
+688
+01:01:46,819 --> 01:01:51,150
+better and make their lives better and make
+their on-call rotations better. There are
+
+689
+01:01:51,150 --> 01:01:56,109
+a lot of reasons why I thought it would help
+them. After that conference what I realized
+
+690
+01:01:56,109 --> 01:02:00,619
+is that React was becoming a community. There
+were meetups that would happen the immediate
+
+691
+01:02:00,619 --> 01:02:04,880
+next week that would have an expanded audience
+that they could go deeper into some of the
+
+692
+01:02:04,880 --> 01:02:09,440
+things that were discussed was really, really
+cool and a huge recognition for us that the
+
+693
+01:02:09,440 --> 01:02:15,920
+community was going to be an incredible part
+of what would make React work and at that
+
+694
+01:02:15,920 --> 01:02:21,132
+point was definitely already a really important
+part of what had gotten React to that point so far.
+
+695
+01:02:21,132 --> 01:02:24,048
+[Music]
+
+696
+01:02:24,048 --> 01:02:28,640
+It's proven to me that engaging
+with your open source community is actually
+
+697
+01:02:28,640 --> 01:02:32,650
+more important than the technical work itself,
+like if you don't have a community you don't
+
+698
+01:02:32,650 --> 01:02:37,079
+have an open source project. I'm excited that
+we just continue rethinking best practices.
+
+699
+01:02:37,079 --> 01:02:40,799
+I want to thank this community for making
+it possible for us to keep investing in this
+
+700
+01:02:40,799 --> 01:02:44,468
+and keep working on it. That's all I got,
+thanks.
+
+701
+01:02:48,190 --> 01:02:52,720
+It was a real high point for, not just for
+me but for the team, and you know I think
+
+702
+01:02:52,720 --> 01:02:59,681
+for Facebook engineering. I think we really
+felt like not just validated but like we were
+
+703
+01:02:59,681 --> 01:03:05,230
+actually like doing something that people
+cared about and it was a really, really good
+
+704
+01:03:05,230 --> 01:03:10,320
+feeling. It was already like more widely used
+within the company but now it was like, okay
+
+705
+01:03:10,320 --> 01:03:15,661
+how do we actually start converting everything
+to React, how do we remove and deprecate all
+
+706
+01:03:15,661 --> 01:03:21,561
+of the other frameworks and really like double
+down on React. Oh hey, how is it going? Going
+
+707
+01:03:21,561 --> 01:03:27,440
+from like an interesting product to this is
+the next big thing. So it was a really amazing
+
+708
+01:03:27,440 --> 01:03:33,599
+time to be around and to get the whole company
+working together as one, you know, to make
+
+709
+01:03:33,599 --> 01:03:34,746
+this happen.
+
+710
+01:03:36,912 --> 01:03:41,575
+Let's see, I have some keepsakes up here,
+
+711
+01:03:41,575 --> 01:03:46,830
+which will be not easy for me to get down
+
+712
+01:03:46,830 --> 01:03:48,700
+but.. Let's see.
+
+713
+01:03:48,700 --> 01:03:56,740
+I have some stickers, oh this is a fun one,
+this is the first ever React die cut sticker.
+
+714
+01:03:56,740 --> 01:04:01,329
+We ordered like a bunch of these and put them
+on our laptops and I never wanted to use the
+
+715
+01:04:01,329 --> 01:04:07,970
+last one that I had. Facebook open source
+stickers. Oh some of these will be a trip
+
+716
+01:04:07,970 --> 01:04:15,160
+down memory lane for folks. React conf. We
+made you know, 2018 Facebook open source it's
+
+717
+01:04:15,160 --> 01:04:23,630
+a good one. React conf attendee badge. This
+was a book from the original React.js conf
+
+718
+01:04:23,630 --> 01:04:30,940
+at Facebook's headquarters so this had a list
+of the speakers and the schedule and um here's
+
+719
+01:04:30,940 --> 01:04:39,110
+the keynote. Me and Christopher Chedeau. We
+had all sorts of swag made and a bunch of
+
+720
+01:04:39,110 --> 01:04:45,329
+other stuff.. So pretty good stuff, pretty
+good memories.
+
+721
+01:04:45,329 --> 01:04:51,819
+The team became inundated with questions from
+the community and a new developer enters React's
+
+722
+01:04:51,819 --> 01:04:53,080
+orbit.
+
+723
+01:04:53,080 --> 01:05:12,201
+[Music]
+
+724
+01:05:12,201 --> 01:05:20,059
+What should I do with my hands?
+So you're saying that I should actually uh
+
+725
+01:05:20,059 --> 01:05:25,901
+start like uh.. Let me focus for a second.
+Just for the record, I did not create React,
+
+726
+01:05:25,901 --> 01:05:28,252
+React was created by Jordan Walke.
+
+727
+01:05:29,752 --> 01:05:33,627
+I worked at a small startup. We were creating a sort
+
+728
+01:05:33,627 --> 01:05:38,940
+of a digital publishing platform so there
+was a really complex post editor with different
+
+729
+01:05:38,940 --> 01:05:43,930
+blocks or like a scrollable text with like
+different effects and stuff. And so creating
+
+730
+01:05:43,930 --> 01:05:50,030
+a dynamic kind of interactive editor for for
+these things was really difficult. And were
+
+731
+01:05:50,030 --> 01:05:53,700
+doing it with Backbone. I kind of wanted to
+give React a try because it was supposed to
+
+732
+01:05:53,700 --> 01:05:59,180
+solve this problem. The first React component
+I wrote was a like button so it was just like
+
+733
+01:05:59,180 --> 01:06:05,309
+a button you click it and it says like you
+like this or you and somebody like this or
+
+734
+01:06:05,309 --> 01:06:11,020
+you and like 40 others like this. So there
+was a bit of like a split and logic, and then
+
+735
+01:06:11,020 --> 01:06:18,900
+the way you would express this in other Frameworks
+at the time, you had to kind of manually watch
+
+736
+01:06:18,900 --> 01:06:23,549
+what's changed and update it. And in React
+you could just say, if nobody liked this show
+
+737
+01:06:23,549 --> 01:06:28,359
+this, if one person like this, show this,
+otherwise show this and like it's a very natural
+
+738
+01:06:28,359 --> 01:06:33,630
+way to write this kind of code. And yeah I
+just wrote that button and I was like yeah
+
+739
+01:06:33,630 --> 01:06:40,980
+that looks good, ship it. And so we actually
+rewrote the entire app in React over the course
+
+740
+01:06:40,980 --> 01:06:46,470
+of like 9 months while still shipping new
+features. So React sped up our development
+
+741
+01:06:46,470 --> 01:06:51,270
+so much that we were able to add new features
+faster, at the same time as we were replacing
+
+742
+01:06:51,270 --> 01:06:55,529
+old features, that's why I really kind of
+fell in love with it.
+
+743
+01:06:57,918 --> 01:07:02,849
+A lot of things didn't exist back then. Like
+there was no such thing as a React ecosystem.
+
+744
+01:07:02,849 --> 01:07:08,400
+So if you needed something, it didn't exist,
+you'd have to write it. So like you'd have
+
+745
+01:07:08,400 --> 01:07:13,260
+to figure out how to do it because otherwise
+you're not going to have a product, right.
+
+746
+01:07:13,260 --> 01:07:18,099
+So that's kind of what I did for a bunch of
+things. One of those projects in particular
+
+747
+01:07:18,099 --> 01:07:23,023
+was.. I just saw a big opportunity there.
+
+748
+01:07:24,078 --> 01:07:26,560
+It was called React Hot Loader at the time.
+
+749
+01:07:26,560 --> 01:07:31,750
+So I wanted to give a talk about that, but
+somebody else had done a talk that mentioned
+
+750
+01:07:31,750 --> 01:07:36,760
+it earlier at React conf. A really clever
+fellow called Dan Abramov figured this out
+
+751
+01:07:36,760 --> 01:07:42,040
+and he created the React Hot Loader. And I
+felt that well then that just wouldn't be
+
+752
+01:07:42,040 --> 01:07:46,210
+interesting because people kind of already
+saw it which in retrospect I don't think it
+
+753
+01:07:46,210 --> 01:07:50,359
+would be true but that's how I saw it at the
+time. So I wanted to kind of spice it up a
+
+754
+01:07:50,359 --> 01:07:55,960
+little bit and I wanted to make a proof of
+concept of a thing I saw in a Bret Victor
+
+755
+01:07:55,960 --> 01:08:02,200
+demo that is often referred to as time traveling.
+If you're designing something embedded in
+
+756
+01:08:02,200 --> 01:08:06,630
+time, you need to be able to control time,
+you need to be able to see across time, otherwise
+
+757
+01:08:06,630 --> 01:08:11,390
+you're designing blind. I didn't really know
+how to do it but I thought that's a cool idea
+
+758
+01:08:11,390 --> 01:08:16,810
+for a talk. So I'm gonna send the proposal
+if the proposal is successful then I'll just
+
+759
+01:08:16,810 --> 01:08:20,540
+figure it out. And it turned out that the
+proposal was more successful than I thought
+
+760
+01:08:20,540 --> 01:08:25,600
+it would be and so I made a proof of concept
+for that and that proof of concept became
+
+761
+01:08:25,600 --> 01:08:26,928
+known as Redux.
+
+762
+01:08:28,650 --> 01:08:33,270
+So my talk is about developer
+tools because React and Hot Loading and time
+
+763
+01:08:33,270 --> 01:08:39,960
+travel these are all developer tools. He was
+literally creating Redux in service of being
+
+764
+01:08:39,960 --> 01:08:44,850
+able to deliver this talk and I called it
+presentation driven development because the
+
+765
+01:08:44,850 --> 01:08:49,541
+thing that shook out of it was you know this
+sort of like canonical state management library
+
+766
+01:08:49,541 --> 01:08:54,750
+for React apps for several years. Most of
+my work is around the React ecosystem because
+
+767
+01:08:54,750 --> 01:08:59,770
+that's what inspired me to contribute to the
+open source in the first place, but there
+
+768
+01:08:59,770 --> 01:09:06,120
+are two particular projects that I'm going
+to talk about today. It was very validating
+
+769
+01:09:06,120 --> 01:09:14,850
+to give that talk but I was not surprised
+by the response because well I had my doubts
+
+770
+01:09:14,850 --> 01:09:21,720
+but also I thought the talk was good.. like
+I thought it's a really good talk. And I was
+
+771
+01:09:21,720 --> 01:09:27,250
+glad that people also liked it but I think
+it was actually not the talk that was really
+
+772
+01:09:27,250 --> 01:09:30,080
+like the moment for me. I think it was just
+like being there.
+
+773
+01:09:31,802 --> 01:09:33,350
+It kind of felt like
+
+774
+01:09:33,350 --> 01:09:38,409
+going to Hogwarts for the first
+time. I think it kind of had this this feeling
+
+775
+01:09:38,409 --> 01:09:44,390
+because there were all these people who I
+only knew them as these avatars and when you
+
+776
+01:09:44,390 --> 01:09:48,870
+meet somebody in person they kind of become
+three-dimensional of course. You kind of see
+
+777
+01:09:48,870 --> 01:09:53,739
+the whole picture. And I think it was just
+like such a wholesome feeling. It's the feeling
+
+778
+01:09:53,739 --> 01:09:58,870
+that we are all trying to figure out what
+we can do with this thing and we don't know
+
+779
+01:09:58,870 --> 01:10:01,429
+it yet and we're just playing with it.
+
+780
+01:10:05,929 --> 01:10:11,850
+That's also where I met Jing Chen. I had asked
+for her advice before because she's one of
+
+781
+01:10:11,850 --> 01:10:17,400
+the co-creators of the Flux architecture.
+So it was nice to meet her in person and she
+
+782
+01:10:17,400 --> 01:10:23,390
+mentioned that actually Facebook is hiring
+in London. And so they arranged an interview
+
+783
+01:10:23,390 --> 01:10:27,429
+for me right at the conference which was like
+our normal interview process the same I think
+
+784
+01:10:27,429 --> 01:10:31,989
+like four interviews or something like this
+but I missed the second day of the conference
+
+785
+01:10:31,989 --> 01:10:37,100
+but we just did an interview there and so
+that's kind of how I got into Facebook. We
+
+786
+01:10:37,100 --> 01:10:43,120
+just quickly grabbed them out of the conference
+a little bit like on the down low and then
+
+787
+01:10:43,120 --> 01:10:48,533
+conducted the interviews in the basement of
+a hotel I think.
+
+788
+01:10:50,699 --> 01:10:54,032
+No Dan is special, he's always been a little
+special.
+
+789
+01:10:54,032 --> 01:10:55,580
+I guess like I would think of myself
+
+790
+01:10:55,580 --> 01:11:02,520
+as like maybe the first member of what would
+become the React team as you know it today
+
+791
+01:11:02,520 --> 01:11:08,989
+because I joined a little bit earlier than
+I think Andrew, Brian, Luna and and like a
+
+792
+01:11:08,989 --> 01:11:14,219
+bunch of other people who work with us now.
+And I joined at the time when a few people
+
+793
+01:11:14,219 --> 01:11:19,969
+who worked with us before were just about
+to leave. So I was kind of in this transitional
+
+794
+01:11:19,969 --> 01:11:22,647
+period when the team was changing a lot.
+
+795
+01:11:22,647 --> 01:11:30,700
+[Music]
+
+796
+01:11:30,700 --> 01:11:32,200
+Remember the old days?
+
+797
+01:11:32,200 --> 01:11:34,950
+Do you remember the first time you
+met Andrew?
+
+798
+01:11:35,728 --> 01:11:40,053
+Uh I think I've met.. I do! I think
+
+799
+01:11:40,053 --> 01:11:43,739
+I met him yeah.. I thought it was at React
+conf. Well that was the clear moment, maybe,
+
+800
+01:11:43,739 --> 01:11:49,181
+was that the first time? Did you get invited
+to React conf because of that.. He had a speech.
+
+801
+01:11:50,570 --> 01:11:56,729
+I met him like I think before that. I met
+you and Sophie and Joe and Tim like all in
+
+802
+01:11:56,729 --> 01:12:01,580
+the same week. Yeah he started asking some
+questions that were very similar to the questions
+
+803
+01:12:01,580 --> 01:12:06,159
+that on the team we were talking about internally
+and so I just remember like, I gotta connect
+
+804
+01:12:06,159 --> 01:12:09,580
+you with like Sebastian and Jordan and the
+rest of the team. Yeah and then also I was
+
+805
+01:12:09,580 --> 01:12:13,810
+like to the recruiters I was like yeah this
+guy like we gotta hire this Andrew guy. And
+
+806
+01:12:13,810 --> 01:12:17,540
+I think we were really fortunate early on
+to have a bunch of people that kind of stepped
+
+807
+01:12:17,540 --> 01:12:22,064
+up and they were this seems cool, I just want
+to be a part of this, I just want to help.
+
+808
+01:12:22,064 --> 01:12:26,460
+I didn't realize it was kind of like a freshman
+class sort of feeling at the time. Sophie
+
+809
+01:12:26,460 --> 01:12:31,280
+had started managing the team around that
+time as well and I couldn't have really asked
+
+810
+01:12:31,280 --> 01:12:38,739
+for a better both project and set of colleagues
+and team to join. The beginning of phase two.
+
+811
+01:12:38,739 --> 01:12:41,822
+Yeah, that's cool.
+
+812
+01:12:42,544 --> 01:12:47,730
+Awesome! I feel
+like we really brought it home there at the end.
+
+813
+01:12:50,000 --> 01:12:52,170
+Like man we're nailing this!
+
+814
+01:12:52,170 --> 01:12:58,497
+[Music]
+
+815
+01:12:58,497 --> 01:13:01,600
+React was now out of the hands of
+its founders.
+
+816
+01:13:01,600 --> 01:13:08,255
+It was ready to take on new life in the care of a 
+new community grown and future-minded team. 
+
+817
+01:13:08,255 --> 01:13:12,559
+We tried to watch some of the numbers like the number of GitHub stars
+
+818
+01:13:12,559 --> 01:13:15,660
+or the number of npm downloads. On Google
+
+819
+01:13:15,660 --> 01:13:21,690
+Trends, how many people are searching for
+React and none of those numbers are perfect
+
+820
+01:13:21,690 --> 01:13:29,340
+but basically all of them kept going up over
+time and eventually got to a point where we
+
+821
+01:13:29,340 --> 01:13:35,810
+looked at it and said oh yeah like millions
+of people essentially are using React.
+
+822
+01:13:35,810 --> 01:13:43,090
+There are a lot of little details in how we did
+things that encourages an ecosystem to participate,
+
+823
+01:13:43,090 --> 01:13:49,060
+that were critical parts in making it what
+it is today. We didn't put everything in the
+
+824
+01:13:49,060 --> 01:13:54,389
+framework. We left a lot of it to the ecosystem
+to innovate. And we got a lot of contributions,
+
+825
+01:13:54,389 --> 01:14:01,239
+we got a lot of interest that way, we got
+a lot of things spurring from that. It was
+
+826
+01:14:01,239 --> 01:14:07,679
+not ever a foregone conclusion. Like it's
+still surreal to me that it's as popular as
+
+827
+01:14:07,679 --> 01:14:13,550
+it is. It's this great example of this like
+underdog technology within a big company where
+
+828
+01:14:13,550 --> 01:14:18,040
+there could have been these forces that really
+pushed back on it. I think a lot of elements
+
+829
+01:14:18,040 --> 01:14:24,310
+of good timing, good fortune, good luck, good
+leadership support, all sort of like aggregated
+
+830
+01:14:24,310 --> 01:14:31,740
+to allow React to be a success, that had we
+missed a few of those or had a handful more
+
+831
+01:14:31,740 --> 01:14:36,550
+things failed instead of succeeded, then I
+do not think React would be in the spot that
+
+832
+01:14:36,550 --> 01:14:42,840
+it is today. I feel like you can't take anyone
+out of it and have it be what it became. I
+
+833
+01:14:42,840 --> 01:14:46,550
+think in the early days obviously Jordan,
+right. Like this thing wouldn't exist. And
+
+834
+01:14:46,550 --> 01:14:51,560
+then Jing Chen just absolutely critical. I
+mean she was so instrumental in the early
+
+835
+01:14:51,560 --> 01:14:56,070
+days of React that it just wouldn't have been
+a thing that we cared about if it didn't prove
+
+836
+01:14:56,070 --> 01:15:03,449
+itself. And then Shane O'Sullivan is responsible
+for you know really I mean a very hard decision
+
+837
+01:15:03,449 --> 01:15:07,770
+to like I'm gonna go this path instead of
+that thing. And then the engineers that worked
+
+838
+01:15:07,770 --> 01:15:12,000
+on refining and iterating on it and turning
+it into something good it was Chedeau and
+
+839
+01:15:12,000 --> 01:15:16,600
+Paul O'Shannessy and Pete Hunt. And my manager
+Adam Wolff, when I was like you know asking
+
+840
+01:15:16,600 --> 01:15:20,860
+all these questions about like should we be
+doing, like is this even worth it, especially
+
+841
+01:15:20,860 --> 01:15:24,780
+after JS conf when we were feeling defeated,
+you know, he was there to pick me back up
+
+842
+01:15:24,780 --> 01:15:29,520
+and be like: no look it is delivering value,
+this is good, keep going. And there's different
+
+843
+01:15:29,520 --> 01:15:34,150
+phases too right, you have the early, early
+days and you had the like for the next literally
+
+844
+01:15:34,150 --> 01:15:40,300
+almost we're going on 10 years now, with Sebastian's
+technical leadership and Andrew and Dan and
+
+845
+01:15:40,300 --> 01:15:46,830
+Dominic and Flarney and Sophie and I just
+feel like it's just a group of incredible
+
+846
+01:15:46,830 --> 01:15:53,150
+people and if you take any of them out of
+it it just looks pretty different. It was
+
+847
+01:15:53,150 --> 01:15:58,870
+really a team effort, it was really a team
+effort from the very beginning.
+
+848
+01:15:59,280 --> 01:16:06,078
+[Music]
+
+849
+01:16:06,078 --> 01:16:12,679
+Misko Hevery says that awesome solutions
+are rarely created by large organizations.
+
+850
+01:16:12,679 --> 01:16:19,280
+It's almost always one person with passion
+and vision that slowly start to infect others.
+
+851
+01:16:19,280 --> 01:16:25,370
+This is a great summary of how React became
+React. Because it was never inevitable, it
+
+852
+01:16:25,370 --> 01:16:31,600
+was always this wild idea that kept gathering
+momentum, person by person. And many expected
+
+853
+01:16:31,600 --> 01:16:37,880
+React to fail and if it weren't for the hard
+work of a few determined developers
+
+854
+01:16:37,880 --> 01:16:39,840
+it very well could have.
+
+855
+01:16:43,020 --> 01:16:48,639
+This is just the beginning of the React story.
+The story of how a community transformed an
+
+856
+01:16:48,639 --> 01:16:53,977
+underdog UI library into the most popular
+JavaScript framework today.
+
+857
+01:16:56,760 --> 01:16:59,164
+This is React Podcast, I'm Chantastic.
+
+858
+01:16:59,720 --> 01:17:21,530
+[Music]
+
+859
+01:17:32,196 --> 01:17:37,960
+I'm like so tempted to just surprise FaceTime
+Jordan right now be like: interview! 
+
+860
+01:17:38,460 --> 01:17:43,720
+It's just really strange to think that you're just
+so close to death.
+
+861
+01:17:43,720 --> 01:17:47,608
+The first React T-shirt that we made.
+
+862
+01:17:48,719 --> 01:17:54,010
+Thousands of developers find jobs across Europe
+using Honeypot. If you're up for a new challenge
+
+863
+01:17:54,010 --> 01:18:00,350
+in one of these European cities, sign up at
+honeypot.io. If you want to see more tech
+
+864
+01:18:00,350 --> 01:18:03,540
+documentaries then subscribe so you don't
+miss the next one.
+
